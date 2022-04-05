@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{4d60d982-1ad3-4b9c-bb3b-b810a46d5770}">
+		<property name="name">
+			<value>Time Limit</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a63afedc-05cf-4699-8da8-f117c377f1d0}</destination>
+		</relationship>
+	</object>
+</objects>
