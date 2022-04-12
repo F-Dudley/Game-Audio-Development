@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{24f8d4b3-422d-43ad-8205-b50577125ad3}">
+		<property name="name">
+			<value>Landscape</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e426fa44-ed75-4777-b6e8-dbd108fc6e34}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7db5d97e-d252-4fd9-9cf6-4acb8fb560d1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7db5d97e-d252-4fd9-9cf6-4acb8fb560d1}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

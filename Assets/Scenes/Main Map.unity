@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3403,6 +3403,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
   m_PrefabInstance: {fileID: 233589577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &234973764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 2037651242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &234973767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234973764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &235058211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3673,6 +3712,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262176811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
+  m_PrefabInstance: {fileID: 365418431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &262176817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262176811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 669753636
+      Data2: 1132834519
+      Data3: -1438321473
+      Data4: 1793533933
+    Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &268537133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4645,6 +4719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331273391}
+  - component: {fileID: 331273392}
   m_Layer: 0
   m_Name: Jukeboxes
   m_TagString: Untagged
@@ -4674,6 +4749,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331273392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331273390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &338226190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19649,6 +19758,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013974182346, guid: a4ea7ad660a6e4241aff4002d350fe80, type: 3}
   m_PrefabInstance: {fileID: 379879026}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &393481316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
+  m_PrefabInstance: {fileID: 1449358393}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &393481322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393481316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 669753636
+      Data2: 1132834519
+      Data3: -1438321473
+      Data4: 1793533933
+    Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &395669275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
@@ -19953,6 +20097,45 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &410897363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 1579764403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &410897366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410897363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -28602,6 +28785,45 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &649174806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 158184, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+  m_PrefabInstance: {fileID: 814857278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &649174809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649174806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &650809763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
@@ -28965,6 +29187,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4599866046254600463, guid: 3ed485b98833de146b5042f363e30406, type: 3}
   m_PrefabInstance: {fileID: 667498640}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &667849158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: a10d1f3307879f24fa4403887422c73f, type: 3}
+  m_PrefabInstance: {fileID: 192658514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &667849166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667849158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 669753636
+      Data2: 1132834519
+      Data3: -1438321473
+      Data4: 1793533933
+    Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &670813801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35896,6 +36153,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
   m_PrefabInstance: {fileID: 1121635017}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1125967699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 1348055745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125967702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125967699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1126146154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36816,6 +37112,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2991756831493838882, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
   m_PrefabInstance: {fileID: 1189345380}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1199970334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 1102638849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1199970337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199970334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1200872263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46498,6 +46833,45 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &1454996248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 1209468938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1454996251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454996248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1459814652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48795,6 +49169,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4483313618499078, guid: dfda2500bafb5624a9b7e43bf1598366, type: 3}
   m_PrefabInstance: {fileID: 1586804216}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1599716992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+  m_PrefabInstance: {fileID: 282940091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1599716998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599716992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 669753636
+      Data2: 1132834519
+      Data3: -1438321473
+      Data4: 1793533933
+    Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1610742380 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8669595224616019464, guid: 10078452dab690a4099417aafe441aed, type: 3}
@@ -54802,6 +55211,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
   m_PrefabInstance: {fileID: 1687731800}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1707986168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 1763244495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1707986171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707986168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1710473181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62065,6 +62513,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6d13e3e1ec610134c8ec67c29c8f5f4b, type: 3}
   m_PrefabInstance: {fileID: 1748487483}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1750931114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+  m_PrefabInstance: {fileID: 277566852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1750931120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750931114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 669753636
+      Data2: 1132834519
+      Data3: -1438321473
+      Data4: 1793533933
+    Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1754822250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65227,6 +65710,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6d13e3e1ec610134c8ec67c29c8f5f4b, type: 3}
   m_PrefabInstance: {fileID: 1998780022}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2001509351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+  m_PrefabInstance: {fileID: 317989150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2001509354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001509351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1286588282
+      Data2: 1140300398
+      Data3: 915336073
+      Data4: -624813591
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2007702100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7191828398146687925, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
@@ -66638,7 +67160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147698067052}
   m_LocalRotation: {x: -0, y: 0.86148, z: -0, w: 0.5077915}
-  m_LocalPosition: {x: 865.1269, y: 100.18, z: 885.21497}
+  m_LocalPosition: {x: 865.1269, y: 100.142, z: 885.21497}
   m_LocalScale: {x: 1.16, y: 1.16, z: 1.16}
   m_Children:
   - {fileID: 1896555891}
@@ -66827,7 +67349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef2d2f0650c047eda9cf119b51b82a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTerrain: 0
+  currentTerrain: 4
 --- !u!114 &919132147698067054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66885,7 +67407,7 @@ MonoBehaviour:
   JumpTimeout: 0.1
   FallTimeout: 0.15
   Grounded: 1
-  GroundedOffset: -0.14
+  GroundedOffset: 0
   GroundedRadius: 0.5
   GroundLayers:
     serializedVersion: 2
@@ -67601,7 +68123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 101.775
+      value: 101.737
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.z
@@ -68163,7 +68685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 101.775
+      value: 101.737
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -68612,7 +69134,7 @@ Animator:
   m_GameObject: {fileID: 919132147698067052}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: af6c4d5e97f54ef4fb9ce6af4d05fb47, type: 3}
-  m_Controller: {fileID: 9100000, guid: 6b72d03083cdd5048933fc8dda3f06fd, type: 2}
+  m_Controller: {fileID: 9100000, guid: ee6fbe7365da34615814ff5a34ff9d79, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
