@@ -8,7 +8,6 @@ namespace PlayerTeleportation
     public class TeleportButton : MonoBehaviour
     {
         [SerializeField] private Transform teleportLocation;
-        [SerializeField] private TeleportManager teleportManager;
 
         [Header("Button References")]
         [SerializeField] private TextMeshProUGUI buttonText;
@@ -23,13 +22,11 @@ namespace PlayerTeleportation
         #region Button Functions
         public void OnClickButton()
         {
-            Debug.Log("Teleporting Player");
-            teleportManager.TeleportPlayer(teleportLocation);
+            TeleportManager.instance.TeleportPlayer(teleportLocation);
         }
 
-        public void SetButtonVariables(TeleportManager manager, Transform location, string buttonTitle)
+        public void SetButtonVariables(Transform location, string buttonTitle)
         {
-            teleportManager = manager;
             teleportLocation = location;
             buttonText.text = buttonTitle;
         }

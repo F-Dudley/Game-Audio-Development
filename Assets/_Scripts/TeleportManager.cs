@@ -13,6 +13,8 @@ namespace PlayerTeleportation
 
     public class TeleportManager : MonoBehaviour
     {
+        public static TeleportManager instance;
+
         [Header("Locations")]
         [SerializeField] private List<TeleportLocation> locations = new List<TeleportLocation>();
 
@@ -27,6 +29,7 @@ namespace PlayerTeleportation
         #region Unity Functions
         private void Awake()
         {
+            instance = this;
             CreateLocationButtons();
         }
 
@@ -45,7 +48,7 @@ namespace PlayerTeleportation
                 buttonInstance.name = teleLocation.locationName + " Button";
                 TeleportButton buttonScript = buttonInstance.GetComponent<TeleportButton>();
 
-                buttonScript.SetButtonVariables(this, teleLocation.teleportLocation, teleLocation.locationName);
+                buttonScript.SetButtonVariables(teleLocation.teleportLocation, teleLocation.locationName);
             }
         }
         #endregion
