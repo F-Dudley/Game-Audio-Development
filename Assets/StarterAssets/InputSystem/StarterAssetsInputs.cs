@@ -12,10 +12,15 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
+
 		public bool menu;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
+
+#if ENABLE_INPUT_SYSTEM 
+	private PlayerInput playerInput;
+#endif
 
 #if !UNITY_IOS || !UNITY_ANDROID
 		[Header("Mouse Cursor Settings")]
@@ -47,9 +52,14 @@ namespace StarterAssets
 			SprintInput(value.isPressed);
 		}
 
-		public void OnMenu(InputValue value)
+		public void OnOpenMenu(InputValue value)
 		{
-			MenuInput(value.isPressed);
+			GameMenuManager.instance.TriggerGameMenuVisability(value.isPressed);
+		}
+
+		public void OnCloseMenu(InputValue value)
+		{
+			GameMenuManager.instance.TriggerGameMenuVisability(!value.isPressed);
 		}
 #else
 	// old input sys if we do decide to have it (most likely wont)...
@@ -74,11 +84,6 @@ namespace StarterAssets
 		public void SprintInput(bool newSprintState)
 		{
 			sprint = newSprintState;
-		}
-
-		public void MenuInput(bool newMenuState)
-		{
-			menu = newMenuState;
 		}
 
 #if !UNITY_IOS || !UNITY_ANDROID
