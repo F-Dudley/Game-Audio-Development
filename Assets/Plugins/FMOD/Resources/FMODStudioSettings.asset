@@ -338,8 +338,8 @@ MonoBehaviour:
   sourceProjectPath: FMODPROJECT/GetLost_FMOD/GetLost_FMOD.fspro
   sourceBankPath: FMODPROJECT/GetLost_FMOD/Build
   SourceBankPathUnformatted: 
-  BankRefreshCooldown: 1
-  ShowBankRefreshWindow: 1
+  BankRefreshCooldown: 5
+  ShowBankRefreshWindow: 0
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
@@ -363,6 +363,7 @@ MonoBehaviour:
   Banks:
   - Environment
   - Footsteps
+  - UI
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
