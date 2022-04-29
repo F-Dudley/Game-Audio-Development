@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a0038313-e4ec-47d3-ae3a-516e7ff07f25}">
+		<property name="assetPath">
+			<value>339937__iesp__bow-river-pathway-metal-bridge.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>84.999979166666662</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5bba7476-24a6-49de-bc54-3da0a148f68c}</destination>
+		</relationship>
+	</object>
+</objects>
