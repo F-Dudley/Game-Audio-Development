@@ -93,9 +93,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Footsteps/Footsteps
+  m_Name: parameter:/Footsteps/Terrain
   m_EditorClassIdentifier: 
-  Name: Footsteps
+  Name: Terrain
   StudioPath: 
   Min: 0
   Max: 5
@@ -358,7 +358,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637868348480000000
+  lastModified: 637868417860000000
   FileSizes:
   - Name: Desktop
     Value: 6417536
@@ -453,7 +453,7 @@ MonoBehaviour:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637868348560000000
+  cacheTime: 637868417860000000
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -607,7 +607,7 @@ MonoBehaviour:
   - {fileID: -6485312657817844859}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1420
+  Length: 1180
 --- !u!114 &1506882957557865934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +710,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637868348480000000
+  lastModified: 637868417840000000
   FileSizes:
   - Name: Desktop
     Value: 16280096
@@ -911,7 +911,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637868348560000000
+  lastModified: 637868417860000000
   FileSizes:
   - Name: Desktop
     Value: 6276096
@@ -931,7 +931,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637868348480000000
+  lastModified: 637868417860000000
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -951,10 +951,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637868348480000000
+  lastModified: 637868417860000000
   FileSizes:
   - Name: Desktop
-    Value: 1914
+    Value: 1900
   Exists: 1
 --- !u!114 &8249032342602621676
 MonoBehaviour:

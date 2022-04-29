@@ -72,7 +72,7 @@ namespace PlayerTeleportation
             player.SetPositionAndRotation(teleportLocation.position, teleportLocation.rotation);
 
             camera.position = teleportLocation.position;
-            camera.LookAt(teleportLocation.position + Vector3.up);
+            // camera.LookAt(teleportLocation.position + Vector3.up);
             playerController.enabled = true;
         }
     }
