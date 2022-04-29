@@ -358,7 +358,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637868417860000000
+  lastModified: 637868450740000000
   FileSizes:
   - Name: Desktop
     Value: 6417536
@@ -453,7 +453,7 @@ MonoBehaviour:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637868417860000000
+  cacheTime: 637868450740000000
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -951,7 +951,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637868417860000000
+  lastModified: 637868450740000000
   FileSizes:
   - Name: Desktop
     Value: 1900
