@@ -248,7 +248,7 @@
 	</object>
 	<object class="EventSound" id="{646251dd-8cac-4768-9d63-cec5af2de575}">
 		<property name="start">
-			<value>0.41999999999999998</value>
+			<value>0.17999999999999999</value>
 		</property>
 		<relationship name="event">
 			<destination>{dec88519-314b-433c-95d5-7b22859793d6}</destination>
@@ -256,7 +256,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fe2bb46f-69f2-44c4-8ffb-29e40539d6ac}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-23.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>

@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class DoorSoundTrigger : MonoBehaviour
 {
-    private FMOD.Studio.EventInstance sound;
+    [Header("Settings")]
     [SerializeField] private bool isPlaying;
+    [SerializeField] private string eventName;
+
+    private FMOD.Studio.EventInstance sound;
 
     #region Unity Functions
     private void Awake()
@@ -15,18 +18,25 @@ public class DoorSoundTrigger : MonoBehaviour
 
     private void Update()
     {
-        sound = FMODUnity.RuntimeManager.CreateInstance("event:/Character Foley/Footsteps/Footsteps");
+        sound = FMODUnity.RuntimeManager.CreateInstance(eventName);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        isPlaying = other.gameObject.CompareTag("Player");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            isPlaying = !isPlaying;
+            if (isPlaying)
+            {
+                PlaySound();
+            }
+        }
     }
     #endregion
 
-    public void PlayFootstep()
+    public void PlaySound()
     {
-        sound.setParameterByName("Terrain", (int) currentTerrain);
+        //sound.setParameterByName("Terrain", (int) currentTerrain);
         sound.start();
         sound.release();
     }
