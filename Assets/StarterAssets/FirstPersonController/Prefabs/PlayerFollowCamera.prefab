@@ -82,7 +82,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CollideAgainst:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 17112
   m_IgnoreTag: 
   m_TransparentLayers:
     serializedVersion: 2
@@ -94,8 +94,8 @@ MonoBehaviour:
   m_CameraRadius: 0.1
   m_Strategy: 1
   m_MaximumEffort: 4
-  m_SmoothingTime: 0
-  m_Damping: 0.1
+  m_SmoothingTime: 0.2
+  m_Damping: 2
   m_DampingWhenOccluded: 0
   m_OptimalTargetDistance: 0
 --- !u!1 &8762286024517199033

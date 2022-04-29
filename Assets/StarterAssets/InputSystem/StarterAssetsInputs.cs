@@ -13,8 +13,14 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 
+		public bool menu;
+
 		[Header("Movement Settings")]
 		public bool analogMovement;
+
+#if ENABLE_INPUT_SYSTEM 
+	private PlayerInput playerInput;
+#endif
 
 #if !UNITY_IOS || !UNITY_ANDROID
 		[Header("Mouse Cursor Settings")]
@@ -44,6 +50,16 @@ namespace StarterAssets
 		public void OnSprint(InputValue value)
 		{
 			SprintInput(value.isPressed);
+		}
+
+		public void OnOpenMenu(InputValue value)
+		{
+			GameMenuManager.instance.TriggerGameMenuVisability(value.isPressed);
+		}
+
+		public void OnCloseMenu(InputValue value)
+		{
+			GameMenuManager.instance.TriggerGameMenuVisability(!value.isPressed);
 		}
 #else
 	// old input sys if we do decide to have it (most likely wont)...
