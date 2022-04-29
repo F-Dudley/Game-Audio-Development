@@ -19,7 +19,9 @@ namespace PlayerTeleportation
         [SerializeField] private List<TeleportLocation> locations = new List<TeleportLocation>();
 
         [Header("Scene Referenes")]
-        [SerializeField] private GameObject player;
+        [SerializeField] private Transform player;
+        [SerializeField] private Transform camera;
+        [SerializeField] private CharacterController playerController;
         [SerializeField] private Transform buttonContainer;
 
         [Space]
@@ -31,11 +33,22 @@ namespace PlayerTeleportation
         {
             instance = this;
             CreateLocationButtons();
+
+            playerController = player.GetComponent<CharacterController>();
         }
 
         private void Update()
         {
             
+        }
+
+        private void OnDrawGizmos()
+        {
+            foreach(TeleportLocation location in locations)
+            {
+                Gizmos.color = Color.green;
+                Gizmos.DrawSphere(location.teleportLocation.position, 1.0f);
+            }
         }
         #endregion
 
@@ -55,8 +68,12 @@ namespace PlayerTeleportation
 
         public void TeleportPlayer(Transform teleportLocation)
         {
-            player.transform.position = teleportLocation.position;
-            player.transform.rotation = teleportLocation.rotation;
+            playerController.enabled = false;
+            player.SetPositionAndRotation(teleportLocation.position, teleportLocation.rotation);
+
+            camera.position = teleportLocation.position;
+            camera.LookAt(teleportLocation.position + Vector3.up);
+            playerController.enabled = true;
         }
     }
 }
