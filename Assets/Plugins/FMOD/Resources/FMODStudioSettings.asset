@@ -233,6 +233,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Bank A
   - Environment
   - Footsteps
   - Music

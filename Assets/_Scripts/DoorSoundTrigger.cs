@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMOD.Studio;
 
 public class DoorSoundTrigger : MonoBehaviour
 {
@@ -26,18 +27,27 @@ public class DoorSoundTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlaying = !isPlaying;
+
             if (isPlaying)
             {
                 PlaySound();
+            }
+            else if (!isPlaying)
+            {
+                StopSound();
             }
         }
     }
     #endregion
 
-    public void PlaySound()
+    private void PlaySound()
     {
-        //sound.setParameterByName("Terrain", (int) currentTerrain);
         sound.start();
+    }
+
+    private void StopSound()
+    {
+        sound.stop(STOP_MODE.IMMEDIATE);
         sound.release();
     }
 }
