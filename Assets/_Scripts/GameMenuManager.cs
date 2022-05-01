@@ -6,6 +6,8 @@ public class GameMenuManager : MonoBehaviour
 {
     public static GameMenuManager instance;
 
+    [SerializeField] private bool isVisable = false;
+
     [Header("Scene References")]
     [SerializeField] private GameObject menuRoot;
     [SerializeField] private GameObject homeMenu;
@@ -25,11 +27,13 @@ public class GameMenuManager : MonoBehaviour
     #endregion
 
     #region Menu Interaction Functions
-    public bool GetCurrentViability() => menuRoot.activeSelf;
+    public bool GetCurrentVisability() => isVisable;
 
-    public void TriggerGameMenuVisability(bool isTriggered)
+    public void TriggerGameMenuVisability()
     {
-        switch(menuRoot.activeSelf)
+        isVisable = !isVisable;
+
+        switch(isVisable)
         {
             case true:
                 Time.timeScale = 1.0f;
@@ -41,7 +45,7 @@ public class GameMenuManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Confined;
                 break;
         }
-        menuRoot.SetActive(!menuRoot.activeSelf);
+        menuRoot.SetActive(isVisable); 
     }
 
     public void ResetGameMenu()

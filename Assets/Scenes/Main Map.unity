@@ -4918,9 +4918,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -5180,8 +5196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331273391}
-  - component: {fileID: 331273392}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Jukeboxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5210,40 +5225,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &331273392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331273390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &338226190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9784,10 +9765,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 1320670845559922, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 1321209616756076, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
       value: 14
@@ -10441,10 +10418,6 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1372766195422956, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1372814800615594, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
@@ -18106,7 +18079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936325203959362, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1936373592014054, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
@@ -32682,9 +32655,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 152794, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 156106, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 158184, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
       propertyPath: m_Name
       value: Jukebox03
+      objectReference: {fileID: 0}
+    - target: {fileID: 158184, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 188376, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400196, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
       propertyPath: m_RootOrder
@@ -37330,9 +37319,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -38821,9 +38826,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -47487,9 +47508,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -51109,9 +51146,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -65024,9 +65077,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -65293,6 +65362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c731305a57b4af2844c8727b239b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVisable: 0
   menuRoot: {fileID: 1688725626}
   homeMenu: {fileID: 1254710938}
   settingsMenu: {fileID: 2038200857}
@@ -69117,9 +69187,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -71583,6 +71669,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  interact: 0
   menu: 0
   analogMovement: 0
   cursorLocked: 1
@@ -72560,6 +72647,7 @@ GameObject:
   - component: {fileID: 3129519432983691558}
   - component: {fileID: 8558445884505932268}
   - component: {fileID: 8558445884505932269}
+  - component: {fileID: 8558445884505932265}
   - component: {fileID: 1884152225855089430}
   - component: {fileID: 5362637080947563930}
   - component: {fileID: 8558445884505932266}
@@ -72602,6 +72690,26 @@ MonoBehaviour:
   hitMask:
     serializedVersion: 2
     m_Bits: 17112
+--- !u!114 &8558445884505932265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8558445884505932262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b27843a85587e41b896f2035f31f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectFound: 0
+  foundScript: {fileID: 0}
+  cameraTransform: {fileID: 4010751502070298849}
+  interactDistance: 5.5
+  interactLayerMask:
+    serializedVersion: 2
+    m_Bits: 4096
+  input: {fileID: 0}
 --- !u!114 &8558445884505932266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72735,17 +72843,7 @@ MonoBehaviour:
   RotationSmoothTime: 0.3
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
-  FootstepAudioClips:
-  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
-  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
-  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
-  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
-  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
-  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
-  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
-  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
-  - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
+  FootstepAudioClips: []
   FootstepAudioVolume: 0.3
   JumpHeight: 1.2
   Gravity: -15

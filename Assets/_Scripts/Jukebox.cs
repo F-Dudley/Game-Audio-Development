@@ -6,11 +6,11 @@ public class Jukebox : MonoBehaviour
 {
     [SerializeField] private FMODUnity.StudioEventEmitter emitter;
 
-    private void Awake()
+    private void Start()
     {
         emitter.SetParameter("ON_OFF", 0);
 
-        // THis can be deleted later just for testing.
+        // This can be deleted later just for testing.
         emitter.SetParameter("Size", 100);
     }
 

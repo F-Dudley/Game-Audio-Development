@@ -11,8 +11,7 @@
                     "id": "6bc1aaf4-b110-4ff7-891e-5b9fe6f32c4d",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
+                    "interactions": ""
                 },
                 {
                     "name": "Look",
@@ -20,8 +19,7 @@
                     "id": "2690c379-f54d-45be-a724-414123833eb4",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
+                    "interactions": ""
                 },
                 {
                     "name": "Jump",
@@ -29,8 +27,7 @@
                     "id": "8c4abdf8-4099-493a-aa1a-129acec7c3df",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": ""
                 },
                 {
                     "name": "Sprint",
@@ -38,17 +35,23 @@
                     "id": "980e881e-182c-404c-8cbf-3d09fdb48fef",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": ""
                 },
                 {
-                    "name": "OpenMenu",
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "820582b6-5385-493b-870c-4b32b1d5bb8a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ChangeMenu",
                     "type": "Button",
                     "id": "ad598747-b27c-40f8-b490-e44c01a278e3",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -235,7 +238,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
-                    "action": "OpenMenu",
+                    "action": "ChangeMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -246,7 +249,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "OpenMenu",
+                    "action": "ChangeMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "88186376-f656-493f-9dcf-550961769fe7",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6b6eecb-c4d0-4558-8a9d-a36be29ac151",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad;Xbox Controller;PS4 Controller",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -257,13 +282,12 @@
             "id": "69bf0b77-b2d1-43ad-8840-2eb85f8b8bcb",
             "actions": [
                 {
-                    "name": "CloseMenu",
+                    "name": "ChangeMenu",
                     "type": "Button",
                     "id": "735fe2ef-b2f4-4ff5-ad2a-277aaa47e9e1",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -274,7 +298,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
-                    "action": "CloseMenu",
+                    "action": "ChangeMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -285,7 +309,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "CloseMenu",
+                    "action": "ChangeMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

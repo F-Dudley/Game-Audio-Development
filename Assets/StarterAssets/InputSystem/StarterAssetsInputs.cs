@@ -8,11 +8,16 @@ namespace StarterAssets
 	public class StarterAssetsInputs : MonoBehaviour
 	{
 		[Header("Character Input Values")]
+		// Player Locomotion
 		public Vector2 move;
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
 
+		// Player Actions
+		public bool interact;
+
+		// Menu Actions
 		public bool menu;
 
 		[Header("Movement Settings")]
@@ -52,19 +57,18 @@ namespace StarterAssets
 			SprintInput(value.isPressed);
 		}
 
-		public void OnOpenMenu(InputValue value)
+		public void OnChangeMenu(InputValue value)
 		{
-			GameMenuManager.instance.TriggerGameMenuVisability(value.isPressed);
+			GameMenuManager.instance.TriggerGameMenuVisability();
 		}
 
-		public void OnCloseMenu(InputValue value)
+		public void OnInteract(InputValue value)
 		{
-			GameMenuManager.instance.TriggerGameMenuVisability(!value.isPressed);
+			InteractInput(value.isPressed);
 		}
 #else
 	// old input sys if we do decide to have it (most likely wont)...
 #endif
-
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
@@ -84,6 +88,11 @@ namespace StarterAssets
 		public void SprintInput(bool newSprintState)
 		{
 			sprint = newSprintState;
+		}
+
+		public void InteractInput(bool newInteractState)
+		{
+			interact = newInteractState;
 		}
 
 #if !UNITY_IOS || !UNITY_ANDROID
