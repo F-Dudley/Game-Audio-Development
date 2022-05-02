@@ -12,8 +12,6 @@ namespace SunTemple
         public bool DoorClosed = true;
         public float OpenRotationAmount = 90;
         public float RotationSpeed = 1f;
-        public float MaxDistance = 3.0f;
-		public string playerTag = "Player";
 		private Collider DoorCollider;
 
 		private GameObject Player;
@@ -30,39 +28,9 @@ namespace SunTemple
 
 		private bool scriptIsEnabled = true;
 
-
-
         void Start(){
             StartRotation = transform.localEulerAngles ;
-			DoorCollider = GetComponent<BoxCollider> ();
-
-			if (!DoorCollider) {
-				Debug.LogWarning (this.GetType ().Name + ".cs on " + gameObject.name + "door has no collider", gameObject);
-				scriptIsEnabled = false;
-				return;
-			}
-
-			Player = GameObject.FindGameObjectWithTag (playerTag);
-
-			if (!Player) {
-				Debug.LogWarning (this.GetType ().Name + ".cs on " + this.name + ", No object tagged with " + playerTag + " found in Scene", gameObject);
-				scriptIsEnabled = false;
-				return;
-			}
-
-			Cam = Camera.main;
-			if (!Cam) {
-				Debug.LogWarning (this.GetType ().Name + ", No objects tagged with MainCamera in Scene", gameObject);
-				scriptIsEnabled = false;
-			}
-		
-			cursor = CursorManager.instance;
-
-			if (cursor != null) {
-				cursor.SetCursorToDefault ();
-			}
-
-					
+			DoorCollider = GetComponent<BoxCollider> ();	
         }
 
 
@@ -73,57 +41,8 @@ namespace SunTemple
 				if (Rotating) {
 					Rotate ();
 				}
-
-				if (Input.GetKeyDown (KeyCode.Mouse0)) {
-					TryToOpen ();
-				}
-
-
-				if (cursor != null) {
-					CursorHint ();
-				}
 			}
-
 		} 
-
-
-
-
-		void TryToOpen(){
-			if (Mathf.Abs(Vector3.Distance(transform.position, Player.transform.position)) <= MaxDistance){	
-
-				Ray ray = Cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
-				RaycastHit hit;
-											
-				if (DoorCollider.Raycast(ray, out hit, MaxDistance)){					
-					if (IsLocked == false){
-						Activate ();
-					}
-				}
-			}
-		}
-
-
-
-		void CursorHint(){
-			if (Mathf.Abs(Vector3.Distance(transform.position, Player.transform.position)) <= MaxDistance){	
-				Ray ray = Cam.ScreenPointToRay (new Vector3 (Screen.width / 2, Screen.height / 2, 0));
-				RaycastHit hit;
-
-				if (DoorCollider.Raycast (ray, out hit, MaxDistance)) {
-					if (IsLocked == false) {
-						cursor.SetCursorToDoor ();
-					} else if (IsLocked == true) {
-						cursor.SetCursorToLocked ();
-					}					
-				} else {
-					cursor.SetCursorToDefault ();
-				}
-			}
-		}
-
-
-
 
         public void Activate()
         {
@@ -132,12 +51,6 @@ namespace SunTemple
             else
                 Close();
         }
-
-
-
-       
-
-
 
         void Rotate()
         {
@@ -156,11 +69,7 @@ namespace SunTemple
 				Rotating = false;
 				DoorCollider.enabled = true;
 			}
-              
-           
         }
-
-
 
         void Open()
         {
@@ -172,8 +81,6 @@ namespace SunTemple
             Rotating = true;
         }
 
-
-
         void Close()
         {
 			DoorCollider.enabled = false;
@@ -183,6 +90,5 @@ namespace SunTemple
             CurrentLerpTime = 0;
             Rotating = true;
         }
-
     }
 }

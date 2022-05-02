@@ -257,6 +257,9 @@ GameObject:
   - component: {fileID: 408898}
   - component: {fileID: 20541642}
   - component: {fileID: 6516198}
+  - component: {fileID: 5131011297439358308}
+  - component: {fileID: 2484891326482256611}
+  - component: {fileID: 2912913111970558989}
   m_Layer: 0
   m_Name: Jukebox03Dirty
   m_TagString: Untagged
@@ -321,3 +324,77 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.049353, y: 1.226, z: 0.641}
   m_Center: {x: -0.004676521, y: 0.613, z: -0.03050001}
+--- !u!114 &5131011297439358308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115163572c646437385941c87f47e35d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2484891326482256611}
+        m_TargetAssemblyTypeName: Jukebox, Assembly-CSharp
+        m_MethodName: SetOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2484891326482256611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fed6c312705341d8af608148a3ca43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emitter: {fileID: 2912913111970558989}
+--- !u!114 &2912913111970558989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1722224300
+      Data2: 1198840802
+      Data3: -1060520536
+      Data4: 1196092491
+    Path: event:/Environment/Jukebox/Jukebox/Jukebox_7
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: ON_OFF
+    Value: 1
+  - Name: Size
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

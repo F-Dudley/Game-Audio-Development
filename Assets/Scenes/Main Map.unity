@@ -1076,6 +1076,50 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &49481237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49481238}
+  - component: {fileID: 49481239}
+  m_Layer: 8
+  m_Name: Front Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &49481238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49481237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1845462108}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &49481239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49481237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 3, z: 1.25}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1001 &51733754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1375,6 +1419,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4350347247512500, guid: f4446ed5efdd3094eb3baaec9320b5d2, type: 3}
   m_PrefabInstance: {fileID: 64571370}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &66734948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 66734949}
+  - component: {fileID: 66734950}
+  m_Layer: 8
+  m_Name: Left Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &66734949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66734948}
+  m_LocalRotation: {x: 0, y: 0.72537434, z: 0, w: 0.6883546}
+  m_LocalPosition: {x: -34.301, y: 0, z: -21.155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1845462108}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 93, z: 0}
+--- !u!65 &66734950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66734948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 3, z: 1.25}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &67580940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1263881239168321199, guid: 53511846966b6ce4c8acb830be33adff, type: 3}
@@ -3696,45 +3784,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
   m_PrefabInstance: {fileID: 233589577}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &234973764 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 2037651242}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &234973767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234973764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &235058211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4957,9 +5006,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -5004,6 +5069,14 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -5211,8 +5284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331273391}
-  - component: {fileID: 331273392}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Jukeboxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5241,40 +5313,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &331273392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331273390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &338226190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9815,10 +9853,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 1320670845559922, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 1321209616756076, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
       value: 14
@@ -10472,10 +10506,6 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1372766195422956, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1372814800615594, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
@@ -18137,7 +18167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936325203959362, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1936373592014054, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Layer
@@ -20723,45 +20753,6 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &410897363 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 1579764403}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &410897366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410897363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -29818,45 +29809,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &649174806 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 158184, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
-  m_PrefabInstance: {fileID: 814857278}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &649174809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649174806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &650809763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
@@ -32413,6 +32365,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &779501570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779501571}
+  m_Layer: 0
+  m_Name: Spawn Reference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &779501571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779501570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 424.82758, y: 61.65412, z: 392.4001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &789638528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32791,9 +32773,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 152794, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 156106, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 158184, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
       propertyPath: m_Name
       value: Jukebox03
+      objectReference: {fileID: 0}
+    - target: {fileID: 158184, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 188376, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400196, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
       propertyPath: m_RootOrder
@@ -33492,6 +33490,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
   m_PrefabInstance: {fileID: 884268421}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &887098767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887098768}
+  - component: {fileID: 887098769}
+  m_Layer: 8
+  m_Name: Right Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887098768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887098767}
+  m_LocalRotation: {x: 0, y: 0.7193398, z: 0, w: 0.6946584}
+  m_LocalPosition: {x: -32.212, y: 0, z: 24.263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1845462108}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 92, z: 0}
+--- !u!65 &887098769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887098767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 3, z: 1.25}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!1 &899953919
 GameObject:
   m_ObjectHideFlags: 0
@@ -37439,9 +37481,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -37486,6 +37544,14 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -37789,45 +37855,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
   m_PrefabInstance: {fileID: 1121635017}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1125967699 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 1348055745}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1125967702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125967699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1126146154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38822,45 +38849,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2991756831493838882, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
   m_PrefabInstance: {fileID: 1189345380}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1199970334 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 1102638849}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1199970337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199970334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1200872263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39000,9 +38988,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -39047,6 +39051,14 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -47658,9 +47670,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -47705,6 +47733,34 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -358119999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1313383522
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -1969933177
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 2060783239
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -49036,45 +49092,6 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &1454996248 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 1209468938}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1454996251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1454996248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -51291,9 +51308,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -51338,6 +51371,14 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3.106
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -57801,45 +57842,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!1 &1707986168 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 1763244495}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1707986171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707986168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1710473181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65237,9 +65239,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -65284,6 +65302,14 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -65498,6 +65524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c731305a57b4af2844c8727b239b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVisable: 0
   menuRoot: {fileID: 1688725626}
   homeMenu: {fileID: 1254710938}
   settingsMenu: {fileID: 2038200857}
@@ -66393,11 +66420,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845462108}
-  - component: {fileID: 1845462111}
-  - component: {fileID: 1845462110}
   - component: {fileID: 1845462109}
   m_Layer: 8
-  m_Name: Sound Trigger
+  m_Name: Church Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66411,39 +66436,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845462107}
   m_LocalRotation: {x: 0, y: 0.08715578, z: 0, w: 0.9961947}
-  m_LocalPosition: {x: -37.56, y: 1.28, z: 19.85}
+  m_LocalPosition: {x: -5.395, y: 1.28, z: 12.974}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 49481238}
+  - {fileID: 66734949}
+  - {fileID: 887098768}
   m_Father: {fileID: 1341802346}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 10, z: 0}
---- !u!65 &1845462109
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845462107}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 1, z: 25}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1845462110
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845462107}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1845462111
+--- !u!114 &1845462109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66452,27 +66454,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1845462107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 309cc5fb96b7b4db6b8c90f4e3e70653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
+  eventReference:
     Guid:
       Data1: -292319902
       Data2: 1333186674
       Data3: 1204894851
       Data4: -561768819
     Path: event:/Music/Game/ChurchTheme
-  Event: 
-  PlayEvent: 3
-  StopEvent: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  isPlaying: 0
+  allowFadeOut: 1
 --- !u!1001 &1845750594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68883,45 +68876,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6d13e3e1ec610134c8ec67c29c8f5f4b, type: 3}
   m_PrefabInstance: {fileID: 1998780022}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2001509351 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-  m_PrefabInstance: {fileID: 317989150}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2001509354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001509351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1286588282
-      Data2: 1140300398
-      Data3: 915336073
-      Data4: -624813591
-    Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: ON_OFF
-    Value: 1
-  - Name: Size
-    Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &2007702100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7191828398146687925, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
@@ -69391,9 +69345,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 331273391}
     m_Modifications:
+    - target: {fileID: 129244, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 130658, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 143182, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_Name
       value: Jukebox03Dirty (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157470, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_RootOrder
@@ -69438,6 +69408,14 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -71478,8 +71456,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4010751502070298852}
-  m_LocalRotation: {x: 0, y: 0.8314696, z: 0, w: 0.55557024}
-  m_LocalPosition: {x: 861.8845, y: 102.0092, z: 886.75073}
+  m_LocalRotation: {x: 0, y: 0.8345142, z: 0, w: 0.5509866}
+  m_LocalPosition: {x: 861.80853, y: 101.787, z: 886.6003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -71849,6 +71827,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  interact: 0
   menu: 0
   analogMovement: 0
   cursorLocked: 1
@@ -72076,8 +72055,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6283858790701175345}
-  m_LocalRotation: {x: -0, y: 0.8314696, z: -0, w: 0.55557024}
-  m_LocalPosition: {x: 861.8845, y: 102.0092, z: 886.75073}
+  m_LocalRotation: {x: -0, y: 0.8345142, z: -0, w: 0.5509866}
+  m_LocalPosition: {x: 861.80853, y: 101.787, z: 886.6003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6283858791193453066}
@@ -72826,6 +72805,7 @@ GameObject:
   - component: {fileID: 3129519432983691558}
   - component: {fileID: 8558445884505932268}
   - component: {fileID: 8558445884505932269}
+  - component: {fileID: 8558445884505932265}
   - component: {fileID: 1884152225855089430}
   - component: {fileID: 5362637080947563930}
   - component: {fileID: 8558445884505932266}
@@ -72868,6 +72848,26 @@ MonoBehaviour:
   hitMask:
     serializedVersion: 2
     m_Bits: 17112
+--- !u!114 &8558445884505932265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8558445884505932262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b27843a85587e41b896f2035f31f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectFound: 0
+  foundScript: {fileID: 0}
+  cameraTransform: {fileID: 4010751502070298849}
+  interactDistance: 5.5
+  interactLayerMask:
+    serializedVersion: 2
+    m_Bits: 4096
+  input: {fileID: 0}
 --- !u!114 &8558445884505932266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73001,17 +73001,7 @@ MonoBehaviour:
   RotationSmoothTime: 0.3
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
-  FootstepAudioClips:
-  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
-  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
-  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
-  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
-  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
-  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
-  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
-  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
-  - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
+  FootstepAudioClips: []
   FootstepAudioVolume: 0.3
   JumpHeight: 1.2
   Gravity: -15
@@ -73220,16 +73210,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8558445884505932262}
-  m_LocalRotation: {x: 0, y: 0.8314696, z: 0, w: 0.55557024}
-  m_LocalPosition: {x: 865.58, y: 100.13, z: 885.22}
-  m_LocalScale: {x: 1.16, y: 1.16, z: 1.16}
+  m_LocalRotation: {x: -0, y: 0.8345142, z: -0, w: 0.5509866}
+  m_LocalPosition: {x: 865.487, y: 100.167, z: 885.029}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4049771917238122682}
   - {fileID: 2631340942496210830}
   - {fileID: 5206295493127972293}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 112.5, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 113.131, z: 0}
 --- !u!199 &9052506877304036456
 ParticleSystemRenderer:
   serializedVersion: 6
