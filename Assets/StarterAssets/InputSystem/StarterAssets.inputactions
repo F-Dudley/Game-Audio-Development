@@ -10,7 +10,7 @@
                     "type": "Value",
                     "id": "6bc1aaf4-b110-4ff7-891e-5b9fe6f32c4d",
                     "expectedControlType": "Vector2",
-                    "processors": "",
+                    "processors": "NormalizeVector2",
                     "interactions": ""
                 },
                 {
@@ -43,7 +43,7 @@
                     "id": "820582b6-5385-493b-870c-4b32b1d5bb8a",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press(behavior=2)"
                 },
                 {
                     "name": "ChangeMenu",
@@ -170,7 +170,7 @@
                     "id": "ed66cbff-2900-4a62-8896-696503cfcd31",
                     "path": "<Pointer>/delta",
                     "interactions": "",
-                    "processors": "InvertVector2(invertX=false),ScaleVector2(x=15,y=15)",
+                    "processors": "InvertVector2(invertX=false),ScaleVector2(x=0.5,y=0.5)",
                     "groups": "KeyboardMouse",
                     "action": "Look",
                     "isComposite": false,

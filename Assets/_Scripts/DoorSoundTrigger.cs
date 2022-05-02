@@ -2,24 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
+using FMODUnity;
 
 public class DoorSoundTrigger : MonoBehaviour
-{
+{    
+    [Space]
+    
+    [SerializeField] private EventReference eventReference;
+
     [Header("Settings")]
     [SerializeField] private bool isPlaying;
-    [SerializeField] private string eventName;
+    [SerializeField] private bool allowFadeOut;
 
     private FMOD.Studio.EventInstance sound;
 
     #region Unity Functions
     private void Awake()
     {
-
+        sound = FMODUnity.RuntimeManager.CreateInstance(eventReference);
     }
 
     private void Update()
     {
-        sound = FMODUnity.RuntimeManager.CreateInstance(eventName);
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -47,7 +52,9 @@ public class DoorSoundTrigger : MonoBehaviour
 
     private void StopSound()
     {
-        sound.stop(STOP_MODE.IMMEDIATE);
-        sound.release();
+        if (sound.isValid())
+        {
+            sound.stop(allowFadeOut ? FMOD.Studio.STOP_MODE.ALLOWFADEOUT : FMOD.Studio.STOP_MODE.IMMEDIATE);
+        }
     }
 }

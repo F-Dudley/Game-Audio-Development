@@ -535,7 +535,7 @@ MonoBehaviour:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637870097849961097
+  cacheTime: 637870942055604191
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -792,7 +792,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637870097849502555
+  lastModified: 637870942054618692
   FileSizes:
   - Name: Desktop
     Value: 22279264
@@ -812,7 +812,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Bank A.bank
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 637870097848062225
+  lastModified: 637870942052752424
   FileSizes:
   - Name: Desktop
     Value: 48736
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637870097849961097
+  lastModified: 637870942055604191
   FileSizes:
   - Name: Desktop
     Value: 6276384
@@ -1089,7 +1089,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637870097849522551
+  lastModified: 637870942054648705
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637870097849522551
+  lastModified: 637870942054648705
   FileSizes:
   - Name: Desktop
     Value: 2198

@@ -54,8 +54,8 @@ public class PlayerInteraction : MonoBehaviour
         if (interactableObject.TryGetComponent<Interactible>(out foundScript))
         {
             foundScript.Interact();
+            foundScript = null;
         }
-        else foundScript = null;
     }
 
     private void PerformInteractAnimation()
