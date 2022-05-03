@@ -381,18 +381,13 @@ namespace StarterAssets
 
         private void OnJumpStart(AnimationEvent animationEvent)
         {
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
-            {
-                Debug.Log("Jump Started");
-                playerAudio.PlayJumpStart();
-            }
+            playerAudio.PlayJumpStart();
         }
 
         private void OnJumpLand(AnimationEvent animationEvent)
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                Debug.Log("Jump Ended");
                 playerAudio.PlayJumpLanding();
             }
         }

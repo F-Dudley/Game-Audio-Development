@@ -57890,6 +57890,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6b436d069d11415d1100ab9b44295342, type: 3}
   m_PrefabInstance: {fileID: 1682833938}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1686599781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686599782}
+  - component: {fileID: 1686599783}
+  - component: {fileID: 1686599785}
+  - component: {fileID: 1686599784}
+  m_Layer: 13
+  m_Name: Feet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1686599782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686599781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9047280316591446876}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686599783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686599781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 846529222
+      Data2: 1112817670
+      Data3: -1599312730
+      Data4: -379620733
+    Path: event:/Character Foley/Footsteps/Footsteps
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: Terrain
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1686599784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686599781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 52862446
+      Data2: 1181279226
+      Data3: 1964482735
+      Data4: -568706361
+    Path: event:/UI/UI Select
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1686599785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686599781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -869853058
+      Data2: 1217327255
+      Data3: -1759617093
+      Data4: -651309110
+    Path: event:/UI/UI Play
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1687731800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66670,6 +66795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1845462108}
   - component: {fileID: 1845462109}
+  - component: {fileID: 1845462110}
   m_Layer: 8
   m_Name: Church Trigger
   m_TagString: Untagged
@@ -66715,6 +66841,22 @@ MonoBehaviour:
     Path: event:/Music/Game/ChurchTheme
   isPlaying: 0
   allowFadeOut: 1
+--- !u!54 &1845462110
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845462107}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1845750594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69910,6 +70052,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4291737462401918, guid: 7d545c935d500524db82d27f523c98ac, type: 3}
   m_PrefabInstance: {fileID: 2054954950}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2068734521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068734522}
+  - component: {fileID: 2068734524}
+  - component: {fileID: 2068734523}
+  m_Layer: 14
+  m_Name: TriggerSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068734522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068734521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.002, y: 0.0127, z: -0.0133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2099802302}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2068734523
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068734521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.205, y: 0.03, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2068734524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068734521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 1763697045
+      Data2: 1197031764
+      Data3: -1687727462
+      Data4: -1073653876
+    Path: event:/Ambience/Ambience/Bunker
+  Event: 
+  PlayEvent: 3
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &2080900494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 3}
@@ -70500,7 +70717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4340943126750064516}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70531,7 +70748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2536363719111911288}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_RingIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70547,7 +70764,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2210895330686976563}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: UpperChest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70714,7 +70931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4596181041782678011}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_MiddleDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70744,7 +70961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 250572326273902211}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_PinkyDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70760,7 +70977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3697676859669183929}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_PinkyIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70790,7 +71007,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1547858773216167437}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_RingProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70806,7 +71023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3596444264912924770}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_Toes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70822,7 +71039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3125536687065659903}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_UpperLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70853,7 +71070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065908794536304863}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_RingDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70883,7 +71100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6509248405282773264}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70899,7 +71116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6475286803268076873}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_ThumbDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70915,7 +71132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4983644540687752240}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Neck_Twist_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70931,7 +71148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2512683250255122267}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71024,7 +71241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5206295493127972293}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71089,7 +71306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2402741715261019467}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_IndexDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71105,7 +71322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5826028022765995244}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_IndexIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71121,7 +71338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7795390146931670162}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_LowerArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71226,7 +71443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8619821269436644119}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_LowerLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71242,7 +71459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8103505845941888150}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_MiddleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71275,7 +71492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2909235498366083677}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_ThumbProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71306,7 +71523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1587962131044755198}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_IndexProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71322,7 +71539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4667950498403281142}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_RingDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71353,7 +71570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7540134881527065916}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_MiddleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71369,7 +71586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8683232037560635499}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_MiddleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71419,7 +71636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8457081900896844910}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_IndexDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71435,7 +71652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8753406636408801777}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_PinkyDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71465,7 +71682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4104803136295812532}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_LowerArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71481,7 +71698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3958115315337823487}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71497,7 +71714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7031391775878091479}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71562,7 +71779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1305543156662594486}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_RingIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71578,7 +71795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2116040863593964377}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_RingDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71594,7 +71811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5491123822034374418}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_LowerLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71644,7 +71861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5833707096950244395}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_ToesEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71660,7 +71877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3815857810491891284}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71691,7 +71908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8083990115855716124}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_IndexProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71722,7 +71939,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4010751502070298849}
   - component: {fileID: 4010751502070298854}
-  - component: {fileID: 4010751502070298855}
   - component: {fileID: 3924525602033599737}
   m_Layer: 0
   m_Name: MainCamera
@@ -71774,14 +71990,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &4010751502070298855
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4010751502070298852}
-  m_Enabled: 1
 --- !u!4 &4029121971496119872
 Transform:
   m_ObjectHideFlags: 0
@@ -71819,7 +72027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4049771917238122682}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PlayerCameraRoot
   m_TagString: CinemachineTarget
   m_Icon: {fileID: 0}
@@ -71835,7 +72043,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 715153909305498668}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71867,7 +72075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386902660231424110}
   - component: {fileID: 442855354438076434}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Armature_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71946,7 +72154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4810211455319975776}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71977,7 +72185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6506804362875915271}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72022,7 +72230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3187595737079412440}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_ToesEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72053,7 +72261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6712689153156982444}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_ThumbDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72105,7 +72313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7351651602353719598}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72121,7 +72329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 897981261026552901}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_PinkyDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72137,7 +72345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6325306218190305127}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_IndexDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72153,7 +72361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6248034715155088972}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_IndexIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72212,7 +72420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 702491941386568952}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_PinkyProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72454,7 +72662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1758810965981603266}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72515,7 +72723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8585893143808355171}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_RingProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72531,7 +72739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6867409251423182816}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_PinkyDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72547,7 +72755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2579913967256462}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_ThumbDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72578,7 +72786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2616882996153652292}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_ThumbIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72594,7 +72802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2532772037075219022}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_RingDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72638,7 +72846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8687573150880165105}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_MiddleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72654,7 +72862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7941110378231622463}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72670,7 +72878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8974243158007068326}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_PinkyProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72701,7 +72909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6100863679986993970}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_MiddleDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72851,7 +73059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7472634443553610023}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_MiddleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72912,7 +73120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8174455637968972243}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_ThumbIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72958,7 +73166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6246612498788040496}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_UpperLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72974,7 +73182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8664429881667175951}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73005,7 +73213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2744173189274849773}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73021,7 +73229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4029121971496119872}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_ThumbDistalEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73057,10 +73265,10 @@ GameObject:
   - component: {fileID: 8558445884505932265}
   - component: {fileID: 1884152225855089430}
   - component: {fileID: 5362637080947563930}
-  - component: {fileID: 8558445884505932266}
   - component: {fileID: 8558445884505932264}
+  - component: {fileID: 8558445884505932266}
   - component: {fileID: 8558445884505932263}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -73097,27 +73305,9 @@ MonoBehaviour:
   hitMask:
     serializedVersion: 2
     m_Bits: 17112
-  footstepEventReference:
-    Guid:
-      Data1: 846529222
-      Data2: 1112817670
-      Data3: -1599312730
-      Data4: -379620733
-    Path: event:/Character Foley/Footsteps/Footsteps
-  jumpStartEventReference:
-    Guid:
-      Data1: -869853058
-      Data2: 1217327255
-      Data3: -1759617093
-      Data4: -651309110
-    Path: event:/UI/UI Play
-  jumpLandingEventReference:
-    Guid:
-      Data1: -869853058
-      Data2: 1217327255
-      Data3: -1759617093
-      Data4: -651309110
-    Path: event:/UI/UI Play
+  footstepEmitter: {fileID: 1686599783}
+  jumpStartEmitter: {fileID: 1686599785}
+  jumpLandingEmitter: {fileID: 1686599784}
 --- !u!114 &8558445884505932265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73324,7 +73514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3022389354727905915}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73385,7 +73575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5344483376843969113}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_ThumbProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73416,7 +73606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4445754294112710833}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73432,7 +73622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7654923122656236425}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Left_PinkyIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73463,7 +73653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1804016455146168484}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_MiddleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73484,6 +73674,7 @@ Transform:
   - {fileID: 4049771917238122682}
   - {fileID: 2631340942496210830}
   - {fileID: 5206295493127972293}
+  - {fileID: 1686599782}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 113.131, z: 0}
@@ -83064,7 +83255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7750149545294249594}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_Toes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83080,7 +83271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1658017430827206995}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Right_IndexDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83096,7 +83287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2631340942496210830}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}

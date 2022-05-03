@@ -490,7 +490,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637871777320000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
     Value: 6417536
@@ -617,12 +617,13 @@ MonoBehaviour:
   - {fileID: -438444724728241659}
   - {fileID: -3147277689488110494}
   - {fileID: 2354053112398961735}
+  - {fileID: 2350896650756469310}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637871777340000000
+  cacheTime: 637871873520000000
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -686,10 +687,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637871777320000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
-    Value: 48736
+    Value: 49024
   Exists: 1
 --- !u!114 &336328064127185470
 MonoBehaviour:
@@ -928,11 +929,39 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637871777320000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
-    Value: 24094816
+    Value: 24259360
   Exists: 1
+--- !u!114 &2350896650756469310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Door/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Door/Door
+  Guid:
+    Data1: 1940863628
+    Data2: 1299614176
+    Data3: 1409314444
+    Data4: -294912499
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8977483190913863036}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3050
 --- !u!114 &2354053112398961735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1303,7 +1332,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637871777340000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
     Value: 25312
@@ -1351,7 +1380,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637871777340000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
     Value: 6276384
@@ -1371,7 +1400,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637871777320000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1391,10 +1420,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637871777320000000
+  lastModified: 637871873520000000
   FileSizes:
   - Name: Desktop
-    Value: 2444
+    Value: 2548
   Exists: 1
 --- !u!114 &8249032342602621676
 MonoBehaviour:
@@ -1490,6 +1519,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 73734
+--- !u!114 &8977483190913863036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Door/OPEN_CLOSED
+  m_EditorClassIdentifier: 
+  Name: OPEN_CLOSED
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2501744125
+    data2: 2345937384
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &9052605596533311751
 MonoBehaviour:
   m_ObjectHideFlags: 0

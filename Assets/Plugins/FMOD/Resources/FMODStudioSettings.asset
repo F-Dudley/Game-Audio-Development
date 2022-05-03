@@ -210,7 +210,7 @@ MonoBehaviour:
   sourceProjectPath: FMODPROJECT/GetLost_FMOD/GetLost_FMOD.fspro
   sourceBankPath: FMODPROJECT/GetLost_FMOD/Build
   SourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: -1
   ShowBankRefreshWindow: 0
   AutomaticEventLoading: 0
   BankLoadType: 0
