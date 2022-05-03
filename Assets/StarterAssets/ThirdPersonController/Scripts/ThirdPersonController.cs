@@ -3,6 +3,8 @@
 using UnityEngine.InputSystem;
 #endif
 
+using PlayerSounds;
+
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
 
@@ -27,10 +29,6 @@ namespace StarterAssets
 
         [Tooltip("Acceleration and deceleration")]
         public float SpeedChangeRate = 10.0f;
-
-        public AudioClip LandingAudioClip;
-        public AudioClip[] FootstepAudioClips;
-        [Range(0, 1)] public float FootstepAudioVolume = 0.5f;
 
         [Space(10)]
         [Tooltip("The height the player can jump")]
@@ -105,7 +103,7 @@ namespace StarterAssets
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
-		private PlayerFootsteps playerFootsteps;
+		private PlayerAudio playerAudio;
 
         private const float _threshold = 0.01f;
 
@@ -132,7 +130,7 @@ namespace StarterAssets
                 _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             }
 
-			playerFootsteps = GetComponent<PlayerFootsteps>();
+			playerAudio = GetComponent<PlayerAudio>();
         }
 
         private void Start()
@@ -376,18 +374,26 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                if (FootstepAudioClips.Length > 0)
-                {
-					playerFootsteps.PlayFootstep();
-                }
+                Debug.Log("Footstep Triggered");
+				playerAudio.PlayFootstep();
             }
         }
 
-        private void OnLand(AnimationEvent animationEvent)
+        private void OnJumpStart(AnimationEvent animationEvent)
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                Debug.Log("Jump Started");
+                playerAudio.PlayJumpStart();
+            }
+        }
+
+        private void OnJumpLand(AnimationEvent animationEvent)
+        {
+            if (animationEvent.animatorClipInfo.weight > 0.5f)
+            {
+                Debug.Log("Jump Ended");
+                playerAudio.PlayJumpLanding();
             }
         }
     }

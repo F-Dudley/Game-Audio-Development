@@ -72848,6 +72848,27 @@ MonoBehaviour:
   hitMask:
     serializedVersion: 2
     m_Bits: 17112
+  footstepEventReference:
+    Guid:
+      Data1: 846529222
+      Data2: 1112817670
+      Data3: -1599312730
+      Data4: -379620733
+    Path: event:/Character Foley/Footsteps/Footsteps
+  jumpStartEventReference:
+    Guid:
+      Data1: -869853058
+      Data2: 1217327255
+      Data3: -1759617093
+      Data4: -651309110
+    Path: event:/UI/UI Play
+  jumpLandingEventReference:
+    Guid:
+      Data1: -869853058
+      Data2: 1217327255
+      Data3: -1759617093
+      Data4: -651309110
+    Path: event:/UI/UI Play
 --- !u!114 &8558445884505932265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73000,9 +73021,6 @@ MonoBehaviour:
   SprintSpeed: 8
   RotationSmoothTime: 0.3
   SpeedChangeRate: 10
-  LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
-  FootstepAudioClips: []
-  FootstepAudioVolume: 0.3
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.3

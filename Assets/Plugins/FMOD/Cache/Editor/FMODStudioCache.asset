@@ -24,6 +24,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8594047379884731895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Back
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI Back
+  Guid:
+    Data1: -2084181780
+    Data2: 1161688469
+    Data3: 334622094
+    Data4: -1698000975
+  Banks:
+  - {fileID: 0}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &-8589103982362692725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +134,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 130500
---- !u!114 &-8594047379884731895
+--- !u!114 &-6845636228863876739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,23 +144,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI Back
+  m_Name: event:/Environment/Fire/fire
   m_EditorClassIdentifier: 
-  Path: event:/UI/UI Back
+  Path: event:/Environment/Fire/fire
   Guid:
-    Data1: -2084181780
-    Data2: 1161688469
-    Data3: 334622094
-    Data4: -1698000975
+    Data1: -1510207321
+    Data2: 1237922877
+    Data3: 1422174140
+    Data4: -1946314025
   Banks:
-  - {fileID: 8865951303061317669}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5875711091892835976}
   MinDistance: 1
   MaxDistance: 20
-  Length: 10000
+  Length: 8000
 --- !u!114 &-6485312657817844859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +337,7 @@ MonoBehaviour:
     Data3: -1903077221
     Data4: 1130456945
   Banks:
-  - {fileID: 8865951303061317669}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -318,23 +346,17 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 240
 --- !u!114 &-3261707515744989968
-  m_Name: event:/Environment/Water/water pipe
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Water/water pipe
-  Guid:
-    Data1: -1762452858
-    Data2: 1204654298
-    Data3: 303616699
-    Data4: -261445847
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &-3221725657205147549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,7 +376,7 @@ MonoBehaviour:
     Data3: -1759617093
     Data4: -651309110
   Banks:
-  - {fileID: 8865951303061317669}
+  - {fileID: 0}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -362,24 +384,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1292
-  m_Name: event:/Environment/Fire/fire
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Fire/fire
-  Guid:
-    Data1: -1510207321
-    Data2: 1237922877
-    Data3: 1422174140
-    Data4: -1946314025
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3737266495300782947}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8000
 --- !u!114 &-2955852068366617947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,7 +443,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637870086332895887
+  lastModified: 637871680180000000
   FileSizes:
   - Name: Desktop
     Value: 6417536
@@ -486,21 +490,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Jukebox/ON_OFF
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
-  Guid:
-    Data1: 669753636
-    Data2: 1132834519
-    Data3: -1438321473
-    Data4: 1793533933
-  Banks:
-  - {fileID: 275009599683781275}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
+  Name: 
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-344049876041800204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,6 +545,7 @@ MonoBehaviour:
   - {fileID: 7912720029078690127}
   - {fileID: 7871037038526748418}
   - {fileID: 3093576721958830130}
+  - {fileID: 7137825966238534831}
   EditorEvents:
   - {fileID: 438102171973141318}
   - {fileID: 7322387749289100579}
@@ -563,12 +565,14 @@ MonoBehaviour:
   - {fileID: -1708228563337517092}
   - {fileID: -6871876703538543028}
   - {fileID: 6275229426835084292}
+  - {fileID: 8348914384084940481}
+  - {fileID: -6845636228863876739}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637870942055604191
+  cacheTime: 637871680180000000
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -825,7 +829,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637870942054618692
+  lastModified: 637871680180000000
   FileSizes:
   - Name: Desktop
     Value: 22279264
@@ -845,7 +849,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Bank A.bank
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 637870942052752424
+  lastModified: 637871680120000000
   FileSizes:
   - Name: Desktop
     Value: 48736
@@ -881,7 +885,60 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Environment/Water/water pipe
-  m_EditorClassIdentifier:
+  m_EditorClassIdentifier: 
+  Path: 
+  Guid:
+    Data1: 0
+    Data2: 0
+    Data3: 0
+    Data4: 0
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5384988837666964800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI Select
+  Guid:
+    Data1: 52862446
+    Data2: 1181279226
+    Data3: 1964482735
+    Data4: -568706361
+  Banks:
+  - {fileID: 0}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 332
+--- !u!114 &5875711091892835976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fire/fire_size
+  m_EditorClassIdentifier: 
   Name: fire_size
   StudioPath: 
   Min: 0
@@ -951,22 +1008,6 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 130500
 --- !u!114 &6638775442151882470
-  Path: event:/Environment/Water/water pipe
-  Guid:
-    Data1: -1762452858
-    Data2: 1204654298
-    Data3: 303616699
-    Data4: -261445847
-  Banks:
-  - {fileID: 275009599683781275}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &5384988837666964800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -975,53 +1016,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI Select
+  m_Script: {fileID: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/UI/UI Select
-  Guid:
-    Data1: 52862446
-    Data2: 1181279226
-    Data3: 1964482735
-    Data4: -568706361
-  Banks:
-  - {fileID: 8865951303061317669}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 332
---- !u!114 &6872779246684161165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Jukebox/Jukebox/Jukebox
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Jukebox/Jukebox/Jukebox
-  Guid:
-    Data1: -1286588282
-    Data2: 1140300398
-    Data3: 915336073
-    Data4: -624813591
-  Banks:
-  - {fileID: 275009599683781275}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -7594742528714816886}
-  - {fileID: -156641227068652744}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &6639917199340005907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,6 +1047,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 277590
+--- !u!114 &6872779246684161165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Jukebox/Jukebox/Jukebox
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Jukebox/Jukebox/Jukebox
+  Guid:
+    Data1: -1286588282
+    Data2: 1140300398
+    Data3: 915336073
+    Data4: -624813591
+  Banks:
+  - {fileID: 275009599683781275}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 0}
+  - {fileID: 0}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &7067218722896852858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,6 +1103,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8674
+--- !u!114 &7137825966238534831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: 
+  lastModified: 637871680180000000
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7322387749289100579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,7 +1191,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637870942055604191
+  lastModified: 637871680180000000
   FileSizes:
   - Name: Desktop
     Value: 6276384
@@ -1167,7 +1211,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637870942054648705
+  lastModified: 637871680180000000
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1187,7 +1231,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637870942054648705
+  lastModified: 637871680180000000
   FileSizes:
   - Name: Desktop
     Value: 2198
@@ -1263,6 +1307,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9500
+--- !u!114 &8348914384084940481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Water/water pipe
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Water/water pipe
+  Guid:
+    Data1: -1762452858
+    Data2: 1204654298
+    Data3: 303616699
+    Data4: -261445847
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &8428512210454249693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,6 +1353,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 25312
+  Exists: 1
+--- !u!114 &8906753723286426622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_7/Size
+  m_EditorClassIdentifier: 
+  Name: Size
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3210793301
+    data2: 999647564
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &9052605596533311751
 MonoBehaviour:
@@ -1334,34 +1429,10 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -8120254038103491647}
+  - {fileID: 0}
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
---- !u!114 &8906753723286426622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jukebox_7/Size
-  m_EditorClassIdentifier: 
-  Name: Size
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3210793301
-    data2: 999647564
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &9147508552021917089
 MonoBehaviour:
   m_ObjectHideFlags: 0
