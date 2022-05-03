@@ -1,29 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8693504630303335543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Sandstorm
-  m_EditorClassIdentifier: 
-  Name: Sandstorm
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2701587378
-    data2: 2068469596
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-8594047379884731895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
---- !u!114 &-8589103982362692725
+--- !u!114 &-8494516565735512529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,24 +36,69 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Lights/light_buzz
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fire/fire_size
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Lights/light_buzz
-  Guid:
-    Data1: -1586003850
-    Data2: 1287761088
-    Data3: 947134101
-    Data4: 943859192
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5937
+  Name: fire_size
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 332518697
+    data2: 113483339
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8119644964483343725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_Bunker/Size
+  m_EditorClassIdentifier: 
+  Name: Size
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3210793301
+    data2: 999647564
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8017343009582363892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DessertAmbience/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6966613076258120237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +126,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9500
---- !u!114 &-6871876703538543028
+--- !u!114 &-6692383449821845653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,54 +135,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Jukebox/Jukebox/Jukebox_7
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DessertAmbience/Bridge
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Jukebox/Jukebox/Jukebox_7
-  Guid:
-    Data1: 1722224300
-    Data2: 1198840802
-    Data3: -1060520536
-    Data4: 1196092491
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8906753723286426622}
-  - {fileID: 8204276595006088335}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 130500
---- !u!114 &-6845636228863876739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Fire/fire
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Fire/fire
-  Guid:
-    Data1: -1510207321
-    Data2: 1237922877
-    Data3: 1422174140
-    Data4: -1946314025
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 5875711091892835976}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8000
+  Name: Bridge
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6485312657817844859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +234,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13012
---- !u!114 &-5750763381657558480
+--- !u!114 &-5166488349854226098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -256,21 +244,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jukebox_Bunker/Size
+  m_Name: parameter:/Jukebox_7/ON_OFF
   m_EditorClassIdentifier: 
-  Name: Size
+  Name: ON_OFF
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 3210793301
-    data2: 999647564
-  Type: 0
+    data1: 180312363
+    data2: 699698579
+  Type: 1
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-4548226646916115466
+--- !u!114 &-4468912009024558342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,6 +282,36 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4133856840907851082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience/DessertAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience/DessertAmbience
+  Guid:
+    Data1: -148404056
+    Data2: 1145256763
+    Data3: -1700978045
+    Data4: -459361028
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4468912009024558342}
+  - {fileID: -6692383449821845653}
+  - {fileID: -8017343009582363892}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &-3737266495300782947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,6 +356,7 @@ MonoBehaviour:
     Data4: 1130456945
   Banks:
   - {fileID: 0}
+  - {fileID: 7137825966238534831}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -377,6 +396,7 @@ MonoBehaviour:
     Data4: -651309110
   Banks:
   - {fileID: 0}
+  - {fileID: 7137825966238534831}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -384,6 +404,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1292
+--- !u!114 &-3147277689488110494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Back
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI Back
+  Guid:
+    Data1: -2084181780
+    Data2: 1161688469
+    Data3: 334622094
+    Data4: -1698000975
+  Banks:
+  - {fileID: 7137825966238534831}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 367
 --- !u!114 &-2955852068366617947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,41 +490,11 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637871680180000000
+  lastModified: 637871777320000000
   FileSizes:
   - Name: Desktop
     Value: 6417536
   Exists: 1
---- !u!114 &-1708228563337517092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/Ambience/DessertAmbience
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/Ambience/DessertAmbience
-  Guid:
-    Data1: -148404056
-    Data2: 1145256763
-    Data3: -1700978045
-    Data4: -459361028
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4548226646916115466}
-  - {fileID: 9147508552021917089}
-  - {fileID: -8693504630303335543}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
 --- !u!114 &-893726643246520486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,7 +519,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
---- !u!114 &-344049876041800204
+--- !u!114 &-608121758115113777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,21 +528,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jukebox_Bunker/ON_OFF
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lights/light_buzz
   m_EditorClassIdentifier: 
-  Name: ON_OFF
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 180312363
-    data2: 699698579
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/Environment/Lights/light_buzz
+  Guid:
+    Data1: -1586003850
+    Data2: 1287761088
+    Data3: 947134101
+    Data4: 943859192
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5937
+--- !u!114 &-438444724728241659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Spaceship/spaceship
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Spaceship/spaceship
+  Guid:
+    Data1: 2129184248
+    Data2: 1251726834
+    Data3: 359490969
+    Data4: 1197657463
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,15 +591,11 @@ MonoBehaviour:
   - {fileID: -1921933383781128863}
   - {fileID: 7912720029078690127}
   - {fileID: 7871037038526748418}
-  - {fileID: 3093576721958830130}
   - {fileID: 7137825966238534831}
+  - {fileID: 314516307280745836}
   EditorEvents:
-  - {fileID: 438102171973141318}
-  - {fileID: 7322387749289100579}
-  - {fileID: -8589103982362692725}
   - {fileID: -3704147872908951939}
   - {fileID: -3221725657205147549}
-  - {fileID: 8320871009397699555}
   - {fileID: 649397860943644522}
   - {fileID: -6244427176878351229}
   - {fileID: 7067218722896852858}
@@ -562,17 +605,24 @@ MonoBehaviour:
   - {fileID: 1970355290025509795}
   - {fileID: 6639917199340005907}
   - {fileID: 5914597943997341316}
-  - {fileID: -1708228563337517092}
-  - {fileID: -6871876703538543028}
-  - {fileID: 6275229426835084292}
-  - {fileID: 8348914384084940481}
-  - {fileID: -6845636228863876739}
+  - {fileID: 8565007478692125654}
+  - {fileID: 8733491546470354491}
+  - {fileID: -608121758115113777}
+  - {fileID: 4585234186855020908}
+  - {fileID: 1933293891817960113}
+  - {fileID: 3427866352972206990}
+  - {fileID: -4133856840907851082}
+  - {fileID: 974427899882317827}
+  - {fileID: 5359813370999360650}
+  - {fileID: -438444724728241659}
+  - {fileID: -3147277689488110494}
+  - {fileID: 2354053112398961735}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637871680180000000
+  cacheTime: 637871777340000000
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -620,6 +670,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 15398752
+  Exists: 1
+--- !u!114 &314516307280745836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character.bank
+  m_EditorClassIdentifier: 
+  Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
+  Name: Character
+  StudioPath: bank:/Character
+  lastModified: 637871777320000000
+  FileSizes:
+  - Name: Desktop
+    Value: 48736
   Exists: 1
 --- !u!114 &336328064127185470
 MonoBehaviour:
@@ -672,33 +742,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &438102171973141318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Bridge/WoodenBridge/BridgeCreak
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
-  Guid:
-    Data1: 669753636
-    Data2: 1132834519
-    Data3: -1438321473
-    Data4: 1793533933
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
 --- !u!114 &649397860943644522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -727,6 +770,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1180
+--- !u!114 &974427899882317827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Jukebox/Jukebox/Jukebox_7
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Jukebox/Jukebox/Jukebox_7
+  Guid:
+    Data1: 1722224300
+    Data2: 1198840802
+    Data3: -1060520536
+    Data4: 1196092491
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5456710106533636107}
+  - {fileID: -5166488349854226098}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130500
 --- !u!114 &1506882957557865934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,6 +826,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8674
+--- !u!114 &1933293891817960113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience/Bunker
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience/Bunker
+  Guid:
+    Data1: 1763697045
+    Data2: 1197031764
+    Data3: -1687727462
+    Data4: -1073653876
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1125
 --- !u!114 &1970355290025509795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,12 +928,12 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637871680180000000
+  lastModified: 637871777320000000
   FileSizes:
   - Name: Desktop
-    Value: 22279264
+    Value: 24094816
   Exists: 1
---- !u!114 &3093576721958830130
+--- !u!114 &2354053112398961735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -843,17 +942,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Bank A.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Select
   m_EditorClassIdentifier: 
-  Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Bank A.bank
-  Name: Bank A
-  StudioPath: bank:/Bank A
-  lastModified: 637871680120000000
-  FileSizes:
-  - Name: Desktop
-    Value: 48736
-  Exists: 1
+  Path: event:/UI/UI Select
+  Guid:
+    Data1: 52862446
+    Data2: 1181279226
+    Data3: 1964482735
+    Data4: -568706361
+  Banks:
+  - {fileID: 7137825966238534831}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 332
+--- !u!114 &3427866352972206990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Fire/fire
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Fire/fire
+  Guid:
+    Data1: -1510207321
+    Data2: 1237922877
+    Data3: 1422174140
+    Data4: -1946314025
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8494516565735512529}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
 --- !u!114 &3577243714976273104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,6 +1034,62 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &4585234186855020908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Water/water pipe
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Water/water pipe
+  Guid:
+    Data1: -1762452858
+    Data2: 1204654298
+    Data3: 303616699
+    Data4: -261445847
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &5359813370999360650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
+  Guid:
+    Data1: -358119999
+    Data2: 1313383522
+    Data3: -1969933177
+    Data4: 2060783239
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8119644964483343725}
+  - {fileID: 6051234505949769429}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130500
 --- !u!114 &5384988837666964800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,7 +1117,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 332
---- !u!114 &5875711091892835976
+--- !u!114 &5456710106533636107
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -937,16 +1127,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/fire/fire_size
+  m_Name: parameter:/Jukebox_7/Size
   m_EditorClassIdentifier: 
-  Name: fire_size
+  Name: Size
   StudioPath: 
   Min: 0
-  Max: 10
+  Max: 1
   Default: 0
   ID:
-    data1: 332518697
-    data2: 113483339
+    data1: 3210793301
+    data2: 999647564
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -970,7 +1160,7 @@ MonoBehaviour:
     Data3: 1368936111
     Data4: -122577229
   Banks:
-  - {fileID: 3093576721958830130}
+  - {fileID: 314516307280745836}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -978,7 +1168,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2229
---- !u!114 &6275229426835084292
+--- !u!114 &6051234505949769429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -987,26 +1177,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_Bunker/ON_OFF
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
-  Guid:
-    Data1: -358119999
-    Data2: 1313383522
-    Data3: -1969933177
-    Data4: 2060783239
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -5750763381657558480}
-  - {fileID: -344049876041800204}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 130500
+  Name: ON_OFF
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 180312363
+    data2: 699698579
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6638775442151882470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1117,37 +1302,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
-  StudioPath: 
-  lastModified: 637871680180000000
-  FileSizes: []
+  StudioPath: bank:/UI
+  lastModified: 637871777340000000
+  FileSizes:
+  - Name: Desktop
+    Value: 25312
   Exists: 1
---- !u!114 &7322387749289100579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Diegetic Music/VillageTheme
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Diegetic Music/VillageTheme
-  Guid:
-    Data1: 1642635874
-    Data2: 1197558125
-    Data3: -332355677
-    Data4: -210843423
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 73734
 --- !u!114 &7463192984292193487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1191,7 +1351,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637871680180000000
+  lastModified: 637871777340000000
   FileSizes:
   - Name: Desktop
     Value: 6276384
@@ -1211,7 +1371,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637871680180000000
+  lastModified: 637871777320000000
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1231,34 +1391,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637871680180000000
+  lastModified: 637871777320000000
   FileSizes:
   - Name: Desktop
-    Value: 2198
-  Exists: 1
---- !u!114 &8204276595006088335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jukebox_7/ON_OFF
-  m_EditorClassIdentifier: 
-  Name: ON_OFF
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 180312363
-    data2: 699698579
-  Type: 1
-  IsGlobal: 0
-  Labels: []
+    Value: 2444
   Exists: 1
 --- !u!114 &8249032342602621676
 MonoBehaviour:
@@ -1280,60 +1416,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1036
   Exists: 1
---- !u!114 &8320871009397699555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Spaceship/spaceship
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Spaceship/spaceship
-  Guid:
-    Data1: 2129184248
-    Data2: 1251726834
-    Data3: 359490969
-    Data4: 1197657463
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9500
---- !u!114 &8348914384084940481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Water/water pipe
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Water/water pipe
-  Guid:
-    Data1: -1762452858
-    Data2: 1204654298
-    Data3: 303616699
-    Data4: -261445847
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &8428512210454249693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1354,7 +1436,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 25312
   Exists: 1
---- !u!114 &8906753723286426622
+--- !u!114 &8565007478692125654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1363,21 +1445,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jukebox_7/Size
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Bridge/WoodenBridge/BridgeCreak
   m_EditorClassIdentifier: 
-  Name: Size
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3210793301
-    data2: 999647564
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/Environment/Bridge/WoodenBridge/BridgeCreak
+  Guid:
+    Data1: 669753636
+    Data2: 1132834519
+    Data3: -1438321473
+    Data4: 1793533933
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &8733491546470354491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Diegetic Music/VillageTheme
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Diegetic Music/VillageTheme
+  Guid:
+    Data1: 1642635874
+    Data2: 1197558125
+    Data3: -332355677
+    Data4: -210843423
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 73734
 --- !u!114 &9052605596533311751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1433,27 +1545,3 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
---- !u!114 &9147508552021917089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Bridge
-  m_EditorClassIdentifier: 
-  Name: Bridge
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1380337017
-    data2: 649930943
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1

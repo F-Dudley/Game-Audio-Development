@@ -106,7 +106,7 @@ namespace PlayerSounds
         public void PlayFootstep()
         {
             foostepsInstance.start();        
-            foostepsInstance.release();       
+            foostepsInstance.release();
         }
 
         public void PlayJumpStart()
