@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     private void UpdateTimer()
     {
         currentTime -= (1 * Time.deltaTime) * Time.timeScale;
+
+        // Update FMOD Variable HEre
     }
 
     public void AddJukeboxTime()
@@ -48,7 +50,7 @@ public class GameManager : MonoBehaviour
     #region UI
     private void UpdateGameUI()
     {
-        timeUI.text = "Time: " + Mathf.RoundToInt(currentTime).ToString();
+        timeUI.text = "Time Remaining:\n" + Mathf.RoundToInt(currentTime).ToString();
     }
     #endregion
     

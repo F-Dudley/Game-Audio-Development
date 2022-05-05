@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: LOCATION NAME HERE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b3678ea12dfb045d5b25c3146ada2af1, type: 2}
-  m_sharedMaterial: {fileID: 2684192363538963291, guid: b3678ea12dfb045d5b25c3146ada2af1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 298899ccf7b4147f38959aa87c1c3603, type: 2}
+  m_sharedMaterial: {fileID: 4792062952950782950, guid: 298899ccf7b4147f38959aa87c1c3603, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
