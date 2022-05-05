@@ -33,6 +33,13 @@ namespace StarterAssets
 		public bool cursorInputForLook = true;
 #endif
 
+#if ENABLE_INPUT_SYSTEM
+	private void Awake()
+	{
+		playerInput = GetComponent<PlayerInput>();
+	}
+#endif
+
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		public void OnMove(InputValue value)
 		{
@@ -60,6 +67,16 @@ namespace StarterAssets
 		public void OnChangeMenu(InputValue value)
 		{
 			GameMenuManager.instance.TriggerGameMenuVisability();
+			switch (GameMenuManager.instance.GetCurrentVisability())
+			{
+				case true:
+					playerInput.SwitchCurrentActionMap("Menu");
+					break;
+
+				case false:
+					playerInput.SwitchCurrentActionMap("Player");
+					break;
+			}
 		}
 
 		public void OnInteract(InputValue value)
