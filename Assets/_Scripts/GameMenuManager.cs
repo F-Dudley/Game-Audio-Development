@@ -13,6 +13,7 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] private GameObject homeMenu;
     [SerializeField] private GameObject settingsMenu;    
     [SerializeField] private GameObject teleportMenu;
+    [SerializeField] private GameObject returnButton;
 
     #region Unity Functions
     private void Awake()
@@ -56,6 +57,7 @@ public class GameMenuManager : MonoBehaviour
         homeMenu.SetActive(true);
         settingsMenu.SetActive(false);
         teleportMenu.SetActive(false);
+        returnButton.SetActive(false);
     }
     #endregion
 }
