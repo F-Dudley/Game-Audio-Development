@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -49,6 +50,12 @@ namespace GameSettings
             public void SetDialogueBus(float _newBusValue)
             {
                 dialogueBus.setVolume(_newBusValue);
+            }
+ 
+            public void SetGender(int Gender) //Needs to be int32
+            {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VocalGender", Gender);
+                UnityEngine.Debug.Log(Gender);
             }
             #endregion
     }

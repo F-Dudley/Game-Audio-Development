@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 52708694}
   - component: {fileID: 52708693}
   - component: {fileID: 52708692}
-  - component: {fileID: 52708691}
   - component: {fileID: 52708696}
   m_Layer: 0
   m_Name: Test Speaker
@@ -144,36 +143,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &52708691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52708690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1510207321
-      Data2: 1237922877
-      Data3: 1422174140
-      Data4: -1946314025
-    Path: event:/Environment/Fire/fire
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!65 &52708692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -259,9 +228,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 52708690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab01c7e1b881c4656bb7667a554cdbb5, type: 3}
+  m_Script: {fileID: 11500000, guid: 13c5e9863ec0a4a30854fefe9e61cc69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SelectAudio: event:/Environment/Fire/fire
+  SoundOcclusionWidening: 1
+  PlayerOcclusionWidening: 1
+  OcclusionLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  MaxDistance: 100000
 --- !u!1 &283706974
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +437,7 @@ GameObject:
   - component: {fileID: 895191322}
   - component: {fileID: 895191321}
   - component: {fileID: 895191320}
+  - component: {fileID: 895191323}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -475,7 +452,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895191319}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &895191321
 Camera:
   m_ObjectHideFlags: 0
@@ -533,6 +510,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &895191323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895191319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1001 &1319595921
 PrefabInstance:
   m_ObjectHideFlags: 0

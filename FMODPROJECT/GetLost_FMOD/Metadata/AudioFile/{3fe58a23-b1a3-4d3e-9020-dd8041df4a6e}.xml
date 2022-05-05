@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3fe58a23-b1a3-4d3e-9020-dd8041df4a6e}">
+		<property name="assetPath">
+			<value>Vox/Female/Catherdral/Female_Church_V1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.9747619047619045</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5bba7476-24a6-49de-bc54-3da0a148f68c}</destination>
+		</relationship>
+	</object>
+</objects>
