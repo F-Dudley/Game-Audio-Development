@@ -30,6 +30,16 @@ namespace PlayerTeleportation
             teleportLocation = location;
             buttonText.text = buttonTitle;
         }
+
+        public void ButtonEntered()
+        {
+            TeleportManager.instance.ChangeMenuIndicator(teleportLocation.position);
+        }
+
+        public void ButtonLeft()
+        {
+            TeleportManager.instance.ResetIndicator();
+        }
         #endregion
     } 
 }

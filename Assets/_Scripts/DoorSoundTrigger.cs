@@ -31,13 +31,13 @@ public class DoorSoundTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            isPlaying = !isPlaying;
+            isPlaying = !isPlaying; 
 
             if (isPlaying)
             {
                 PlaySound();
             }
-            else if (!isPlaying)
+            else
             {
                 StopSound();
             }

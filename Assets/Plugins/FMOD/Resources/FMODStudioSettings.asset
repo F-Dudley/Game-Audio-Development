@@ -210,9 +210,9 @@ MonoBehaviour:
   sourceProjectPath: FMODPROJECT/GetLost_FMOD/GetLost_FMOD.fspro
   sourceBankPath: FMODPROJECT/GetLost_FMOD/Build
   SourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: -2
   ShowBankRefreshWindow: 0
-  AutomaticEventLoading: 1
+  AutomaticEventLoading: 0
   BankLoadType: 0
   AutomaticSampleLoading: 0
   EncryptionKey: 
@@ -233,24 +233,24 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Bank A
+  - Character
   - Environment
   - Footsteps
   - Music
   - UI
   BanksToLoad: []
   LiveUpdatePort: 9264
-  EnableMemoryTracking: 0
+  EnableMemoryTracking: 1
   AndroidUseOBB: 0
   MeterChannelOrdering: 0
-  StopEventsOutsideMaxDistance: 0
+  StopEventsOutsideMaxDistance: 1
   BoltUnitOptionsBuildPending: 0
-  EnableErrorCallback: 0
+  EnableErrorCallback: 1
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131588
   HideSetupWizard: 1
-  LastEventReferenceScanVersion: 0
+  LastEventReferenceScanVersion: 131588
   Platforms:
   - {fileID: -8742369119292692439}
   - {fileID: -4828339199737371936}

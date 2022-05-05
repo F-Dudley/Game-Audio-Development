@@ -31,21 +31,24 @@ public class GameMenuManager : MonoBehaviour
 
     public void TriggerGameMenuVisability()
     {
-        isVisable = !isVisable;
-
         switch(isVisable)
         {
             case true:
-                Time.timeScale = 1.0f;
+                Time.timeScale = 1;
+                isVisable = false;
                 Cursor.lockState = CursorLockMode.Locked;
                 break;
 
             case false:
-                Time.timeScale = 0.0f;
+                Time.timeScale = 0;
+                isVisable = true;
                 Cursor.lockState = CursorLockMode.Confined;
                 break;
+
         }
-        menuRoot.SetActive(isVisable); 
+
+        menuRoot.SetActive(isVisable);
+        ResetGameMenu();
     }
 
     public void ResetGameMenu()

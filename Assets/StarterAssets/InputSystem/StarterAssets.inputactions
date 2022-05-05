@@ -294,7 +294,7 @@
                 {
                     "name": "",
                     "id": "f563763b-3eee-4a91-9c7b-14dee4f8f82e",
-                    "path": "<Keyboard>/escape",
+                    "path": "<Keyboard>/m",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",

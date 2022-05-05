@@ -22,27 +22,18 @@ namespace PlayerSounds
         [SerializeField] private LayerMask hitMask;
 
         [Header("Footsteps Sound")]
-        private FMOD.Studio.EventInstance foostepsInstance;
-        [SerializeField] private EventReference footstepEventReference;
+        [SerializeField] private StudioEventEmitter footstepEmitter;
 
-        [Header("Jump Start")]
-        private FMOD.Studio.EventInstance jumpStartInstance;
-        [SerializeField] private EventReference jumpStartEventReference;
+        [Header("Jump")]
+        [SerializeField] private StudioEventEmitter jumpStartEmitter;
+
 
         [Header("Jump Landing")]
-        private FMOD.Studio.EventInstance jumpLandingInstance;
-        [SerializeField] private EventReference jumpLandingEventReference;
+        [SerializeField] private StudioEventEmitter jumpLandingEmitter;
 
         private void Awake()
         {
-            foostepsInstance = FMODUnity.RuntimeManager.CreateInstance(footstepEventReference);
-            foostepsInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
 
-            jumpStartInstance = FMODUnity.RuntimeManager.CreateInstance(jumpStartEventReference);
-            foostepsInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
-
-            jumpLandingInstance = FMODUnity.RuntimeManager.CreateInstance(jumpLandingEventReference);
-            foostepsInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         }
 
         private void Update()
@@ -88,37 +79,30 @@ namespace PlayerSounds
                 }
             }
 
-            foostepsInstance.setParameterByName("Terrain", (int) currentTerrain);                
+            footstepEmitter.SetParameter("Terrain", (int) currentTerrain);
 
-            /*
-            if (jumpStartInstance.isValid())
-            {
-                jumpStartInstance.setParameterByName("Terrain", (int) currentTerrain);
-            }
-
-            if (jumpStartInstance.isValid())
-            {
-                jumpLandingInstance.setParameterByName("Terrain", (int) currentTerrain);
-            }
-            */
+            //jumpStartEmitter.SetParameter("Terrain", (int) currentTerrain);
+            //jumpLandingEmitter.SetParameter("Terrain", (int) currentTerrain);
         }
 
         public void PlayFootstep()
         {
-            foostepsInstance.start();        
-            foostepsInstance.release();       
+            footstepEmitter.Play();
         }
 
         public void PlayJumpStart()
         {
-            jumpStartInstance.start();
-            jumpStartInstance.release();                
+            jumpStartEmitter.Play();            
         }
 
         public void PlayJumpLanding()
         {
-            jumpLandingInstance.start();
-            jumpLandingInstance.release();
+            jumpLandingEmitter.Play();
+        }
+
+        public void UpdateAirSound(float fallingValue)
+        {
+            jumpStartEmitter.SetParameter("Falling", fallingValue);
         }
     }    
 }

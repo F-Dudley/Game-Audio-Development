@@ -18,6 +18,9 @@ namespace PlayerTeleportation
         [Header("Locations")]
         [SerializeField] private List<TeleportLocation> locations = new List<TeleportLocation>();
 
+        [Header("Map References")]
+        [SerializeField] private Transform indicatorPosition;        
+
         [Header("Scene Referenes")]
         [SerializeField] private Transform player;
         [SerializeField] private Transform camera;
@@ -35,6 +38,8 @@ namespace PlayerTeleportation
             CreateLocationButtons();
 
             playerController = player.GetComponent<CharacterController>();
+
+            indicatorPosition.gameObject.SetActive(false);
         }
 
         private void Update()
@@ -66,6 +71,7 @@ namespace PlayerTeleportation
         }
         #endregion
 
+        #region Teleport Functionality
         public void TeleportPlayer(Transform teleportLocation)
         {
             playerController.enabled = false;
@@ -75,5 +81,22 @@ namespace PlayerTeleportation
             // camera.LookAt(teleportLocation.position + Vector3.up);
             playerController.enabled = true;
         }
+
+        public void ChangeMenuIndicator(Vector3 worldPosition)
+        {
+            indicatorPosition.gameObject.SetActive(true);
+
+            worldPosition.x = (worldPosition.x / 1000) * 450;
+            worldPosition.y = (worldPosition.z / 1000) * 450;
+            worldPosition.z = 0;
+
+            indicatorPosition.localPosition = -worldPosition;
+        }
+
+        public void ResetIndicator()
+        {
+            indicatorPosition.gameObject.SetActive(false);
+        }
+        #endregion
     }
 }

@@ -9,24 +9,18 @@ namespace Storms
     {
         Idle,
         Active,
-        Inactive
     }
 
     public class Sandstorm : MonoBehaviour
     {
         [Header("Storm Behaviour")]
         public StormStates state;
-        public LayerMask triggerLayer;
-
-        [SerializeField] private Vector3 triggerStartLocation;
-        [SerializeField] private Vector3 triggerEndLocation;
 
         [Header("Sound Sources")]
         [SerializeField] private GameObject staticSoundSource;
         [SerializeField] private GameObject movingSoundSource;
     
         [Header("References")]
-        [SerializeField] private GameObject triggerObject;
         [SerializeField] private ParticleSystem staticParticles;
         [SerializeField] private ParticleSystem directionalParticles;
 
@@ -50,40 +44,34 @@ namespace Storms
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                Debug.Log("Player Entered Storm Trigger");
+                Debug.Log("Player Entered Trigger");
+                EnableStorm();     
+            }
+        }
 
-                switch (state)
-                {
-                    case StormStates.Idle:
-                            EnableStorm();                    
-                        break;
+        private void OnTriggerStay(Collider other)
+        {
 
-                    case StormStates.Active:
-                            DisableStorm();
-                        break;
+        }
 
-                    case StormStates.Inactive:
-                        break;
-
-                    default:
-                        break;
-                }                
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                DisableStorm();
             }
         }
 
         private void OnDrawGizmos()
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(GetTriggerEndLocation(), 0.5f);
-
             Gizmos.color = Color.green;
             Gizmos.DrawSphere(movingSoundSource.transform.position, 0.5f);
+
+            Gizmos.DrawSphere(staticSoundSource.transform.position, 0.5f);
         }
         #endregion
 
         #region Custom Functions
-        private Vector3 GetTriggerEndLocation() => transform.position + triggerEndLocation;
-
         private void EnableStorm()
         {
             staticParticles.Play();
@@ -91,7 +79,6 @@ namespace Storms
 
             staticSoundSource.SetActive(true);
 
-            triggerObject.transform.position = GetTriggerEndLocation();
             state = StormStates.Active;
         }
 
@@ -101,13 +88,20 @@ namespace Storms
             directionalParticles.Stop();
             staticSoundSource.SetActive(false);
 
-            triggerObject.SetActive(false);
-            state = StormStates.Inactive;
+            if (movingSoundSource.activeSelf)
+            {
+                movingSoundSource.SetActive(false);
+            }
+
+            state = StormStates.Idle;
         }
 
         private void MoveSoundSource()
         {
             movingSoundSource.transform.DOMove(transform.position, 1.0f).SetEase(Ease.Linear)
+            .OnStart(() => {
+                movingSoundSource.SetActive(true);
+            })
             .OnComplete(() => {
                 movingSoundSource.SetActive(false);
             });
