@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3840fd13-d6a9-4a8d-b65a-ce6a5adcd5c5}">
+		<property name="name">
+			<value>Time_Remaining</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e426fa44-ed75-4777-b6e8-dbd108fc6e34}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fe902157-e79c-4e32-bb3f-f4b4cbc84c84}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fe902157-e79c-4e32-bb3f-f4b4cbc84c84}">
+		<property name="maximum">
+			<value>60</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
