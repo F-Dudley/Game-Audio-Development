@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 8399720837742804628}
   - component: {fileID: 2941304141098726388}
   - component: {fileID: 1418258222753163194}
+  - component: {fileID: 2142861389528379330}
   m_Layer: 5
   m_Name: Teleport Location Button
   m_TagString: Untagged
@@ -269,6 +270,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2142861389528379330}
+        m_TargetAssemblyTypeName: Menu_Audio, Assembly-CSharp
+        m_MethodName: PlayStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2941304141098726388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,6 +325,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 2142861389528379330}
+          m_TargetAssemblyTypeName: Menu_Audio, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 1
     callback:
       m_PersistentCalls:
@@ -328,3 +353,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &2142861389528379330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399720837742804630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96f2c11e82684fb591dec64f524d551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayButtonEvent: event:/UI/UI Play
+  SelectButtonEvent: event:/UI/UI Select
+  BackButtonEvent: event:/UI/UI Back
+  HoverButtonEvent: event:/UI/UI Hover
+  PlayOnAwake: 0

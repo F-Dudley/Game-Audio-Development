@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - KillBox
   layers:
   - Default
   - TransparentFX
