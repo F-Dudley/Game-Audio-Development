@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    [SerializeField] private float currentTime = 60;
+    [Header("Timer Settings")]
+    [SerializeField] private float currentTime = 60f;
+    [SerializeField] private float jukeBoxCollectionTime = 30f;
 
     [Header("Ambience Sounds")]
     [SerializeField] private FMODUnity.StudioEventEmitter ambienceEmitter;
@@ -19,22 +21,32 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+
+        UpdateGameUI();
     }
 
     // Update is called once per frame
     private void Update()
     {
+        UpdateTimer();
         UpdateGameUI();
-        SetGameUI();
     }
 
-    #region UI
-    private void UpdateGameUI()
+    #region Main Game Functions
+    private void UpdateTimer()
     {
         currentTime -= (1 * Time.deltaTime) * Time.timeScale;
     }
 
-    private void SetGameUI()
+    public void AddJukeboxTime()
+    {
+        currentTime += jukeBoxCollectionTime;
+        UpdateGameUI();
+    }
+    #endregion
+
+    #region UI
+    private void UpdateGameUI()
     {
         timeUI.text = "Time: " + Mathf.RoundToInt(currentTime).ToString();
     }

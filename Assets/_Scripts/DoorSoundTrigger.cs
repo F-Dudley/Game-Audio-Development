@@ -29,7 +29,6 @@ public class DoorSoundTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Object Entered");
         if (other.gameObject.CompareTag("Player"))
         {
             isPlaying = !isPlaying; 

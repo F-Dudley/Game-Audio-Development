@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9139005155660171465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Bridge
+  m_EditorClassIdentifier: 
+  Name: Bridge
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8594047379884731895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,30 +99,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-8017343009582363892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Sandstorm
-  m_EditorClassIdentifier: 
-  Name: Sandstorm
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2701587378
-    data2: 2068469596
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-6966613076258120237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9500
---- !u!114 &-6692383449821845653
+--- !u!114 &-6743091065826703028
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,19 +136,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Bridge
+  m_Name: parameter:/Land/Land
   m_EditorClassIdentifier: 
-  Name: Bridge
+  Name: Land
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 5
   Default: 0
   ID:
-    data1: 1380337017
-    data2: 649930943
-  Type: 0
+    data1: 3110345090
+    data2: 1468970874
+  Type: 2
   IsGlobal: 0
-  Labels: []
+  Labels:
+  - Stone
+  - Wood
+  - Metal
+  - Earth
+  - Gravel
+  - Water
   Exists: 1
 --- !u!114 &-6485312657817844859
 MonoBehaviour:
@@ -234,6 +240,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13012
+--- !u!114 &-5338958106953932090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landscape 2
+  m_EditorClassIdentifier: 
+  Name: Landscape 2
+  StudioPath: parameter:/Landscape 2
+  Min: 0
+  Max: 1.2
+  Default: 0
+  ID:
+    data1: 3760902578
+    data2: 2973386787
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-5166488349854226098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,60 +288,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-4468912009024558342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Landscape 2
-  m_EditorClassIdentifier: 
-  Name: Landscape 2
-  StudioPath: 
-  Min: 0
-  Max: 1.2
-  Default: 0
-  ID:
-    data1: 3760902578
-    data2: 2973386787
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-4133856840907851082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/Ambience/DessertAmbience
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/Ambience/DessertAmbience
-  Guid:
-    Data1: -148404056
-    Data2: 1145256763
-    Data3: -1700978045
-    Data4: -459361028
-  Banks:
-  - {fileID: 2082029647728908483}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4468912009024558342}
-  - {fileID: -6692383449821845653}
-  - {fileID: -8017343009582363892}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
 --- !u!114 &-3737266495300782947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +451,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1622
   Exists: 1
+--- !u!114 &-2370169807796350436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bridge
+  m_EditorClassIdentifier: 
+  Name: Bridge
+  StudioPath: parameter:/Bridge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1921933383781128863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -490,7 +490,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
     Value: 6417536
@@ -573,6 +573,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9500
+--- !u!114 &-141812313720077248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Falling
+  m_EditorClassIdentifier: 
+  Name: Falling
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2978007127
+    data2: 584440976
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,19 +635,24 @@ MonoBehaviour:
   - {fileID: 4585234186855020908}
   - {fileID: 1933293891817960113}
   - {fileID: 3427866352972206990}
-  - {fileID: -4133856840907851082}
   - {fileID: 974427899882317827}
   - {fileID: 5359813370999360650}
   - {fileID: -438444724728241659}
   - {fileID: -3147277689488110494}
   - {fileID: 2354053112398961735}
   - {fileID: 2350896650756469310}
-  EditorParameters: []
+  - {fileID: 6352106579798817937}
+  - {fileID: 7838409267517661123}
+  - {fileID: 8794113551677472955}
+  EditorParameters:
+  - {fileID: -5338958106953932090}
+  - {fileID: 5106182264766780144}
+  - {fileID: -2370169807796350436}
   MasterBanks:
   - {fileID: 7912720029078690127}
   StringsBanks:
   - {fileID: 8045508423847374040}
-  cacheTime: 637871873520000000
+  cacheTime: 637873505000000000
   cacheVersion: 10
 --- !u!114 &64744421097487260
 MonoBehaviour:
@@ -687,10 +716,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
-    Value: 49024
+    Value: 6815744
   Exists: 1
 --- !u!114 &336328064127185470
 MonoBehaviour:
@@ -800,6 +829,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 130500
+--- !u!114 &1133222283470970994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Landscape 2
+  m_EditorClassIdentifier: 
+  Name: Landscape 2
+  StudioPath: 
+  Min: 0
+  Max: 1.2
+  Default: 0
+  ID:
+    data1: 3760902578
+    data2: 2973386787
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1506882957557865934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,10 +982,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
-    Value: 24259360
+    Value: 24260864
   Exists: 1
 --- !u!114 &2350896650756469310
 MonoBehaviour:
@@ -948,10 +1001,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Environment/Door/Door
   Guid:
-    Data1: 1940863628
-    Data2: 1299614176
-    Data3: 1409314444
-    Data4: -294912499
+    Data1: 357236747
+    Data2: 1267855936
+    Data3: 1612729745
+    Data4: 1147259140
   Banks:
   - {fileID: 2082029647728908483}
   IsStream: 0
@@ -961,7 +1014,7 @@ MonoBehaviour:
   - {fileID: 8977483190913863036}
   MinDistance: 1
   MaxDistance: 20
-  Length: 3050
+  Length: 2400
 --- !u!114 &2354053112398961735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,6 +1042,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 332
+--- !u!114 &2925520619699544739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3318556434371451544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Jump
+  m_EditorClassIdentifier: 
+  Name: Jump
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 240948121
+    data2: 2516350770
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  - Metal
+  - Earth
+  - Gravel
+  - Water
+  Exists: 1
 --- !u!114 &3427866352972206990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,6 +1197,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &5106182264766780144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: parameter:/Sandstorm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5359813370999360650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1221,6 +1352,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6352106579798817937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character Foley/Jump/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Character Foley/Jump/Land
+  Guid:
+    Data1: 790792602
+    Data2: 1120961319
+    Data3: -1164501070
+    Data4: 1903928727
+  Banks:
+  - {fileID: 314516307280745836}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6743091065826703028}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 237
 --- !u!114 &6638775442151882470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,7 +1491,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
     Value: 25312
@@ -1365,6 +1524,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7838409267517661123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character Foley/Jump/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Character Foley/Jump/Jump
+  Guid:
+    Data1: 1178629586
+    Data2: 1116171806
+    Data3: 270796977
+    Data4: 1123605314
+  Banks:
+  - {fileID: 314516307280745836}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -141812313720077248}
+  - {fileID: 3318556434371451544}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 476
 --- !u!114 &7871037038526748418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1380,7 +1568,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
     Value: 6276384
@@ -1400,10 +1588,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1544
   Exists: 1
 --- !u!114 &8045508423847374040
 MonoBehaviour:
@@ -1420,10 +1608,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637871873520000000
+  lastModified: 637873505000000000
   FileSizes:
   - Name: Desktop
-    Value: 2548
+    Value: 2760
   Exists: 1
 --- !u!114 &8249032342602621676
 MonoBehaviour:
@@ -1519,6 +1707,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 73734
+--- !u!114 &8794113551677472955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience/DesertAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience/DesertAmbience
+  Guid:
+    Data1: 799419481
+    Data2: 1073954578
+    Data3: -30297979
+    Data4: 269127064
+  Banks:
+  - {fileID: 2082029647728908483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2925520619699544739}
+  - {fileID: -9139005155660171465}
+  - {fileID: 1133222283470970994}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &8977483190913863036
 MonoBehaviour:
   m_ObjectHideFlags: 0

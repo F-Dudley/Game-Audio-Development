@@ -24,7 +24,7 @@ namespace PlayerSounds
         [Header("Footsteps Sound")]
         [SerializeField] private StudioEventEmitter footstepEmitter;
 
-        [Header("Jump Start")]
+        [Header("Jump")]
         [SerializeField] private StudioEventEmitter jumpStartEmitter;
 
 
@@ -98,6 +98,11 @@ namespace PlayerSounds
         public void PlayJumpLanding()
         {
             jumpLandingEmitter.Play();
+        }
+
+        public void UpdateAirSound(float fallingValue)
+        {
+            jumpStartEmitter.SetParameter("Falling", fallingValue);
         }
     }    
 }

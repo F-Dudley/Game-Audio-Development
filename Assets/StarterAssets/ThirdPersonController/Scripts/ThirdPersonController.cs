@@ -82,6 +82,7 @@ namespace StarterAssets
         private float _animationBlend;
         private float _targetRotation = 0.0f;
         private float _rotationVelocity;
+
         private float _verticalVelocity;
         private float _terminalVelocity = 53.0f;
 
@@ -374,7 +375,6 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                Debug.Log("Footstep Triggered");
 				playerAudio.PlayFootstep();
             }
         }
@@ -382,14 +382,13 @@ namespace StarterAssets
         private void OnJumpStart(AnimationEvent animationEvent)
         {
             playerAudio.PlayJumpStart();
+            playerAudio.UpdateAirSound(1);
         }
 
         private void OnJumpLand(AnimationEvent animationEvent)
         {
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
-            {
-                playerAudio.PlayJumpLanding();
-            }
+            playerAudio.PlayJumpLanding();
+            playerAudio.UpdateAirSound(0);
         }
     }
 }
