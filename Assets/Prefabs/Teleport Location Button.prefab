@@ -282,6 +282,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2142861389528379330}
+        m_TargetAssemblyTypeName: Menu_Audio, Assembly-CSharp
+        m_MethodName: TeleP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2941304141098726388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,4 +381,5 @@ MonoBehaviour:
   SelectButtonEvent: event:/UI/UI Select
   BackButtonEvent: event:/UI/UI Back
   HoverButtonEvent: event:/UI/UI Hover
+  Teleport: event:/UI/TelePort
   PlayOnAwake: 0

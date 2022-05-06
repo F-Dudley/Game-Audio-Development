@@ -9,6 +9,7 @@ public class Menu_Audio : MonoBehaviour
     public string SelectButtonEvent;
     public string BackButtonEvent;
     public string HoverButtonEvent;
+    public string Teleport;
 
     public bool PlayOnAwake;
 
@@ -31,4 +32,10 @@ public class Menu_Audio : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShotAttached(HoverButtonEvent,gameObject);
     }
+
+    public void TeleP() // Triggers the Menu Select audio
+    {
+        FMODUnity.RuntimeManager.PlayOneShotAttached(Teleport,gameObject);
+    }
+
 }

@@ -6,6 +6,7 @@ using PlayerTeleportation;
 public class KillBox : MonoBehaviour
 {
     [FMODUnity.EventRef]
+    public string PlayDeathAudio;
 
     private Vector3 SpawnPoint = new Vector3(865.0f,100.0f,885.0f);
     //Moves this GameObject 2 units a second in the forward direction
@@ -17,6 +18,7 @@ public class KillBox : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            FMODUnity.RuntimeManager.PlayOneShotAttached(PlayDeathAudio,gameObject);
             StartCoroutine(DeathTime());
             // Trigger Sounds Here
             
