@@ -81,6 +81,25 @@ namespace PlayerTeleportation
             // camera.LookAt(teleportLocation.position + Vector3.up);
             playerController.enabled = true;
         }
+        
+        public void TeleportToClosestLocation()
+        {
+            Transform nearestLocation = null;
+            float distance = float.MaxValue;
+            float distanceCheck;
+            
+            foreach(TeleportLocation location in locations)
+            {
+                distanceCheck = Vector3.Distance(player.position, location.teleportLocation.position);
+                if (distanceCheck < distance || nearestLocation == null)
+                {
+                    nearestLocation = location.teleportLocation;
+                    distance = distanceCheck;
+                }
+            }
+            
+            TeleportPlayer(nearestLocation);
+        }
 
         public void ChangeMenuIndicator(Vector3 worldPosition)
         {
