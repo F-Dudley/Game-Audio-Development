@@ -86,7 +86,7 @@ jobs:
 
       # Deploy WebGL Artifact
       - name: Deploy WebGL Artifact
-        uses: JamesIves/github-pages-deploy-action@4.3.3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: github-pages
           folder: build
