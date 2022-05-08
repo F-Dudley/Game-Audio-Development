@@ -8,7 +8,7 @@ on:
 jobs:
 
 # Stage 1: Game Building
-  buildAndTestForWebGL:
+  buildForWebGL:
     name: Build for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     strategy:
@@ -50,7 +50,51 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: build-WebGL
-        path: build
+        path: build/${{ matrix.targetPlatform }}
+
+  buildForMacOS:
+    name: Build for ${{ matrix.targetPlatform }}
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        unityVersion:
+          - 2020.3.6f1
+        targetPlatform:
+          - StandaloneOSX # Standalone macOS.
+
+    steps:
+
+    # Checkout For MacOS
+    - name: Checkout For MacOS
+      uses: actions/checkout@v2
+      with:
+        lfs: true
+    
+    # Cache
+    - name: Cache For MacOS
+      uses: actions/cache@v2
+      with:
+        path: Library
+        key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+        restore-keys: |
+          Library-
+    
+    # Build For MacOS
+    - name: Build For MacOS
+      uses: game-ci/unity-builder@v2
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+      with:
+        targetPlatform: ${{ matrix.targetPlatform }}
+
+    - name: Upload Artifact For MacOS
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-MacOS
+        path: build/${{ matrix.targetPlatform }}
 
 
 # Stage 2: Game Deployment
@@ -71,4 +115,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: github-pages
-          folder: build
+          folder: WebGL
