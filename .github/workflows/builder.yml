@@ -94,7 +94,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: build-MacOS
-        path: build/${{ matrix.targetPlatform }}
+        path: build
 
 
 # Stage 2: Game Deployment
@@ -103,6 +103,10 @@ jobs:
     name: Deploy to Github-Pages
     runs-on: ubuntu-latest
     steps:
+
+      # Checkout
+      - name: Checkout
+        uses: actions/checkout@v2 
 
       # Download WebGL Artifact
       - name: Download WebGL Artifact
