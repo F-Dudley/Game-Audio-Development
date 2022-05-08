@@ -99,7 +99,7 @@ jobs:
 
 # Stage 2: Game Deployment
   deployWebGLToGhPages:
-    needs: [ buildAndTestForWebGL ]
+    needs: [ buildForWebGL ]
     name: Deploy to Github-Pages
     runs-on: ubuntu-latest
     steps:
