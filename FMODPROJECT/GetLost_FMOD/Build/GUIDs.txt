@@ -1,0 +1,53 @@
+{3dd65486-c69b-459d-92b7-1eac4f04c48f} bank:/Character
+{e23ec2c7-7873-4376-b187-fcac6576b154} bank:/Dialogue
+{bb85a808-f0e9-43d1-8944-66c0242d7b69} bank:/Environment
+{fd8adcdd-ab64-430b-b5f8-640b4c078881} bank:/Footsteps
+{8e83ad5b-4b96-4e3c-bca8-74c47bdb0298} bank:/Master
+{169e8d8f-3aed-027e-3ae1-fe3a8a280400} bank:/Master.strings
+{b8e0683f-5bff-43e6-b660-6daf59253d21} bank:/Music
+{d51a0efb-18cc-47ac-903b-95cba331c2b9} bank:/UI
+{afa2ba63-e05c-4d0d-a07f-c131d8b8d9f9} bus:/
+{a21bf97d-7a57-4fcd-88dc-98c74e6b21a4} bus:/Reverb
+{691fe195-4154-4759-9a52-679b8c5701c0} event:/Ambience/Ambience/Bunker
+{f72788a8-3b3b-4443-8322-9d9afcb49ee4} event:/Ambience/Ambience/DessertAmbience
+{327502c6-4006-4254-a66c-aca083725fe9} event:/Character Foley/Footsteps/Footsteps
+{66a4faa6-1f17-4c65-af4e-9851b39eb1f8} event:/Character Foley/Teleportation
+{27eba124-aed7-4385-bff4-44aaed27e76a} event:/Environment/Bridge/WoodenBridge/BridgeCreak
+{61e8a262-496d-4761-a3a7-30ece1c86ef3} event:/Environment/Diegetic Music/VillageTheme
+{73af3a8c-89e0-4d76-8c6e-00540dfe6bee} event:/Environment/Door/Door
+{a5fc10a7-343d-49c9-bca7-c454d79afd8b} event:/Environment/Fire/fire
+{66a70eac-dbe2-4774-a8bd-c9c04bec4a47} event:/Environment/Jukebox/Jukebox/Jukebox_7
+{eaa785c1-a462-4e48-8734-958a870ed57a} event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
+{a1778076-acc0-4cc1-951e-7438f8254238} event:/Environment/Lights/light_buzz
+{7ee8c5f8-d5f2-4a9b-9965-6d1577cd6247} event:/Environment/Spaceship/spaceship
+{96f31a86-90da-47cd-bbd2-181229a76af0} event:/Environment/Water/water pipe
+{5e39d411-9b32-4d55-a287-0ba8b7b71eea} event:/Music/Game/BackgroundMusic
+{ee938d62-d072-4f76-833c-d1478d1684de} event:/Music/Game/ChurchTheme
+{3a9e7082-9ef5-4375-b175-e4888eb936cb} event:/Music/Game/Death
+{353278f5-e7fd-41e6-953f-c9274c8d4529} event:/Music/Game/MainTheme
+{e3a1ff22-4d08-4cfa-a52d-20755f040b21} event:/Music/Game/SceneTransition
+{e310a08b-c1ed-4cff-ae38-dac1805d3308} event:/Music/Game/SpaceshipMusic
+{c13b10db-748d-414e-8098-b7e488312f0f} event:/Music/Game/VillageTheme
+{ebcaf2fa-b9f1-49fa-8fc8-e93a68ae7f5e} event:/UI/Countdown
+{f6bae1f3-0723-4a65-bd7e-4b40351ab309} event:/UI/Death Sound
+{83c5e8ec-f595-453d-8eed-f113b18fca9a} event:/UI/UI Back
+{9072989f-1ce6-40c6-9b58-918e71676143} event:/UI/UI Hover
+{cc27187e-f097-488e-bb5f-1e97cacf2dd9} event:/UI/UI Play
+{03269dee-e3fa-4668-afa0-1775c73a1ade} event:/UI/UI Select
+{8e33245c-c186-4653-bf70-c5b3ee76f0e2} event:/Vox/VO/Church
+{c06b55a0-5a76-4047-ac6a-689461a4d64c} event:/Vox/VO/Death
+{edc76874-04c1-48f2-be77-0cc5d2a51893} event:/Vox/VO/JukeBox
+{446e4460-7cc7-4044-bc49-6bf077cfda08} event:/Vox/VO/Misc
+{339ffadb-771f-43cd-9bb1-81ddea0d062e} event:/Vox/VO/Sand
+{9470399b-2091-4eef-b379-5a3930b67192} event:/Vox/VO/Spawn
+{0732ddef-020b-4fd1-b54d-c9069875163a} parameter:/Bridge
+{be3ae96e-795c-4da7-a977-f9e2f39336f6} parameter:/Dead
+{592a4dad-2c1c-4879-b2f4-2031339a0add} parameter:/Landscape 2
+{f89fec29-3b39-44f0-a3b8-f234b93a5a87} parameter:/ON_OFF
+{3dbf45ab-c038-4a83-a890-67f281981ffd} parameter:/OPEN_CLOSED
+{ab6a0dc1-cc34-430d-adba-16fd343ec758} parameter:/Sandstorm
+{04a994ce-2095-4110-92c0-9856c2839fe6} parameter:/Size
+{809ff500-1253-40f1-a608-03460574ce34} parameter:/Terrain
+{fe902157-e79c-4e32-bb3f-f4b4cbc84c84} parameter:/Time_Remaining
+{e51371dc-a745-466b-bd4b-d806398dfaee} parameter:/VocalGender
+{b2e3c2c2-1178-4e7d-b2bd-5ccde3542740} parameter:/fire_size

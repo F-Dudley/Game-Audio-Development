@@ -3,23 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CinemachineTarget
+  - KillBox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Earth
   - Water
   - UI
+  - Metal
+  - Gravel
+  - 
+  - Wood
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Interactable
+  - Player
+  - Stone
   - 
   - 
   - 
