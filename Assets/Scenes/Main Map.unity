@@ -1338,7 +1338,7 @@ MonoBehaviour:
     teleportLocation: {fileID: 552005270}
   indicatorPosition: {fileID: 480837729}
   player: {fileID: 9047280316591446876}
-  camera: {fileID: 4010751502070298849}
+  cam: {fileID: 4010751502070298849}
   playerController: {fileID: 8558445884505932268}
   buttonContainer: {fileID: 1257593396}
   teleportButtonPrefab: {fileID: 8399720837742804630, guid: cff363db4780b4b6182a8088d8aacd1b, type: 3}
