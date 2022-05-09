@@ -48,30 +48,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-8438940768893205000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Bridge
-  m_EditorClassIdentifier: 
-  Name: Bridge
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1380337017
-    data2: 649930943
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-8342444282186782605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,6 +319,57 @@ MonoBehaviour:
   - Female
   - Male
   Exists: 1
+--- !u!114 &-5877016501217499621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VerbSelect
+  m_EditorClassIdentifier: 
+  Name: VerbSelect
+  StudioPath: parameter:/VerbSelect
+  Min: 0
+  Max: 2
+  Default: 2
+  ID:
+    data1: 2907044627
+    data2: 1266470756
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Church
+  - Bunker
+  - Container
+  Exists: 1
+--- !u!114 &-5815900212154636395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Landscape 2
+  m_EditorClassIdentifier: 
+  Name: Landscape 2
+  StudioPath: 
+  Min: 0
+  Max: 1.2
+  Default: 0
+  ID:
+    data1: 3760902578
+    data2: 2973386787
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-5547366173644193121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,36 +397,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 240
---- !u!114 &-5323351002131111478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/Ambience/DessertAmbience
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/Ambience/DessertAmbience
-  Guid:
-    Data1: -148404056
-    Data2: 1145256763
-    Data3: -1700978045
-    Data4: -459361028
-  Banks:
-  - {fileID: 2699000965112239691}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3585562416649370733}
-  - {fileID: -8438940768893205000}
-  - {fileID: 6818157263845616593}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
 --- !u!114 &-5148433902141481852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,10 +466,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637876887000000000
+  lastModified: 637877060100000000
   FileSizes:
   - Name: Desktop
-    Value: 3066
+    Value: 3250
   Exists: 1
 --- !u!114 &-4425608694887193696
 MonoBehaviour:
@@ -718,7 +715,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637876887000000000
+  lastModified: 637877060100000000
   FileSizes:
   - Name: Desktop
     Value: 126176
@@ -765,10 +762,34 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 637874354240000000
+  lastModified: 637877060090000000
   FileSizes:
   - Name: Desktop
     Value: 1492096
+  Exists: 1
+--- !u!114 &-2257226140620551358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/VerbAmount
+  m_EditorClassIdentifier: 
+  Name: VerbAmount
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 394828491
+    data2: 14677387
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-2074570275134867525
 MonoBehaviour:
@@ -876,6 +897,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8709978464049726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienceCover
+  m_EditorClassIdentifier: 
+  Name: AmbienceCover
+  StudioPath: parameter:/AmbienceCover
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1319152878
+    data2: 3585535190
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -912,7 +957,6 @@ MonoBehaviour:
   - {fileID: -7516080890462104842}
   - {fileID: -4326220256608322585}
   - {fileID: 3832941480128487461}
-  - {fileID: -5323351002131111478}
   - {fileID: 8201572117804500863}
   - {fileID: 2991800701920526935}
   - {fileID: -8293867020123723435}
@@ -931,14 +975,45 @@ MonoBehaviour:
   - {fileID: 5604049007847790324}
   - {fileID: -8342444282186782605}
   - {fileID: -2074570275134867525}
+  - {fileID: 4217655395299136655}
   EditorParameters:
   - {fileID: -3999597569755329601}
+  - {fileID: 6502873068356450829}
+  - {fileID: -5877016501217499621}
+  - {fileID: 5929511384658132098}
+  - {fileID: 5074581765003242951}
+  - {fileID: 8191761737162694941}
+  - {fileID: -8709978464049726}
   MasterBanks:
   - {fileID: 7975479682711571341}
   StringsBanks:
   - {fileID: -4871921336849933862}
-  cacheTime: 637876887000000000
+  cacheTime: 637877060100000000
   cacheVersion: 10
+--- !u!114 &639447656280483186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/AmbienceCover
+  m_EditorClassIdentifier: 
+  Name: AmbienceCover
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1319152878
+    data2: 3585535190
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &668048400435543456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +1041,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13012
+--- !u!114 &733587908360812599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &841803451183846869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1007,10 +1106,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637874354240000000
+  lastModified: 637877060100000000
   FileSizes:
   - Name: Desktop
-    Value: 6417536
+    Value: 6418560
   Exists: 1
 --- !u!114 &2173815721319739732
 MonoBehaviour:
@@ -1027,10 +1126,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637874354240000000
+  lastModified: 637877060100000000
   FileSizes:
   - Name: Desktop
-    Value: 6276384
+    Value: 6276512
   Exists: 1
 --- !u!114 &2542206055794499544
 MonoBehaviour:
@@ -1074,10 +1173,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637874354240000000
+  lastModified: 637877060100000000
   FileSizes:
   - Name: Desktop
-    Value: 24259360
+    Value: 24262176
   Exists: 1
 --- !u!114 &2700909350670205544
 MonoBehaviour:
@@ -1189,30 +1288,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4275
---- !u!114 &3585562416649370733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Landscape 2
-  m_EditorClassIdentifier: 
-  Name: Landscape 2
-  StudioPath: 
-  Min: 0
-  Max: 1.2
-  Default: 0
-  ID:
-    data1: 3760902578
-    data2: 2973386787
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &3755089985555332234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,6 +1342,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &4217655395299136655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience/DesertAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience/DesertAmbience
+  Guid:
+    Data1: -1529404076
+    Data2: 1097918346
+    Data3: 1073261222
+    Data4: 1141636035
+  Banks:
+  - {fileID: 2699000965112239691}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 733587908360812599}
+  - {fileID: 7201168621480808977}
+  - {fileID: -5815900212154636395}
+  - {fileID: 639447656280483186}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &5074581765003242951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: parameter:/Sandstorm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5317965215014676576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,7 +1452,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
---- !u!114 &6818157263845616593
+--- !u!114 &5654323778765842991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1332,18 +1462,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Sandstorm
+  m_Name: parameter:/Footsteps/VerbSelect
   m_EditorClassIdentifier: 
-  Name: Sandstorm
+  Name: VerbSelect
   StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 2
+  ID:
+    data1: 2907044627
+    data2: 1266470756
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Church
+  - Bunker
+  - Container
+  Exists: 1
+--- !u!114 &5929511384658132098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landscape 2
+  m_EditorClassIdentifier: 
+  Name: Landscape 2
+  StudioPath: parameter:/Landscape 2
+  Min: 0
+  Max: 1.2
+  Default: 0
+  ID:
+    data1: 3760902578
+    data2: 2973386787
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6502873068356450829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VerbAmount
+  m_EditorClassIdentifier: 
+  Name: VerbAmount
+  StudioPath: parameter:/VerbAmount
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 2701587378
-    data2: 2068469596
+    data1: 394828491
+    data2: 14677387
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &6888293056096462543
@@ -1422,9 +1603,35 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 8247108273251614932}
+  - {fileID: -2257226140620551358}
+  - {fileID: 5654323778765842991}
   MinDistance: 1
   MaxDistance: 20
   Length: 1180
+--- !u!114 &7201168621480808977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Bridge
+  m_EditorClassIdentifier: 
+  Name: Bridge
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7291658458865152949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,10 +1703,34 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637874354240000000
+  lastModified: 637877060100000000
   FileSizes:
   - Name: Desktop
-    Value: 1242
+    Value: 3668
+  Exists: 1
+--- !u!114 &8191761737162694941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bridge
+  m_EditorClassIdentifier: 
+  Name: Bridge
+  StudioPath: parameter:/Bridge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &8201572117804500863
 MonoBehaviour:
@@ -1603,7 +1834,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637874354240000000
+  lastModified: 637877060090000000
   FileSizes:
   - Name: Desktop
     Value: 49024

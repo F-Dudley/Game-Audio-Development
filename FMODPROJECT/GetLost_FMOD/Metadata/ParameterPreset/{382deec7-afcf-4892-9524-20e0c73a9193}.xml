@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{382deec7-afcf-4892-9524-20e0c73a9193}">
+		<property name="name">
+			<value>VerbAmount</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e426fa44-ed75-4777-b6e8-dbd108fc6e34}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{dc860c8d-32f4-40e5-a4ff-2f248efaa4d2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{dc860c8d-32f4-40e5-a4ff-2f248efaa4d2}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>2</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
