@@ -25550,6 +25550,8 @@ GameObject:
   m_Component:
   - component: {fileID: 390987046}
   - component: {fileID: 390987047}
+  - component: {fileID: 390987048}
+  - component: {fileID: 390987049}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -25586,8 +25588,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 100
   jukeBoxCollectionTime: 40
-  ambienceEmitter: {fileID: 0}
+  countdownStartTime: 45
+  countdownMusicEmitter: {fileID: 390987048}
+  deathMusic: {fileID: 390987049}
   timeUI: {fileID: 935133344}
+--- !u!114 &390987048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390987045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1580848145
+      Data2: 1297455922
+      Data3: -1475639390
+      Data4: -367085641
+    Path: event:/Music/Game/BackgroundMusic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &390987049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390987045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 983462018
+      Data2: 1131781877
+      Data3: -1998293583
+      Data4: -885606002
+    Path: event:/Music/Game/Death
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &393481316 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
@@ -80199,7 +80263,6 @@ GameObject:
   - component: {fileID: 8558445884505932264}
   - component: {fileID: 8558445884505932266}
   - component: {fileID: 8558445884505932263}
-  - component: {fileID: 8558445884505932267}
   - component: {fileID: 8558445884505932271}
   m_Layer: 13
   m_Name: Player
@@ -80359,26 +80422,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &8558445884505932267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8558445884505932262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dd434fd8953749f8894c470da20969f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayDeathAudio: 
-  DeathVO:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
 --- !u!143 &8558445884505932268
 CharacterController:
   m_ObjectHideFlags: 0

@@ -81,6 +81,16 @@ namespace StarterAssets
 		{
 			InteractInput(value.isPressed);
 		}
+
+		public void OnAddTime(InputValue value)
+		{
+			GameManager.instance?.AddClockTime();
+		}
+
+		public void OnRemoveTime(InputValue value)
+		{
+			GameManager.instance?.RemoveClockTime();
+		}
 #else
 	// old input sys if we do decide to have it (most likely wont)...
 #endif

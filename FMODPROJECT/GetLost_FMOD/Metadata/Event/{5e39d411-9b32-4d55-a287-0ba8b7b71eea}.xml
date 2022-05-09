@@ -98,10 +98,12 @@
 			<destination>{34a3c691-0d7f-403b-8940-4e804cbc7463}</destination>
 			<destination>{db9b43ad-0968-4070-8f66-4dff3e495ea4}</destination>
 			<destination>{b8d233d1-e6ba-4fdc-92d0-61d9c8d992bb}</destination>
-			<destination>{ddbd3456-bf81-4911-b5e2-0dcb92873fdf}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a73be5e5-c383-4e25-b14a-415a70f471de}">
+		<relationship name="modulators">
+			<destination>{ac0308f2-1bb7-4167-b6f8-5d5513990553}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{90c05b5d-ec5b-4702-8ffb-76cdd1f81530}</destination>
 		</relationship>
@@ -148,7 +150,6 @@
 			<value>8.6746987951807224</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{018d81c4-53d9-496c-a9a9-2676baea7f10}</destination>
 			<destination>{807fbeb1-ac89-42c4-bba6-688994ca0d22}</destination>
 			<destination>{650d01d3-b70d-4131-81ed-209451998d4a}</destination>
 			<destination>{24b518f2-c1d4-4c84-ba36-dbe9b0c5c180}</destination>
@@ -253,9 +254,6 @@
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>
 		</property>
-		<property name="triggerProbability">
-			<value>69.5</value>
-		</property>
 		<relationship name="timeline">
 			<destination>{b37d174f-ed3b-4111-85ca-698dfb40c1d1}</destination>
 		</relationship>
@@ -274,7 +272,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>30</value>
+			<value>68.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b37d174f-ed3b-4111-85ca-698dfb40c1d1}</destination>
@@ -286,22 +284,25 @@
 			<destination>{34a3c691-0d7f-403b-8940-4e804cbc7463}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionMarker" id="{ddbd3456-bf81-4911-b5e2-0dcb92873fdf}">
-		<property name="position">
-			<value>21.68674698795175</value>
+	<object class="ADSRModulator" id="{ac0308f2-1bb7-4167-b6f8-5d5513990553}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
 		</property>
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
+		<property name="initialValue">
+			<value>-80</value>
 		</property>
-		<relationship name="timeline">
-			<destination>{b37d174f-ed3b-4111-85ca-698dfb40c1d1}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{042e1b24-ad4a-4a51-a21d-fbe3fa23701d}</destination>
-		</relationship>
-		<relationship name="destination">
-			<destination>{34a3c691-0d7f-403b-8940-4e804cbc7463}</destination>
-		</relationship>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>3000</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.403587937</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{90c05b5d-ec5b-4702-8ffb-76cdd1f81530}">
 		<relationship name="effects">
@@ -316,11 +317,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5cb7cf15-fc83-4f58-b60a-3fa9021b9516}" />
-	<object class="SingleSound" id="{018d81c4-53d9-496c-a9a9-2676baea7f10}">
-		<relationship name="audioFile">
-			<destination>{1a0f08e2-6a47-41e3-b544-437248346a44}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{807fbeb1-ac89-42c4-bba6-688994ca0d22}">
 		<relationship name="audioFile">
 			<destination>{c0158337-d5cf-469c-8a18-ddd2e6df1a4e}</destination>

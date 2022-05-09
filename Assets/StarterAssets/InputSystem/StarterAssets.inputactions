@@ -52,6 +52,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "AddTime",
+                    "type": "Button",
+                    "id": "26a06a93-4e8e-4272-9014-65d99aa82fb4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RemoveTime",
+                    "type": "Button",
+                    "id": "ec682954-fef4-41b0-a1c5-4d5c17df7ab1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -272,6 +288,28 @@
                     "processors": "",
                     "groups": "Gamepad;Xbox Controller;PS4 Controller",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "172ebb2f-1ed7-4ece-9010-8a749d7727d6",
+                    "path": "<Keyboard>/leftBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "AddTime",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "156349f8-773a-4a6b-a185-718645a2e9e1",
+                    "path": "<Keyboard>/rightBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "RemoveTime",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -7,15 +7,25 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public static bool gameActive = true;
+
     [Header("Timer Settings")]
     [SerializeField] private float currentTime = 60f;
     [SerializeField] private float jukeBoxCollectionTime = 30f;
 
+    [Space]
+
+    [SerializeField] private float countdownStartTime = 45f;
+
     [Header("Ambience Sounds")]
-    [SerializeField] private FMODUnity.StudioEventEmitter ambienceEmitter;
+    [SerializeField] private FMODUnity.StudioEventEmitter countdownMusicEmitter;
+    [SerializeField] private FMODUnity.StudioEventEmitter deathMusic;
 
     [Header("Scene References")]
     [SerializeField] private TextMeshProUGUI timeUI;
+
+    [Header("Debug")]
+    [SerializeField] private float debugAddTime = 20f;
 
     // Start is called before the first frame update
     private void Awake()
@@ -29,21 +39,52 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         UpdateTimer();
-        UpdateGameUI();
+        UpdateGameUI();            
     }
 
     #region Main Game Functions
     private void UpdateTimer()
     {
-        currentTime -= (1 * Time.deltaTime) * Time.timeScale;
+        if (gameActive)
+        {
+            currentTime -= (1 * Time.deltaTime) * Time.timeScale;
 
-        // Update FMOD Variable HEre
+            // Update FMOD Variable Here
+            if (currentTime < countdownStartTime && !countdownMusicEmitter.IsPlaying())
+            {
+                countdownMusicEmitter.Play();
+            }
+            else if (currentTime > countdownStartTime && countdownMusicEmitter.IsPlaying())
+            {
+                countdownMusicEmitter.Stop();
+            }
+
+            if (currentTime <= 0)
+            {
+                TimeRanOut();
+            }
+        }
     }
 
     public void AddJukeboxTime()
     {
         currentTime += jukeBoxCollectionTime;
         UpdateGameUI();
+    }
+
+    private void TimeRanOut()
+    {
+        countdownMusicEmitter.Stop();        
+        gameActive = false;
+
+        deathMusic.Play();
+
+        // GameFinished Screen;
+    }
+
+    private void AllJukeboxesCollected()
+    {
+
     }
     #endregion
 
@@ -53,16 +94,16 @@ public class GameManager : MonoBehaviour
         timeUI.text = "Time Remaining:\n" + Mathf.RoundToInt(currentTime).ToString();
     }
     #endregion
-    
-    #region Ambience Sounds
-    public void TriggerSandstormSounds(float newParameterValue)
+
+    #region Debug
+    public void AddClockTime()
     {
-        ambienceEmitter.SetParameter("Sandstorm", newParameterValue);
+        currentTime += debugAddTime;
     }
 
-    public void TriggerBridgeSounds(float newParameterValue)
+    public void RemoveClockTime()
     {
-        ambienceEmitter.SetParameter("Bridge", newParameterValue);
+        currentTime -= debugAddTime;
     }
     #endregion
 }

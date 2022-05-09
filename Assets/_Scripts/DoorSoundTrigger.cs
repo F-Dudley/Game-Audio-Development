@@ -47,6 +47,9 @@ public class DoorSoundTrigger : MonoBehaviour
 
     private void PlaySound()
     {
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VerbSelect", 0);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VerbAmount", 1);               
+
         sound.start();
     }
 
@@ -55,6 +58,7 @@ public class DoorSoundTrigger : MonoBehaviour
         if (sound.isValid())
         {
             sound.stop(allowFadeOut ? FMOD.Studio.STOP_MODE.ALLOWFADEOUT : FMOD.Studio.STOP_MODE.IMMEDIATE);
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VerbAmount", 0); 
         }
     }
 }
