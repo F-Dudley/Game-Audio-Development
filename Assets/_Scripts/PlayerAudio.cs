@@ -81,8 +81,8 @@ namespace PlayerSounds
 
             footstepEmitter.SetParameter("Terrain", (int) currentTerrain);
 
-            //jumpStartEmitter.SetParameter("Terrain", (int) currentTerrain);
-            //jumpLandingEmitter.SetParameter("Terrain", (int) currentTerrain);
+            jumpStartEmitter.SetParameter("Jump", (int) currentTerrain);
+            jumpLandingEmitter.SetParameter("Land", (int) currentTerrain);
         }
 
         public void PlayFootstep()

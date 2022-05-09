@@ -55631,6 +55631,41 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &1468449230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010037619014, guid: 721671003a026be4fb47107988831b38, type: 3}
+  m_PrefabInstance: {fileID: 435958569}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1468449234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468449230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1584844757
+      Data2: 1334617995
+      Data3: 67538362
+      Data4: -894134581
+    Path: event:/Environment/Steam/Steam
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6.8015137
+  OverrideMaxDistance: 27.475382
 --- !u!1001 &1477331732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64395,10 +64430,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 790792602
-      Data2: 1120961319
-      Data3: -1164501070
-      Data4: 1903928727
+      Data1: -1884176269
+      Data2: 1099067218
+      Data3: 1677408696
+      Data4: -1635885665
     Path: event:/Character Foley/Jump/Land
   Event: 
   PlayEvent: 0
@@ -64425,10 +64460,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1178629586
-      Data2: 1116171806
-      Data3: 270796977
-      Data4: 1123605314
+      Data1: -339361095
+      Data2: 1326456168
+      Data3: -1952692560
+      Data4: 1643152443
     Path: event:/Character Foley/Jump/Jump
   Event: 
   PlayEvent: 0
@@ -76751,6 +76786,8 @@ GameObject:
   - component: {fileID: 2068734527}
   - component: {fileID: 2068734526}
   - component: {fileID: 2068734525}
+  - component: {fileID: 2068734529}
+  - component: {fileID: 2068734528}
   m_Layer: 14
   m_Name: TriggerSounds
   m_TagString: Untagged
@@ -76861,6 +76898,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: Player
   parameter: VerbAmount
+  TriggerEvent: 3
+  value: 1
+--- !u!114 &2068734528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068734521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  parameter: AmbienceCover
+  TriggerEvent: 4
+  value: 0
+--- !u!114 &2068734529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068734521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  parameter: AmbienceCover
   TriggerEvent: 3
   value: 1
 --- !u!4 &2080900494 stripped
@@ -78912,9 +78981,9 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2.0130005
+  OverrideMaxDistance: 5.7127304
 --- !u!1 &4060243463451912001
 GameObject:
   m_ObjectHideFlags: 0
