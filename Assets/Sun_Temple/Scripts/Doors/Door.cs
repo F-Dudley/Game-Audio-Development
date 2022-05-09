@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 namespace SunTemple
 {
@@ -25,12 +26,15 @@ namespace SunTemple
         float CurrentLerpTime = 0;
         bool Rotating;
 
+        [SerializeField] private StudioEventEmitter doorSound;
 
 		private bool scriptIsEnabled = true;
 
         void Start(){
             StartRotation = transform.localEulerAngles ;
 			DoorCollider = GetComponent<BoxCollider> ();	
+            
+            doorSound =     GetComponent<StudioEventEmitter>();
         }
 
 
@@ -46,10 +50,16 @@ namespace SunTemple
 
         public void Activate()
         {
+            doorSound.SetParameter("OPEN_CLOSED", DoorClosed ? 0 : 1);
+            int param = DoorClosed ? 0 : 1;
+            Debug.Log(param);
+        
             if (DoorClosed)
                 Open();
             else
                 Close();
+        
+            doorSound.Play();
         }
 
         void Rotate()
@@ -79,6 +89,8 @@ namespace SunTemple
             EndAngle =  StartRotation.y + OpenRotationAmount;
             CurrentLerpTime = 0;
             Rotating = true;
+            
+
         }
 
         void Close()
