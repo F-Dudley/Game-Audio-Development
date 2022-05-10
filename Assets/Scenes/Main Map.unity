@@ -378,8 +378,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 13.808411
-  OverrideMaxDistance: 62.375732
+  OverrideMinDistance: 25.839783
+  OverrideMaxDistance: 55.420227
 --- !u!1001 &13711374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5161,6 +5161,10 @@ PrefabInstance:
     - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: OverrideMaxDistance
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3.0710754
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -24173,6 +24177,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114024915918922976, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: doorSoundOpen
+      value: 
+      objectReference: {fileID: 358589662}
+    - target: {fileID: 114024915918922976, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: doorSoundClose
+      value: 
+      objectReference: {fileID: 358589663}
+    - target: {fileID: 114423855575952582, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: doorSoundOpen
+      value: 
+      objectReference: {fileID: 358589656}
+    - target: {fileID: 114423855575952582, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: doorSoundClose
+      value: 
+      objectReference: {fileID: 358589657}
+    - target: {fileID: 114924165436354858, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: doorSoundOpen
+      value: 
+      objectReference: {fileID: 358589659}
+    - target: {fileID: 114924165436354858, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: doorSoundClose
+      value: 
+      objectReference: {fileID: 358589660}
     - target: {fileID: 199000302528926932, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -24761,6 +24789,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 821102930081267958, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Environment/Door/DoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 821102930081267958, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1030415026
+      objectReference: {fileID: 0}
+    - target: {fileID: 821102930081267958, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1127933283
+      objectReference: {fileID: 0}
+    - target: {fileID: 821102930081267958, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -139018098
+      objectReference: {fileID: 0}
+    - target: {fileID: 821102930081267958, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -462277936
+      objectReference: {fileID: 0}
     - target: {fileID: 3207440069077628918, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
       propertyPath: Params.Array.size
       value: 1
@@ -24773,6 +24821,34 @@ PrefabInstance:
       propertyPath: Params.Array.data[0].Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Environment/Door/DoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1030415026
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1127933283
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -139018098
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -462277936
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
 --- !u!4 &358589655 stripped
@@ -24780,6 +24856,120 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4149764000196840, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
   m_PrefabInstance: {fileID: 358589654}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &358589656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3207440069077628918, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+  m_PrefabInstance: {fileID: 358589654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &358589657 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8747700488276071410, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+  m_PrefabInstance: {fileID: 358589654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &358589658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1936325203959362, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+  m_PrefabInstance: {fileID: 358589654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &358589659 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9020218713584610818, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+  m_PrefabInstance: {fileID: 358589654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358589658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &358589660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358589658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1582894658
+      Data2: 1274766348
+      Data3: -1013508480
+      Data4: -22970057
+    Path: event:/Environment/Door/DoorClose
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &358589661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1320670845559922, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+  m_PrefabInstance: {fileID: 358589654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &358589662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 821102930081267958, guid: 7ba2845aa97948a4b8bee3a62a942ab2, type: 3}
+  m_PrefabInstance: {fileID: 358589654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358589661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &358589663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358589661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1582894658
+      Data2: 1274766348
+      Data3: -1013508480
+      Data4: -22970057
+    Path: event:/Environment/Door/DoorClose
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &358932843
 GameObject:
   m_ObjectHideFlags: 0
@@ -25587,8 +25777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 100
-  jukeBoxCollectionTime: 40
-  countdownStartTime: 45
+  jukeBoxCollectionTime: 45
+  countdownStartTime: 40
   countdownMusicEmitter: {fileID: 390987048}
   deathMusic: {fileID: 390987049}
   timeUI: {fileID: 935133344}
@@ -38302,6 +38492,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5038092508364532552, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3.885498
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
 --- !u!4 &814857279 stripped
@@ -43789,6 +43983,10 @@ PrefabInstance:
       propertyPath: OverrideMaxDistance
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3.6063843
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
 --- !u!4 &1102638850 stripped
@@ -45300,6 +45498,10 @@ PrefabInstance:
     - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: OverrideMaxDistance
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3.4157715
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -54207,6 +54409,10 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 4.5631104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: EventReference.Guid.Data1
       value: -358119999
       objectReference: {fileID: 0}
@@ -58077,6 +58283,10 @@ PrefabInstance:
     - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: OverrideMaxDistance
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3.4851074
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -72304,6 +72514,10 @@ PrefabInstance:
       propertyPath: OverrideMaxDistance
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3.7158813
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
 --- !u!4 &1763244496 stripped
@@ -76666,6 +76880,10 @@ PrefabInstance:
       propertyPath: OverrideMaxDistance
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 2.3067017
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
 --- !u!4 &2037651243 stripped
@@ -78341,7 +78559,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Spawn Trigger
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &2116040863593964377
 Transform:
