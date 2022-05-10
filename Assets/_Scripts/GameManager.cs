@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float currentTime = 60f;
     [SerializeField] private float jukeBoxCollectionTime = 30f;
 
+    [Header("Jukebox Settings")]
+    [SerializeField] private int jukeboxAmount = 8;
+    public System.Action allJukeboxesCollected;
+
     [Space]
 
     [SerializeField] private float countdownStartTime = 45f;
@@ -23,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Scene References")]
     [SerializeField] private TextMeshProUGUI timeUI;
+    [SerializeField] private TextMeshProUGUI jukeboxRemainingUI;
 
     [Header("Debug")]
     [SerializeField] private float debugAddTime = 20f;
@@ -31,8 +36,16 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        gameActive = true;
+
+        Cursor.lockState = CursorLockMode.Locked;
 
         UpdateGameUI();
+    }
+
+    private void OnEnable()
+    {
+        allJukeboxesCollected += AllJukeboxesCollected;
     }
 
     // Update is called once per frame
@@ -69,6 +82,13 @@ public class GameManager : MonoBehaviour
     public void AddJukeboxTime()
     {
         currentTime += jukeBoxCollectionTime;
+        jukeboxAmount -= 1;
+
+        if (jukeboxAmount <= 0)
+        {
+            allJukeboxesCollected.Invoke();
+        }
+
         UpdateGameUI();
     }
 
@@ -85,7 +105,7 @@ public class GameManager : MonoBehaviour
 
     private void AllJukeboxesCollected()
     {
-
+        // Win Screen trigger
     }
     #endregion
 
@@ -93,6 +113,7 @@ public class GameManager : MonoBehaviour
     private void UpdateGameUI()
     {
         timeUI.text = "Time Remaining:\n" + Mathf.RoundToInt(currentTime).ToString();
+        jukeboxRemainingUI.text = "Jukeboxes Remaining - " + jukeboxAmount;
     }
     #endregion
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 using DG.Tweening;
 
@@ -18,6 +19,10 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] private GameObject teleportMenu;
     [SerializeField] private GameObject returnButton;
 
+    [Space]
+
+    [SerializeField] private GameObject winTitle;
+
     [Header("Death Screen")]
     [SerializeField] private GameObject deathUIRoot;
     [SerializeField] private GameObject deathTitle;
@@ -31,6 +36,16 @@ public class GameMenuManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+    }
+
+    private void OnEnable()
+    {
+        GameManager.instance.allJukeboxesCollected += ShowWinUIButtons;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.instance.allJukeboxesCollected -= ShowWinUIButtons;
     }
 
     private void Update()
@@ -64,6 +79,16 @@ public class GameMenuManager : MonoBehaviour
         ResetGameMenu();
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
+    }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
     public void ResetGameMenu()
     {
         homeMenu.SetActive(true);
@@ -82,6 +107,15 @@ public class GameMenuManager : MonoBehaviour
     {
         deathTitle.SetActive(true);
         deathUIButtons.SetActive(true);
+    }
+
+    private void ShowWinUIButtons()
+    {
+        deathUIRoot.SetActive(true);
+        winTitle.SetActive(true);
+        deathUIButtons.SetActive(true);
+
+        deathTitle.SetActive(false);
     }
 
     private void HideFullDeathUIButtons()

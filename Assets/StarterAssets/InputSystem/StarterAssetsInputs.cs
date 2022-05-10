@@ -36,6 +36,16 @@ namespace StarterAssets
 	{
 		playerInput = GetComponent<PlayerInput>();
 	}
+
+	private void OnEnable()
+	{
+		GameManager.instance.allJukeboxesCollected += ChangeToMenuInput;
+	}
+
+	private void OnDisable()
+	{
+		GameManager.instance.allJukeboxesCollected -= ChangeToMenuInput;
+	}
 #endif
 
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
@@ -118,6 +128,11 @@ namespace StarterAssets
 		public void InteractInput(bool newInteractState)
 		{
 			interact = newInteractState;
+		}
+
+		private void ChangeToMenuInput()
+		{
+			playerInput.SwitchCurrentActionMap("Menu");
 		}
 
 #if !UNITY_IOS || !UNITY_ANDROID
