@@ -117,7 +117,7 @@
 	</object>
 	<object class="MultiSound" id="{5aa9be2e-d701-40e8-afc5-66603e83cb39}">
 		<property name="start">
-			<value>0.40000000000000002</value>
+			<value>0.375</value>
 		</property>
 		<property name="length">
 			<value>1.7</value>
@@ -225,7 +225,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4715f3cf-15c3-4d79-8961-9f09e6db38f1}">
 		<property name="position">
-			<value>1.3</value>
+			<value>1.2749999999999999</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -236,7 +236,7 @@
 	</object>
 	<object class="AutomationPoint" id="{35644547-306f-4062-8536-6c6409c27221}">
 		<property name="position">
-			<value>2.1000000000000001</value>
+			<value>2.0750000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>

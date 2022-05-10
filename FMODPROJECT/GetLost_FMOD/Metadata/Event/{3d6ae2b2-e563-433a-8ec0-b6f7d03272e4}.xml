@@ -95,10 +95,10 @@
 	<object class="MixerBusPanner" id="{2e675447-b9a2-4962-809f-908713ec73e4}" />
 	<object class="MultiSound" id="{d75fab81-9907-427f-b0e8-27764b5638b5}">
 		<property name="start">
-			<value>0.20000000000000001</value>
+			<value>0.0625</value>
 		</property>
 		<property name="length">
-			<value>2.1124471299093655</value>
+			<value>1.03125</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{3501013d-c6d4-483b-8d0f-5c4273f72825}</destination>
@@ -212,7 +212,7 @@
 	<object class="MixerBusFader" id="{6988a420-63ca-4816-8850-227a4a882a73}" />
 	<object class="AutomationPoint" id="{533dc87a-e344-4e0b-96e7-efcba906767b}">
 		<property name="position">
-			<value>0.20000000000000001</value>
+			<value>0.0625</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -223,7 +223,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c31a3cb1-4df7-4780-a976-d29a915b8740}">
 		<property name="position">
-			<value>0.80000000000000004</value>
+			<value>0.46875</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -231,18 +231,18 @@
 	</object>
 	<object class="AutomationPoint" id="{d9066434-f60f-43d4-9a2d-f0d8ca534cd3}">
 		<property name="position">
-			<value>0.91244712990936527</value>
+			<value>0.45357168234693446</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>0.303883463</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6f66d5a6-e9a1-468d-bc15-141464f61111}">
 		<property name="position">
-			<value>2.3124471299093639</value>
+			<value>1.0937499999999982</value>
 		</property>
 		<property name="value">
 			<value>0</value>
