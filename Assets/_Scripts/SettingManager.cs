@@ -33,6 +33,12 @@ namespace GameSettings
             [SerializeField] private Slider dialogueVolumeSlider;
             private FMOD.Studio.VCA dialogueVCA;
 
+            [Space]
+
+            [SerializeField] private string uiVCARoute;
+            [SerializeField] private Slider uiVolumeSlider;
+            private FMOD.Studio.VCA uiVCA;
+
             #region Unity Functions
             private void Start()
             {
@@ -40,6 +46,7 @@ namespace GameSettings
                 musicVCA = FMODUnity.RuntimeManager.GetVCA(musicVCARoute);
                 sfxVCA = FMODUnity.RuntimeManager.GetVCA(sfxVCARoute);
                 dialogueVCA = FMODUnity.RuntimeManager.GetVCA(dialogueVCARoute);
+                uiVCA = FMODUnity.RuntimeManager.GetVCA(uiVCARoute);
 
                 float volume;
 
@@ -65,6 +72,12 @@ namespace GameSettings
                 {
                     dialogueVCA.getVolume(out volume);
                     dialogueVolumeSlider.value = volume;
+                }
+
+                if (uiVCA.isValid())
+                {
+                    uiVCA.getVolume(out volume);
+                    uiVolumeSlider.value = volume;
                 }
             }
 
@@ -108,6 +121,15 @@ namespace GameSettings
                 {
                     UnityEngine.Debug.Log("New Value: " + _newBusValue);
                     dialogueVCA.setVolume(_newBusValue);
+                }
+            }
+
+            public void SetUiVCA(float _newBusValue)
+            {
+                if (dialogueVCA.isValid())
+                {
+                    UnityEngine.Debug.Log("New Value: " + _newBusValue);
+                    uiVCA.setVolume(_newBusValue);
                 }
             }
  
