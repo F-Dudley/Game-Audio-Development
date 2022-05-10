@@ -102,6 +102,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c8230172-1797-4955-8e06-039b7cadfda9}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{3072079e-de57-45ef-a6a0-f5e9c7de8fed}</destination>
 		</relationship>
@@ -206,7 +209,7 @@
 	</object>
 	<object class="SingleSound" id="{d7e3b028-fc4e-4819-a3fa-78a14368a55d}">
 		<property name="length">
-			<value>0.23793650793650795</value>
+			<value>0.23793650793650797</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.02</value>
@@ -299,18 +302,18 @@
 	</object>
 	<object class="AutomationPoint" id="{104d437a-aebf-4ae8-b765-b43d59bd303b}">
 		<property name="position">
-			<value>0.059999999999999998</value>
+			<value>0.060000000000000026</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.77251035</value>
+			<value>0.493198425</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{38b167a9-7aaa-46de-b247-960e91c61f40}">
 		<property name="position">
-			<value>0.23793650793650795</value>
+			<value>0.23793650793650797</value>
 		</property>
 		<property name="value">
 			<value>0</value>

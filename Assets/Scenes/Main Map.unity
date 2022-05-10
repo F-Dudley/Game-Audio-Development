@@ -851,41 +851,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013974182346, guid: a4ea7ad660a6e4241aff4002d350fe80, type: 3}
   m_PrefabInstance: {fileID: 19511288}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &23293270 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 667498640}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &23293274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 23293270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &27427792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -952,41 +917,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4222932474108632, guid: 0b4df975bf91c3c4aa0142d09e1ece26, type: 3}
   m_PrefabInstance: {fileID: 27427792}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &30680156 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 2099714500}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &30680160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30680156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &31894881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1053,41 +983,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010728810536, guid: fca782dde2e0f694898f0178746f6c23, type: 3}
   m_PrefabInstance: {fileID: 31894881}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &33186998 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 1151965802}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &33187002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 33186998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &35010487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1322,41 +1217,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010570413510, guid: 395dcd74773407e4faa9906eedf6f75d, type: 3}
   m_PrefabInstance: {fileID: 41908261}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &42198535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1888269045178818663, guid: e75e0bbfe0e9d8c4b99d6d6b6829eef6, type: 3}
-  m_PrefabInstance: {fileID: 1883490071}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &42198539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42198535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &49481237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,41 +1605,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01, y: 3, z: 1.25}
   m_Center: {x: 0, y: 0.6, z: 0}
---- !u!1 &67580940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1263881239168321199, guid: 53511846966b6ce4c8acb830be33adff, type: 3}
-  m_PrefabInstance: {fileID: 1018130171}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &67580944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67580940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &71611123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,7 +1647,7 @@ Transform:
   - {fileID: 765868329}
   - {fileID: 1247888881}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &81179854
 PrefabInstance:
@@ -1890,41 +1715,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011713300004, guid: a62abbb708e3f49489bde29e5cfc3ebd, type: 3}
   m_PrefabInstance: {fileID: 81179854}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &83432012 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2296698527035632177, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
-  m_PrefabInstance: {fileID: 1189345380}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &83432016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83432012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &86086115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2311,7 +2101,7 @@ Transform:
   - {fileID: 1376013990}
   - {fileID: 734508735}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109227923
 GameObject:
@@ -2454,41 +2244,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6d13e3e1ec610134c8ec67c29c8f5f4b, type: 3}
   m_PrefabInstance: {fileID: 112248837}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &119880578 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 1821194408}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &119880582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119880578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &121267786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,76 +2438,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 462508, guid: 98dadaae72a006d48955753a8c0eb7a0, type: 3}
   m_PrefabInstance: {fileID: 128644255}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &137042860 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 225654716}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &137042864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137042860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &137060360 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 1023547781}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &137060364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137060360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &137331613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2885,76 +2570,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011891195074, guid: 46472ef0a5e771447837601c9fb0d67e, type: 3}
   m_PrefabInstance: {fileID: 138562599}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &139273605 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
-  m_PrefabInstance: {fileID: 441745797}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &139273609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139273605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &139831528 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 1051128437}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &139831532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139831528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &141369023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3281,41 +2896,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4348373656680388, guid: f79988866f189cd48b10e3f132af699e, type: 3}
   m_PrefabInstance: {fileID: 154206098}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &158679865 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2296698527035632177, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
-  m_PrefabInstance: {fileID: 13711374}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &158679869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158679865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &162422854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4125,41 +3705,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
   m_PrefabInstance: {fileID: 213529257}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &216820647 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 352819916}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &216820651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216820647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &221999499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4834,7 +4379,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 40.968, z: 0}
 --- !u!1001 &252615655
 PrefabInstance:
@@ -4978,7 +4523,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!73398921 &253572721
 VFXRenderer:
@@ -5056,6 +4601,68 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
+--- !u!1001 &259595512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1330629988}
+    m_Modifications:
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.443176
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.51335144
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.602203
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5939583
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05290393
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80229056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.027287912
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.121
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 107.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 3.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430255440781894859, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_Name
+      value: sign_tochurch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+--- !u!4 &259595513 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+  m_PrefabInstance: {fileID: 259595512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &262176811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
@@ -5192,7 +4799,7 @@ Transform:
   - {fileID: 941986136}
   - {fileID: 1609301317}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 25, z: 0}
 --- !u!54 &274182483
 Rigidbody:
@@ -5227,76 +4834,6 @@ MonoBehaviour:
   movingSoundSource: {fileID: 1609301316}
   staticParticles: {fileID: 2080900496}
   directionalParticles: {fileID: 1451675733}
---- !u!1 &274973662 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 754706253}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &274973666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274973662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &276206263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 986713457}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &276206267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276206263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &277566852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5429,41 +4966,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
   m_PrefabInstance: {fileID: 282940091}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &283387696 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5150829015901351959, guid: 683754683c8213e4ea879026d84be241, type: 3}
-  m_PrefabInstance: {fileID: 870368649}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &283387700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283387696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &283493314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5736,76 +5238,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4222932474108632, guid: 0b4df975bf91c3c4aa0142d09e1ece26, type: 3}
   m_PrefabInstance: {fileID: 302100738}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &302704176 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 766084362}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &302704180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302704176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &313974604 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 1991454357}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &313974608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313974604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &316311264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5943,17 +5375,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SoundOcclusionWidening
+      value: 0.34
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 3.0710754
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: PlayerOcclusionWidening
+      value: 0.42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -6146,6 +5574,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -6.161
       objectReference: {fileID: 0}
+    - target: {fileID: 7561070079746571215, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
       value: StreetLamp2_Tall (Concrete) (13)
@@ -6321,7 +5753,7 @@ Transform:
   - {fileID: 814857279}
   - {fileID: 1102638850}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &338226190
 PrefabInstance:
@@ -6389,76 +5821,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010406218312, guid: 29d87e1fce995d14bab7375265653cdb, type: 3}
   m_PrefabInstance: {fileID: 338226190}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &340573715 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 680257877819764346, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
-  m_PrefabInstance: {fileID: 1107952961}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &340573719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340573715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &341613260 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5150829015901351959, guid: 683754683c8213e4ea879026d84be241, type: 3}
-  m_PrefabInstance: {fileID: 169331516}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &341613264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 341613260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &343858629
 GameObject:
   m_ObjectHideFlags: 0
@@ -11753,41 +11115,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6419604580342832736, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
   m_PrefabInstance: {fileID: 357028725}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &358519423 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8669595224616019464, guid: 10078452dab690a4099417aafe441aed, type: 3}
-  m_PrefabInstance: {fileID: 2107947225}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &358519427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358519423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &358589654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26233,76 +25560,6 @@ MonoBehaviour:
   parameter: VerbAmount
   TriggerEvent: 1
   value: 1
---- !u!1 &362743735 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8849775559486640924, guid: d637864fd6d99f24c976d61f894c2ae5, type: 3}
-  m_PrefabInstance: {fileID: 1668660927}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &362743739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362743735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &364100337 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8669595224616019464, guid: 10078452dab690a4099417aafe441aed, type: 3}
-  m_PrefabInstance: {fileID: 590012349}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &364100341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364100337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &365418431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26567,41 +25824,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011066351628, guid: 36b4cee33c5a95b4fa7f0ae6bdb49564, type: 3}
   m_PrefabInstance: {fileID: 367880676}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &372334393 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 2029001725}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &372334397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372334393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &372624869
 GameObject:
   m_ObjectHideFlags: 0
@@ -26655,41 +25877,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372624869}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &373676619 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8849775559486640924, guid: d637864fd6d99f24c976d61f894c2ae5, type: 3}
-  m_PrefabInstance: {fileID: 1737810465}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &373676623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373676619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &378491696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26920,6 +26107,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 13.625746, y: 4.522378, z: 11.085072}
   m_Center: {x: 11.692493, y: 2.2387671, z: -6.467923}
+--- !u!1001 &385150405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2015744770}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043029785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7280884
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.025024414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.020446924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.019878091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71671855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6967794
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -88.384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 176.732
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1 &390987045
 GameObject:
   m_ObjectHideFlags: 0
@@ -27068,76 +26312,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &395669275 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 53220315}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &395669279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395669275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &397872652 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7191828398146687925, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
-  m_PrefabInstance: {fileID: 527478026}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &397872656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397872652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &399514478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27204,6 +26378,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013149834228, guid: 6857ff1d3761e21479727f3b27cc8f68, type: 3}
   m_PrefabInstance: {fileID: 399514478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &405926709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 577.42114
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 533.4532
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+      propertyPath: m_Name
+      value: The Boss@Dancing Twerk
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
 --- !u!1001 &406005556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27340,41 +26571,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8bbcfa2418cb33746b6fa1bdebee4806, type: 3}
   m_PrefabInstance: {fileID: 406535489}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &410702868 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8669595224616019464, guid: 10078452dab690a4099417aafe441aed, type: 3}
-  m_PrefabInstance: {fileID: 235058211}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &410702872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410702868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &410925327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33925,6 +33121,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450417622}
   m_CullTransparentMesh: 1
+--- !u!1001 &453864612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2146228642}
+    m_Modifications:
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.868103
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.039999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.969971
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9990082
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.04452801
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 5.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430255440781894859, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_Name
+      value: sign_bunkerorindustrial
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+--- !u!4 &453864613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+  m_PrefabInstance: {fileID: 453864612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &455093906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34582,41 +33840,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!1 &484530053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8669595224616019464, guid: 10078452dab690a4099417aafe441aed, type: 3}
-  m_PrefabInstance: {fileID: 1845750594}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &484530057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484530053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &485205985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34934,41 +34157,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c5fe18f281c2fa548b3124b44d5882d4, type: 3}
   m_PrefabInstance: {fileID: 497083571}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &498409916 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 680257877819764346, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
-  m_PrefabInstance: {fileID: 88747933}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &498409920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498409916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &504382006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35283,41 +34471,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6167072802526421414, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
   m_PrefabInstance: {fileID: 527478026}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &528218235 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 516775886}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &528218239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528218235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &532233098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35592,41 +34745,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 441876, guid: 1f9d7097857cc50488dda8ed32d8df2e, type: 3}
   m_PrefabInstance: {fileID: 535499424}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &536993235 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000010817437606, guid: 58d97d456aead63499ac7d5316541f78, type: 3}
-  m_PrefabInstance: {fileID: 295494897}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &536993239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536993235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &540382601
 GameObject:
   m_ObjectHideFlags: 0
@@ -35974,41 +35092,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010202300486, guid: 7efb7a11251ce1342b172668cbdc65c8, type: 3}
   m_PrefabInstance: {fileID: 550016252}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &551886714 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 455093906}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &551886718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551886714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &552005269
 GameObject:
   m_ObjectHideFlags: 0
@@ -36166,6 +35249,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5515764004258341135, guid: d637864fd6d99f24c976d61f894c2ae5, type: 3}
   m_PrefabInstance: {fileID: 564297569}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &576169120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2036284966}
+    m_Modifications:
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -61.727966
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9750366
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -122.65527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5947432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.22394715
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.77126145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.035834853
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 107.835
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 18.652
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430255440781894859, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_Name
+      value: sign_toindustrial
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+--- !u!4 &576169121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+  m_PrefabInstance: {fileID: 576169120}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &580560048
 PrefabInstance:
@@ -36615,41 +35760,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3201816797211333236, guid: e75e0bbfe0e9d8c4b99d6d6b6829eef6, type: 3}
   m_PrefabInstance: {fileID: 602781372}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &609809857 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1263881239168321199, guid: 53511846966b6ce4c8acb830be33adff, type: 3}
-  m_PrefabInstance: {fileID: 1049693848}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &609809861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609809857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &612222341
 GameObject:
   m_ObjectHideFlags: 0
@@ -36746,7 +35856,7 @@ RectTransform:
   - {fileID: 1688725627}
   - {fileID: 728968808}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -36911,41 +36021,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4045269512273486, guid: e1c7b10d90eaed547a09f3da61298f8c, type: 3}
   m_PrefabInstance: {fileID: 619135163}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &629597819 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 51733754}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &629597823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629597819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &632487895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37270,76 +36345,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
   m_PrefabInstance: {fileID: 645174260}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &645618017 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 1855553387}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &645618021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645618017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &650809763 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 580560048}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &650809767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650809763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &652145861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37468,41 +36473,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6419604580342832736, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
   m_PrefabInstance: {fileID: 653033380}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &662569128 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 582478923}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &662569132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662569128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &662685737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37604,7 +36574,7 @@ Transform:
   - {fileID: 1101847379}
   - {fileID: 993933893}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &665040751
 GameObject:
@@ -37887,43 +36857,8 @@ Transform:
   m_Children:
   - {fileID: 1529625378}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &683737204 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8849775559486640924, guid: d637864fd6d99f24c976d61f894c2ae5, type: 3}
-  m_PrefabInstance: {fileID: 564297569}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &683737208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683737204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &691617127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38146,7 +37081,7 @@ Transform:
   - {fileID: 1100162253}
   - {fileID: 406005557}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -38239,8 +37174,65 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &706358828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 709069208}
+    m_Modifications:
+    - target: {fileID: 5390649932541883209, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_Name
+      value: road_sign_crosswalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.04518553
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.0199902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0024537295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.16402994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000000018626454
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9864554
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -161.118
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976859697805164890, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3ea278cf3d63a446a6ee979eb36fece, type: 3}
 --- !u!1001 &709069207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38291,6 +37283,10 @@ PrefabInstance:
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561070079746571215, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
@@ -38642,41 +37638,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &726223756 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 1097990738}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &726223760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726223756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &726286170
 GameObject:
   m_ObjectHideFlags: 0
@@ -38718,7 +37679,7 @@ Transform:
   - {fileID: 1533519890}
   - {fileID: 2120529664}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &726336165
 PrefabInstance:
@@ -38985,76 +37946,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &744123242 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 1087044352}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &744123246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744123242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &745668797 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 680257877819764346, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
-  m_PrefabInstance: {fileID: 1868768424}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &745668801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745668797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &753166303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40012,7 +38903,7 @@ Transform:
   - {fileID: 1499166639}
   - {fileID: 1553557632}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &779501570
 GameObject:
@@ -40042,7 +38933,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &789638528
 PrefabInstance:
@@ -40345,41 +39236,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
   m_PrefabInstance: {fileID: 805828823}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &806629240 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 1138108832}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &806629244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806629240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &807233014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40463,48 +39319,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Spawn Bridge
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &807233015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1958304335000942356, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_PrefabInstance: {fileID: 807233014}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &812606276 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 735716422}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &812606280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812606276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &814857278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40587,41 +39409,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400196, guid: 554340206fdbb1d4c8dd754d9573f62b, type: 3}
   m_PrefabInstance: {fileID: 814857278}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &819018659 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 197905680}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &819018663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819018659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &821566248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41077,7 +39864,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Industrial Area
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &847387648 stripped
 Transform:
@@ -41307,6 +40095,10 @@ PrefabInstance:
     - target: {fileID: 8151570764710396420, guid: 683754683c8213e4ea879026d84be241, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729180788117365618, guid: 683754683c8213e4ea879026d84be241, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 683754683c8213e4ea879026d84be241, type: 3}
@@ -41563,7 +40355,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Ruined Town
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &875059276 stripped
 Transform:
@@ -42130,8 +40923,8 @@ MonoBehaviour:
   Params:
   - Name: fire_size
     Value: 1
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
+  OverrideAttenuation: 1
+  OverrideMinDistance: 4.9776
   OverrideMaxDistance: 20
 --- !u!1001 &906145062
 PrefabInstance:
@@ -42918,7 +41711,7 @@ Transform:
   - {fileID: 1023755745}
   - {fileID: 1682833939}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &941986135
 GameObject:
@@ -42981,116 +41774,11 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: -1
   OverrideMaxDistance: -1
---- !u!1 &942990151 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1888269045178818663, guid: e75e0bbfe0e9d8c4b99d6d6b6829eef6, type: 3}
-  m_PrefabInstance: {fileID: 2018887245}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &942990155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942990151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &944668431 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 1715172427}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &944668435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944668431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &952536100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6567569125654585590, guid: 5f20248e993bd41c2a83edc05e142681, type: 3}
   m_PrefabInstance: {fileID: 7691449228396264171}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &970096742 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 1754822250}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &970096746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970096742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &971397341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43464,41 +42152,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6316571427157178405, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
   m_PrefabInstance: {fileID: 986713457}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &989505769 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 213529257}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &989505773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989505769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &993933892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43697,6 +42350,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000012597706774, guid: b9e1cb90fd59a7946a88c31e16ff82b5, type: 3}
   m_PrefabInstance: {fileID: 996934464}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1006533201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 453864613}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8756579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.48293197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -57.754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1 &1006746311
 GameObject:
   m_ObjectHideFlags: 0
@@ -43749,8 +42459,9 @@ Transform:
   - {fileID: 252615656}
   - {fileID: 1396382384}
   - {fileID: 1806219604}
+  - {fileID: 2015744770}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1011244460
 PrefabInstance:
@@ -45074,41 +43785,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 441876, guid: 1f9d7097857cc50488dda8ed32d8df2e, type: 3}
   m_PrefabInstance: {fileID: 1031928847}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1049309722 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2296698527035632177, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
-  m_PrefabInstance: {fileID: 878048530}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1049309726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049309722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1049693848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45283,6 +43959,10 @@ PrefabInstance:
     - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561070079746571215, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       propertyPath: m_Name
@@ -46044,41 +44724,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8297586148382009749, guid: b133d39c8fb0ddd428bed41786eb3c20, type: 3}
   m_PrefabInstance: {fileID: 1069556432}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1070610598 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8669595224616019464, guid: 10078452dab690a4099417aafe441aed, type: 3}
-  m_PrefabInstance: {fileID: 1394109647}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1070610602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070610598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1072254724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46815,17 +45460,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SoundOcclusionWidening
+      value: 0.42
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 3.6063843
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: PlayerOcclusionWidening
+      value: 0.36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -47332,6 +45973,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4350347247512500, guid: f4446ed5efdd3094eb3baaec9320b5d2, type: 3}
   m_PrefabInstance: {fileID: 1129490977}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1130311343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 259595513}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043029785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7280884
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.025024414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.020446924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.019878091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71671855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6967794
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -88.384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 176.732
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1001 &1131556682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47522,6 +46220,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
   m_PrefabInstance: {fileID: 1151965802}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1152585031
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 870368650}
+    m_Modifications:
+    - target: {fileID: 4716262070852592493, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_Name
+      value: road_sign_child_stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.489
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.59642315
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 9.313226e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80267024
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000018626451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586357354395062654, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc26d215290e24b4e8f9ba642515fc3c, type: 3}
 --- !u!1001 &1156321058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48064,7 +46819,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1184453310
 GameObject:
@@ -48326,26 +47081,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2991756831493838882, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
   m_PrefabInstance: {fileID: 1189345380}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1192955289
+--- !u!1 &1199016007 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+  m_PrefabInstance: {fileID: 405926709}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1192955290}
-  - component: {fileID: 1192955292}
-  - component: {fileID: 1192955291}
-  m_Layer: 5
-  m_Name: Master
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1192955290
-RectTransform:
+--- !u!95 &1199016009
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -48459,6 +47202,75 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_GameObject: {fileID: 1199016007}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: ca5146e4ad1fc45948d6ae4ad677b33c, type: 3}
+  m_Controller: {fileID: 9100000, guid: 21dbc0bd34fda4955a64fdb4ad834aef, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1200673133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2117311681}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8756579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.48293197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -57.754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1001 &1200872263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48737,18 +47549,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 3.4157715
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
 --- !u!4 &1209468939 stripped
@@ -48886,41 +47686,63 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
---- !u!1 &1212508435 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 321611210}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1212508439
-MonoBehaviour:
+--- !u!1001 &1226290755
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212508435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 321611211}
+    m_Modifications:
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0002784133
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.0100343
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0227395
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8772342
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.48006266
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000013038516
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -57.379
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601219097037014649, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2333979031032067178, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
+      propertyPath: m_Name
+      value: road_sign_stop_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2fd7bbe97a92824b9b34e3991334847, type: 3}
 --- !u!1001 &1226542529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49019,7 +47841,7 @@ Transform:
   - {fileID: 1011244461}
   - {fileID: 1520491965}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228567858
 GameObject:
@@ -49193,6 +48015,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
   m_PrefabInstance: {fileID: 1236571215}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1238174380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 576169121}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043029785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7280884
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.025024414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.020446924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.019878091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71671855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6967794
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -88.384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 176.732
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1 &1239438210
 GameObject:
   m_ObjectHideFlags: 0
@@ -49319,7 +48198,7 @@ Transform:
   - {fileID: 321611211}
   - {fileID: 1442780386}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1239438212
 MonoBehaviour:
@@ -49460,41 +48339,6 @@ Transform:
   m_Father: {fileID: 2146228642}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1243073468 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 1727776906}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1243073472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243073468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1244850061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49806,41 +48650,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!1 &1259969384 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 328562017}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1259969388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259969384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1275857776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50088,41 +48897,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292835971}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1293599953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 1777863939}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1293599957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293599953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1299683853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50224,7 +48998,7 @@ Transform:
   - {fileID: 378491697}
   - {fileID: 141369024}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1303101811
 PrefabInstance:
@@ -50434,7 +49208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304767064 stripped
 GameObject:
@@ -56202,43 +54976,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.22998
+      value: 32.048035
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.6900005
+      value: -4.5845337
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.160004
+      value: -13.737366
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.044642404
+      value: 0.046187732
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.09422962
+      value: 0.10036343
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9945286
+      value: 0.99382925
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.006379788
+      value: -0.009870684
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.245
+      value: 1.656
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 174.836
+      value: 174.844
       objectReference: {fileID: 0}
     - target: {fileID: 4583636595095350, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 10.836
+      value: 11.459
       objectReference: {fileID: 0}
     - target: {fileID: 199025850299317416, guid: 50a8bc0d342915c4f9f5644e1e38a26f, type: 3}
       propertyPath: m_Materials.Array.size
@@ -56364,41 +55138,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307368684}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1312032099 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1888269045178818663, guid: e75e0bbfe0e9d8c4b99d6d6b6829eef6, type: 3}
-  m_PrefabInstance: {fileID: 1797442688}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1312032103
-MonoBehaviour:
+--- !u!1001 &1310756375
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312032099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 616.43677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.981
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 435.2985
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3034521
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9528467
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 215.33
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2037884248300995540, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 751326ac81f0348969235e04aae4fe45, type: 2}
+    - target: {fileID: 919132149155446097, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_Name
+      value: Ch01_nonPBR@Rumba Dancing
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342956203822869081, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5940a01f908c94c6cb3297ea3a31f6ec, type: 2}
+    - target: {fileID: 3964350945898810324, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a6e711102e19408dbd440ad3594d0f4, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 86defd99373804258b9b0e1dfef03542, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9cf40c1d1dc6548e4a0e95de93f893e5, type: 3}
 --- !u!1001 &1312086141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56527,41 +55339,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031852592219187888, guid: a0db7f048a9ccd3418cc76708bc2c06c, type: 3}
   m_PrefabInstance: {fileID: 1315067835}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1316058389 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 680257877819764346, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
-  m_PrefabInstance: {fileID: 922266828}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1316058393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316058389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1318197671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56645,48 +55422,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Spaceship
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &1318197672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1958304335000942356, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_PrefabInstance: {fileID: 1318197671}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1319854350 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 1992393666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1319854354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319854350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1325184346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57066,8 +55809,9 @@ Transform:
   - {fileID: 1305166162}
   - {fileID: 1727868152}
   - {fileID: 1673741858}
+  - {fileID: 259595513}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1330997158
 PrefabInstance:
@@ -57596,7 +56340,7 @@ Transform:
   - {fileID: 1728495349}
   - {fileID: 322368522}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1341802345
 GameObject:
@@ -57645,8 +56389,9 @@ Transform:
   - {fileID: 1680881401}
   - {fileID: 1989547724}
   - {fileID: 1960974426}
+  - {fileID: 2117311681}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1342798274
 PrefabInstance:
@@ -57851,36 +56596,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: EventReference.Path
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SelectAudio.Path
       value: event:/Environment/Jukebox/Jukebox/Jukebox_Bunker
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 4.5631104
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: EventReference.Guid.Data1
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SelectAudio.Guid.Data1
       value: -358119999
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: EventReference.Guid.Data2
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SelectAudio.Guid.Data2
       value: 1313383522
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: EventReference.Guid.Data3
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SelectAudio.Guid.Data3
       value: -1969933177
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: EventReference.Guid.Data4
+    - target: {fileID: 7113130734625839410, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
+      propertyPath: SelectAudio.Guid.Data4
       value: 2060783239
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -57956,41 +56689,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010570413510, guid: 395dcd74773407e4faa9906eedf6f75d, type: 3}
   m_PrefabInstance: {fileID: 1349374447}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1353087255 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
-  m_PrefabInstance: {fileID: 1055097142}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1353087259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353087255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1358085305
 GameObject:
   m_ObjectHideFlags: 0
@@ -58030,43 +56728,8 @@ Transform:
   - {fileID: 1983947906}
   - {fileID: 1109287683}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1371651318 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 547988566}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1371651322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371651318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1376013989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58877,41 +57540,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
   m_PrefabInstance: {fileID: 1411581383}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1414099070 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 680257877819764346, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
-  m_PrefabInstance: {fileID: 1075345708}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1414099074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414099070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1415027594
 GameObject:
   m_ObjectHideFlags: 0
@@ -59031,76 +57659,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 462508, guid: 98dadaae72a006d48955753a8c0eb7a0, type: 3}
   m_PrefabInstance: {fileID: 1421601072}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1427544645 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 1679344703}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1427544649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427544645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &1434432988 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 774862941}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1434432992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434432988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1442780385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59725,6 +58283,154 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1459446836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459446834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1459446837}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1459446837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459446834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1459446838
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459446834}
+  m_CullTransparentMesh: 1
+--- !u!1001 &1459814652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1305020086}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_Name
+      value: wood bridge 1 b (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4537964
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.00737
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.63208
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9914293
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.033189572
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.012760753
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1257121
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.958
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.974
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -14.419
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+--- !u!4 &1459814653 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b1748a207e089e140a13afcacbf7e47d, type: 3}
+  m_PrefabInstance: {fileID: 1459814652}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1468449230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000010037619014, guid: 721671003a026be4fb47107988831b38, type: 3}
@@ -59760,6 +58466,63 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6.8015137
   OverrideMaxDistance: 27.475382
+--- !u!1001 &1474552403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2117311681}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.018554688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.019958496
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0094918525
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7531005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008290523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6577848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 179.806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -82.27301
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.4309998
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1001 &1477331732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60311,41 +59074,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 410158, guid: 8ec5396791eee7244a8fce2fd14a09ec, type: 3}
   m_PrefabInstance: {fileID: 1482986678}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1486230730 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 680257877819764346, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
-  m_PrefabInstance: {fileID: 146903486}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1486230734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486230730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1488917802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60433,7 +59161,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Church
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!1001 &1492212445
 PrefabInstance:
@@ -60518,7 +59247,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Church Area
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &1492212446 stripped
 Transform:
@@ -61656,8 +60386,65 @@ Transform:
   - {fileID: 1805581134}
   - {fileID: 996934465}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1542297672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052033254}
+    m_Modifications:
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.005237639
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6100113
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.008877218
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9751483
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000011175873
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.22155306
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000074505815
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -25.601
+      objectReference: {fileID: 0}
+    - target: {fileID: 199552080636146166, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791936704308773861, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
+      propertyPath: m_Name
+      value: road_sign_60_limit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa9af19bb181d0d4f97c9b229fa06f7c, type: 3}
 --- !u!1001 &1544014718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61786,41 +60573,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4599866046254600463, guid: 3ed485b98833de146b5042f363e30406, type: 3}
   m_PrefabInstance: {fileID: 1547208080}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1550205882 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 929599087}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1550205886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550205882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1553557631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61887,76 +60639,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6b8288da9ceb3bc439fd4802c81cb452, type: 3}
   m_PrefabInstance: {fileID: 1553557631}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1556041489 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 653033380}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1556041493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556041489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &1556319871 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 1710473181}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1556319875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556319871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1556816845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62023,76 +60705,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013149834228, guid: 6857ff1d3761e21479727f3b27cc8f68, type: 3}
   m_PrefabInstance: {fileID: 1556816845}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1558859083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 627205272458067269, guid: f65e2864640061144b355703287a53e0, type: 3}
-  m_PrefabInstance: {fileID: 2121926666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1558859087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1558859083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &1560781742 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 1052033253}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1560781746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560781742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1564373960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62397,41 +61009,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4877203376542484, guid: 67bc459a0b3356f40acf743f7b250d1c, type: 3}
   m_PrefabInstance: {fileID: 1576679817}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1577008957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2296698527035632177, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
-  m_PrefabInstance: {fileID: 1627714945}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1577008961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577008957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1579764403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62502,18 +61079,6 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3.106
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 3.4851074
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -63613,41 +62178,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2991756831493838882, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
   m_PrefabInstance: {fileID: 1627714945}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1627743332 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 612951238}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1627743336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627743332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1628626197
 GameObject:
   m_ObjectHideFlags: 0
@@ -63684,43 +62214,8 @@ Transform:
   - {fileID: 367880677}
   - {fileID: 996597372}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1631791530 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
-  m_PrefabInstance: {fileID: 86086115}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1631791534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631791530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1637703152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64019,41 +62514,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36d2636b6965d754d8bbf1705661c796, type: 3}
   m_PrefabInstance: {fileID: 1643821310}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1652984409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2296698527035632177, guid: 5106b120de5d21a418f77180c26f1c45, type: 3}
-  m_PrefabInstance: {fileID: 722921242}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1652984413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652984409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1666347245
 GameObject:
   m_ObjectHideFlags: 0
@@ -69214,6 +67674,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4195845280015418, guid: 48d05d90ace0eae4da1923dbb025ce62, type: 3}
   m_PrefabInstance: {fileID: 1673741857}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1674459148
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 453864613}
+    m_Modifications:
+    - target: {fileID: 916348986562589161, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_Name
+      value: road sign_left (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.018554688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.019958496
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0094918525
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7531005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008290523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6577848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 179.806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -82.27301
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246014103623877626, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.4309998
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7051f5708d2baff4c985b8b2612fe980, type: 3}
 --- !u!1001 &1679344703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69305,7 +67822,7 @@ Transform:
   m_Children:
   - {fileID: 1303612586}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1680881400
 PrefabInstance:
@@ -69460,7 +67977,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1686599782}
-  - component: {fileID: 1686599783}
   - component: {fileID: 1686599785}
   - component: {fileID: 1686599784}
   m_Layer: 13
@@ -69484,38 +68000,6 @@ Transform:
   m_Father: {fileID: 9047280316591446876}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1686599783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686599781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 846529222
-      Data2: 1112817670
-      Data3: -1599312730
-      Data4: -379620733
-    Path: event:/Character Foley/Footsteps/Footsteps
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params:
-  - Name: Terrain
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &1686599784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69950,6 +68434,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4599866046254600463, guid: 3ed485b98833de146b5042f363e30406, type: 3}
   m_PrefabInstance: {fileID: 1710473181}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1713585613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2099802302}
+    m_Modifications:
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0016655099
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.026380124
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.040157374
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.72962785
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06956952
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6690438
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.123222545
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -84.533
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4485034288721324332, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_Name
+      value: road_sign_stop_2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
 --- !u!1001 &1715172427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76732,41 +75285,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8297586148382009749, guid: b133d39c8fb0ddd428bed41786eb3c20, type: 3}
   m_PrefabInstance: {fileID: 1728495348}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1730209956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 1547208080}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1730209960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730209956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1736855092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77424,18 +75942,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.013
       objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 3.7158813
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
 --- !u!4 &1763244496 stripped
@@ -77443,41 +75949,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
   m_PrefabInstance: {fileID: 1763244495}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1769845628 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7191828398146687925, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
-  m_PrefabInstance: {fileID: 1331526800}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1769845632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769845628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1777863939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78451,41 +76922,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 45d961d1c4d3e2a48be24400c77c0dc0, type: 3}
   m_PrefabInstance: {fileID: 1827643475}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1828058129 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1888269045178818663, guid: e75e0bbfe0e9d8c4b99d6d6b6829eef6, type: 3}
-  m_PrefabInstance: {fileID: 602781372}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1828058133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828058129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1840664877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78942,41 +77378,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4551902510600510569, guid: 4b9bd71fee0217e45867eb0d17f859b2, type: 3}
   m_PrefabInstance: {fileID: 1868768424}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1877280626 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
-  m_PrefabInstance: {fileID: 709069207}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1877280630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1877280626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &1881198478 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1958304335000942356, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
@@ -79127,7 +77528,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Pavilion
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &1889821114 stripped
 Transform:
@@ -79174,7 +77576,7 @@ Transform:
   - {fileID: 984588918}
   - {fileID: 366132140}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1899577704
 PrefabInstance:
@@ -79621,41 +78023,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909498563}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1909778839 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 2085365398}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1909778843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909778839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1914787626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80034,41 +78401,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013974182346, guid: a4ea7ad660a6e4241aff4002d350fe80, type: 3}
   m_PrefabInstance: {fileID: 1930236141}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1935238402 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8019887852023770227, guid: 0ac8c7292c9cebe40af67618c9d536b3, type: 3}
-  m_PrefabInstance: {fileID: 765497622}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1935238406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935238402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1936201645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80250,41 +78582,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 462508, guid: 98dadaae72a006d48955753a8c0eb7a0, type: 3}
   m_PrefabInstance: {fileID: 1941222134}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1944417525 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 1442780385}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1944417529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944417525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1944751917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80351,6 +78648,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011515750920, guid: bd78ceace8eb93d42a9ee0bde8dbc598, type: 3}
   m_PrefabInstance: {fileID: 1944751917}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1945565124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2007261374}
+    m_Modifications:
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0082
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6934
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0205
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7030924
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7110986
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.649
+      objectReference: {fileID: 0}
+    - target: {fileID: 604981210694327103, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4485034288721324332, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
+      propertyPath: m_Name
+      value: road_sign_stop_2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0eac98481178120488bb1f58b4b66a7b, type: 3}
 --- !u!1001 &1949798207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81223,7 +79577,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Church Bridge
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &1983947906 stripped
 Transform:
@@ -81611,48 +79966,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Sandstorm
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &1994891661 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1958304335000942356, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_PrefabInstance: {fileID: 1994891660}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1995335695 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7191828398146687925, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
-  m_PrefabInstance: {fileID: 2019848016}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1995335699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995335695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 1
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1998780022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81928,41 +80249,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001821780}
   m_CullTransparentMesh: 1
---- !u!1 &2007702100 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7191828398146687925, guid: d72ff925f26cac64eab6c2d0b0414f4e, type: 3}
-  m_PrefabInstance: {fileID: 1738140791}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2007702104
-MonoBehaviour:
+--- !u!1001 &2007261373
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2146228642}
+    m_Modifications:
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.696533
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5543842
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.771606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9646618
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.012333384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.049119204
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2585787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.092
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.805
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 30.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430255440781894859, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_Name
+      value: stop_sign
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+--- !u!4 &2007261374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+  m_PrefabInstance: {fileID: 2007261373}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007702100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &2011511175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82094,6 +80442,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011066351628, guid: 36b4cee33c5a95b4fa7f0ae6bdb49564, type: 3}
   m_PrefabInstance: {fileID: 2012639247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2015744769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1006746312}
+    m_Modifications:
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.15918
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -17.330048
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.448792
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99845165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.04869689
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0037753405
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.026622722
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 5.569
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.583
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430255440781894859, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_Name
+      value: sign_sandstorm
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+--- !u!4 &2015744770 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+  m_PrefabInstance: {fileID: 2015744769}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2018887245
 PrefabInstance:
@@ -82440,8 +80850,9 @@ Transform:
   - {fileID: 1072254725}
   - {fileID: 221999500}
   - {fileID: 343962399}
+  - {fileID: 576169121}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2037651242
 PrefabInstance:
@@ -82513,18 +80924,6 @@ PrefabInstance:
     - target: {fileID: 408898, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideAttenuation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2912913111970558989, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 2.3067017
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f48fa3fb502c7409a36f29b9dc0131, type: 3}
@@ -82658,76 +81057,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011048348644, guid: 84147b87204d0a0478bae9558d656ea2, type: 3}
   m_PrefabInstance: {fileID: 2044394254}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2047928281 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 688303163848270620, guid: 3ed485b98833de146b5042f363e30406, type: 3}
-  m_PrefabInstance: {fileID: 182983270}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2047928285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047928281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &2053774492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7058163058782439990, guid: 72cfa7da0ceba1548817523ae7ddacc5, type: 3}
-  m_PrefabInstance: {fileID: 830669490}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2053774496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053774492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1586003850
-      Data2: 1287761088
-      Data3: 947134101
-      Data4: 943859192
-    Path: event:/Environment/Lights/light_buzz
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &2054954950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83516,7 +81845,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: VO Bunker
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1958304335000942346, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 815f43ee93dac4b27b44c1255ca3bd45, type: 3}
 --- !u!4 &2105881586 stripped
 Transform:
@@ -83584,6 +81914,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5623816384937972763, guid: 10078452dab690a4099417aafe441aed, type: 3}
   m_PrefabInstance: {fileID: 2107947225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2117311680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1341802346}
+    m_Modifications:
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9299927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.109062195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.880005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9947827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.039952874
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07350121
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.058385294
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 5.053
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 8.171
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.357
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430255440781894859, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+      propertyPath: m_Name
+      value: sign_pavilionorchurch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+--- !u!4 &2117311681 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4802263753046169304, guid: ea4a3e3ba7c6d694d84c84b4e28c9b6f, type: 3}
+  m_PrefabInstance: {fileID: 2117311680}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2119165035
 GameObject:
@@ -83940,8 +82332,10 @@ Transform:
   - {fileID: 1928719908}
   - {fileID: 1569765503}
   - {fileID: 2099802302}
+  - {fileID: 453864613}
+  - {fileID: 2007261374}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2579913967256462
 Transform:
@@ -85238,7 +83632,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4010751502070298852
 GameObject:
@@ -85339,6 +83733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4049771917238122682}
   - component: {fileID: 4049771917238122686}
+  - component: {fileID: 4049771917238122687}
   m_Layer: 13
   m_Name: PlayerCameraRoot
   m_TagString: CinemachineTarget
@@ -85376,6 +83771,20 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2.0130005
   OverrideMaxDistance: 5.7127304
+--- !u!114 &4049771917238122687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4049771917238122685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1 &4060243463451912001
 GameObject:
   m_ObjectHideFlags: 0
@@ -85860,7 +84269,7 @@ Transform:
   m_Children:
   - {fileID: 6283858791193453066}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6283858790701175759
 MonoBehaviour:
@@ -86609,7 +85018,6 @@ GameObject:
   - component: {fileID: 5362637080947563930}
   - component: {fileID: 8558445884505932264}
   - component: {fileID: 8558445884505932266}
-  - component: {fileID: 8558445884505932263}
   m_Layer: 13
   m_Name: Player
   m_TagString: Player
@@ -86617,20 +85025,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8558445884505932263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8558445884505932262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
-  ListenerNumber: -1
 --- !u!114 &8558445884505932264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86647,7 +85041,13 @@ MonoBehaviour:
   hitMask:
     serializedVersion: 2
     m_Bits: 17112
-  footstepEmitter: {fileID: 1686599783}
+  eventName:
+    Guid:
+      Data1: 846529222
+      Data2: 1112817670
+      Data3: -1599312730
+      Data4: -379620733
+    Path: event:/Character Foley/Footsteps/Footsteps
   jumpStartEmitter: {fileID: 1686599785}
   jumpLandingEmitter: {fileID: 1686599784}
 --- !u!114 &8558445884505932265
@@ -87018,7 +85418,7 @@ Transform:
   - {fileID: 5206295493127972293}
   - {fileID: 1686599782}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 113.131, z: 0}
 --- !u!199 &9052506877304036456
 ParticleSystemRenderer:
@@ -96702,9 +95102,9 @@ MonoBehaviour:
   Params:
   - Name: fire_size
     Value: 10
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideAttenuation: 1
+  OverrideMinDistance: 23.21167
+  OverrideMaxDistance: 46.86432
 --- !u!4 &9181245784367532466
 Transform:
   m_ObjectHideFlags: 0
@@ -96727,7 +95127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9178965844670215646}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.7, y: 0.33, z: -0.81}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 941710228}

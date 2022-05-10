@@ -4,9 +4,6 @@
 		<property name="assetPath">
 			<value>339937__iesp__bow-river-pathway-metal-bridge.wav</value>
 		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
