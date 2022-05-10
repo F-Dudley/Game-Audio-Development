@@ -208,7 +208,7 @@ MonoBehaviour:
     Data4: 1197657463
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -317,7 +317,7 @@ MonoBehaviour:
     Data4: -210843423
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -401,7 +401,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -5966074584019498729}
+  - {fileID: 0}
   MinDistance: 1
   MaxDistance: 20
   Length: 3963
@@ -425,7 +425,7 @@ MonoBehaviour:
     Data4: 943859192
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -558,7 +558,7 @@ MonoBehaviour:
     Data4: -261445847
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -633,10 +633,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637877845780000000
+  lastModified: 637877991790000000
   FileSizes:
   - Name: Desktop
-    Value: 4240
+    Value: 4280
   Exists: 1
 --- !u!114 &-4425608694887193696
 MonoBehaviour:
@@ -684,7 +684,7 @@ MonoBehaviour:
     Data4: -1073653876
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -711,7 +711,7 @@ MonoBehaviour:
     Data4: -561768819
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -884,7 +884,7 @@ MonoBehaviour:
     Data4: -367085641
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -906,7 +906,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637877777740000000
+  lastModified: 637877991790000000
   FileSizes:
   - Name: Desktop
     Value: 126176
@@ -931,7 +931,7 @@ MonoBehaviour:
     Data4: -885606002
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
@@ -953,10 +953,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 637877777740000000
+  lastModified: 637877991780000000
   FileSizes:
   - Name: Desktop
-    Value: 2195936
+    Value: 2423520
   Exists: 1
 --- !u!114 &-2257226140620551358
 MonoBehaviour:
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   - {fileID: 7975479682711571341}
   StringsBanks:
   - {fileID: -4871921336849933862}
-  cacheTime: 637877910630000000
+  cacheTime: 637877991790000000
   cacheVersion: 10
 --- !u!114 &492729400596246435
 MonoBehaviour:
@@ -1390,7 +1390,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637877910630000000
+  lastModified: 637877991790000000
   FileSizes:
   - Name: Desktop
     Value: 6418176
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637877910630000000
+  lastModified: 637877991790000000
   FileSizes:
   - Name: Desktop
     Value: 6276288
@@ -1485,10 +1485,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637877910630000000
+  lastModified: 637877991780000000
   FileSizes:
   - Name: Desktop
-    Value: 25390720
+    Value: 25391488
   Exists: 1
 --- !u!114 &2700909350670205544
 MonoBehaviour:
@@ -1563,7 +1563,7 @@ MonoBehaviour:
     Data4: 2060783239
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
@@ -1676,7 +1676,7 @@ MonoBehaviour:
     Data4: -1946314025
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
@@ -1728,7 +1728,7 @@ MonoBehaviour:
     Data4: 1141636035
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
@@ -1764,6 +1764,30 @@ MonoBehaviour:
   Labels:
   - Female
   - Male
+  Exists: 1
+--- !u!114 &4884655079074576493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_7/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2040790311
+    data2: 2841901036
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &5074581765003242951
 MonoBehaviour:
@@ -1865,7 +1889,7 @@ MonoBehaviour:
     Data4: -894134581
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -2153,7 +2177,7 @@ MonoBehaviour:
     Data4: 254751112
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -2313,7 +2337,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637877910630000000
+  lastModified: 637877991790000000
   FileSizes:
   - Name: Desktop
     Value: 5722
@@ -2362,12 +2386,13 @@ MonoBehaviour:
     Data4: 1196092491
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -3047186659115204975}
   - {fileID: -4101180869252727537}
+  - {fileID: 4884655079074576493}
   MinDistance: 1
   MaxDistance: 20
   Length: 130500
@@ -2421,7 +2446,7 @@ MonoBehaviour:
     Data4: 692424012
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
@@ -2444,7 +2469,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637877910630000000
+  lastModified: 637877991780000000
   FileSizes:
   - Name: Desktop
     Value: 6815744

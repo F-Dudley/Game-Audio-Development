@@ -22,7 +22,8 @@ namespace PlayerSounds
         [SerializeField] private LayerMask hitMask;
 
         [Header("Footsteps Sound")]
-        [SerializeField] private StudioEventEmitter footstepEmitter;
+        [SerializeField] private EventReference eventName;
+        private FMOD.Studio.EventInstance footstepInstance;
 
         [Header("Jump")]
         [SerializeField] private StudioEventEmitter jumpStartEmitter;
@@ -79,7 +80,10 @@ namespace PlayerSounds
                 }
             }
 
-            footstepEmitter.SetParameter("Terrain", (int) currentTerrain);
+            if (footstepInstance.isValid())
+            {
+                footstepInstance.setParameterByName("Terrain", (int) currentTerrain);                
+            }
 
             jumpStartEmitter.SetParameter("Jump", (int) currentTerrain);
             jumpLandingEmitter.SetParameter("Land", (int) currentTerrain);
@@ -87,7 +91,10 @@ namespace PlayerSounds
 
         public void PlayFootstep()
         {
-            footstepEmitter.Play();
+            footstepInstance = FMODUnity.RuntimeManager.CreateInstance(eventName);
+            footstepInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+            footstepInstance.start();
+            footstepInstance.release();
         }
 
         public void PlayJumpStart()

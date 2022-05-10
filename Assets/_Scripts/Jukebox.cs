@@ -6,22 +6,22 @@ public class Jukebox : MonoBehaviour
 {
 
     [SerializeField] private bool interactedWith = false;
-    [SerializeField] private FMODUnity.StudioEventEmitter emitter;
+    [SerializeField] private Occlusion occlusionEmitter;
 
     private void Start()
     {
-        emitter.SetParameter("ON_OFF", 0);
+        occlusionEmitter = GetComponentInChildren<Occlusion>();
 
-        // This can be deleted later just for testing.
-        emitter.SetParameter("Size", 200);
+        occlusionEmitter.SetParameter("ON_OFF", 0);
+        occlusionEmitter.SetParameter("Size", 1);
     }
 
     public void SetOn()
     {
         if (!interactedWith)
         {
-            emitter.SetParameter("ON_OFF", 1);
-            GameManager.instance.AddJukeboxTime();
+            occlusionEmitter.SetParameter("ON_OFF", 1);
+            GameManager.instance.AddJukeboxTime();  
 
             interactedWith = true;
         }
