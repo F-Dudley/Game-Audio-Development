@@ -5,8 +5,6 @@ using FMODUnity;
 
 namespace SunTemple
 {
-   
-
     public class Door : MonoBehaviour
     {
 		public bool IsLocked = false;
@@ -26,18 +24,15 @@ namespace SunTemple
         float CurrentLerpTime = 0;
         bool Rotating;
 
-        [SerializeField] private StudioEventEmitter doorSound;
+        [SerializeField] private StudioEventEmitter doorSoundOpen;
+        [SerializeField] private StudioEventEmitter doorSoundClose;
 
 		private bool scriptIsEnabled = true;
 
         void Start(){
-            StartRotation = transform.localEulerAngles ;
-			DoorCollider = GetComponent<BoxCollider> ();	
-            
-            doorSound =     GetComponent<StudioEventEmitter>();
+            StartRotation = transform.localEulerAngles;
+			DoorCollider = GetComponent<BoxCollider>();
         }
-
-
 
 		void Update()
 		{
@@ -49,17 +44,17 @@ namespace SunTemple
 		} 
 
         public void Activate()
-        {
-            doorSound.SetParameter("OPEN_CLOSED", DoorClosed ? 0 : 1);
-            int param = DoorClosed ? 0 : 1;
-            Debug.Log(param);
-        
+        {        
             if (DoorClosed)
+            {
                 Open();
+                doorSoundOpen.Play();                
+            }
             else
+            {
                 Close();
-        
-            doorSound.Play();
+                doorSoundClose.Play();                
+            }
         }
 
         void Rotate()
@@ -89,8 +84,6 @@ namespace SunTemple
             EndAngle =  StartRotation.y + OpenRotationAmount;
             CurrentLerpTime = 0;
             Rotating = true;
-            
-
         }
 
         void Close()
