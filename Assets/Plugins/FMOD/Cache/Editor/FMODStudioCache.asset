@@ -350,6 +350,61 @@ MonoBehaviour:
   - Female
   - Male
   Exists: 1
+--- !u!114 &-6280960252618714448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Door/DoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Door/DoorOpen
+  Guid:
+    Data1: 1030415026
+    Data2: 1127933283
+    Data3: -139018098
+    Data4: -462277936
+  Banks:
+  - {fileID: 2699000965112239691}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2312
+--- !u!114 &-6156959578528071003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Sand
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Sand
+  Guid:
+    Data1: 866122459
+    Data2: 1137538847
+    Data3: -578702949
+    Data4: 772148714
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5966074584019498729}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3963
 --- !u!114 &-6148432324553633702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,7 +633,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637877910630000000
+  lastModified: 637877845780000000
   FileSizes:
   - Name: Desktop
     Value: 4240
@@ -851,7 +906,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637877910630000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 126176
@@ -898,7 +953,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 637877910630000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 2195936
@@ -1340,6 +1395,34 @@ MonoBehaviour:
   - Name: Desktop
     Value: 6418176
   Exists: 1
+--- !u!114 &1877209833814202124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Door/DoorClose
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Door/DoorClose
+  Guid:
+    Data1: -1582894658
+    Data2: 1274766348
+    Data3: -1013508480
+    Data4: -22970057
+  Banks:
+  - {fileID: 2699000965112239691}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3885127425113176533}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2100
 --- !u!114 &2173815721319739732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,6 +1684,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &3885127425113176533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoorClose/OPEN_CLOSED
+  m_EditorClassIdentifier: 
+  Name: OPEN_CLOSED
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2501744125
+    data2: 2345937384
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &4217655395299136655
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+using DG.Tweening;
 
 public class GameMenuManager : MonoBehaviour
 {
@@ -15,10 +18,24 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] private GameObject teleportMenu;
     [SerializeField] private GameObject returnButton;
 
+    [Header("Death Screen")]
+    [SerializeField] private GameObject deathUIRoot;
+    [SerializeField] private GameObject deathTitle;
+    [SerializeField] private GameObject deathUIButtons;    
+    [SerializeField] private Image deathScreenBackground;
+
+    [SerializeField] private float deathFadeTime;
+    [SerializeField] private float killboxFadeTime;
+
+    private Sequence fadeInOutSequence = DOTween.Sequence();
+
     #region Unity Functions
     private void Awake()
     {
         instance = this;
+
+        fadeInOutSequence.Append(deathScreenBackground.DOFade(255, killboxFadeTime));
+        fadeInOutSequence.Append(deathScreenBackground.DOFade(0, killboxFadeTime));
     }
 
     private void Update()
@@ -58,6 +75,70 @@ public class GameMenuManager : MonoBehaviour
         settingsMenu.SetActive(false);
         teleportMenu.SetActive(false);
         returnButton.SetActive(false);
+    }
+
+    public void DisplayDeathMenu()
+    {
+        deathUIRoot.SetActive(true);
+        StartCoroutine(DeathFadeIn());
+    }
+
+    private void ShowFullDeathUIButtons()
+    {
+        deathTitle.SetActive(true);
+        deathUIButtons.SetActive(true);
+    }
+
+    private void HideFullDeathUIButtons()
+    {
+        deathTitle.SetActive(false);
+        deathUIButtons.SetActive(false);
+    }
+    #endregion
+
+    #region Death Functions
+
+    public void PerformInOutFade()
+    {
+        deathUIRoot.SetActive(true);
+        StartCoroutine(FadeInOut());
+    }
+
+    private IEnumerator DeathFadeIn()
+    {
+        deathScreenBackground.color = new Color(deathScreenBackground.color.r, 
+                                                deathScreenBackground.color.g,
+                                                deathScreenBackground.color.b, 0);
+
+        deathScreenBackground.DOFade(255, deathFadeTime * 100);
+ 
+        yield return new WaitForSeconds(2f);
+
+        Cursor.lockState = CursorLockMode.Confined;
+        ShowFullDeathUIButtons();
+
+        yield return null;
+    }
+
+    private IEnumerator FadeInOut()
+    {
+        deathScreenBackground.color = new Color(deathScreenBackground.color.r, 
+                                                deathScreenBackground.color.g,
+                                                deathScreenBackground.color.b, 0);
+
+        deathScreenBackground.DOFade(255, killboxFadeTime * 100);
+ 
+        yield return new WaitForSeconds(killboxFadeTime * 0.75f);
+
+        deathTitle.SetActive(true);
+
+        deathScreenBackground.DOFade(0, killboxFadeTime * 100);
+
+        yield return new WaitForSeconds(killboxFadeTime * 0.75f);
+
+        deathUIRoot.SetActive(false);
+        deathTitle.SetActive(false);
+        
     }
     #endregion
 }
