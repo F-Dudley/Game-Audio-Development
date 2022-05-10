@@ -74,6 +74,7 @@ namespace PlayerTeleportation
         #region Teleport Functionality
         public void TeleportPlayer(Transform teleportLocation)
         {
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VerbAmount", 0);
             playerController.enabled = false;
             player.SetPositionAndRotation(teleportLocation.position, teleportLocation.rotation);
 
