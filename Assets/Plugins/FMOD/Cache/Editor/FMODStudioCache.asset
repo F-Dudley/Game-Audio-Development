@@ -496,7 +496,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 3700
@@ -745,7 +745,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637877123350000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 126176
@@ -792,7 +792,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 1492096
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   - {fileID: 7975479682711571341}
   StringsBanks:
   - {fileID: -4871921336849933862}
-  cacheTime: 637877123350000000
+  cacheTime: 637877777740000000
   cacheVersion: 10
 --- !u!114 &639447656280483186
 MonoBehaviour:
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 6418144
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 6276288
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 24503712
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 4774
@@ -2005,7 +2005,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637877123340000000
+  lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
     Value: 6815744
