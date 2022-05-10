@@ -27,7 +27,10 @@ public class KillBox : MonoBehaviour
     
     private IEnumerator DeathTime()
     {
+        GameMenuManager.instance.PerformInOutFade();
+
         yield return waitTime;
+
         FMODUnity.RuntimeManager.PlayOneShot(DeathVO);
         TeleportManager.instance.TeleportToClosestLocation();
 

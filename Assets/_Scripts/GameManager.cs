@@ -80,6 +80,7 @@ public class GameManager : MonoBehaviour
         deathMusic.Play();
 
         // GameFinished Screen;
+        GameMenuManager.instance.DisplayDeathMenu();
     }
 
     private void AllJukeboxesCollected()
