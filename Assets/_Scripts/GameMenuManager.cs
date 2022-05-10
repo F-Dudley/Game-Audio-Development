@@ -27,15 +27,10 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] private float deathFadeTime;
     [SerializeField] private float killboxFadeTime;
 
-    private Sequence fadeInOutSequence = DOTween.Sequence();
-
     #region Unity Functions
     private void Awake()
     {
         instance = this;
-
-        fadeInOutSequence.Append(deathScreenBackground.DOFade(255, killboxFadeTime));
-        fadeInOutSequence.Append(deathScreenBackground.DOFade(0, killboxFadeTime));
     }
 
     private void Update()
