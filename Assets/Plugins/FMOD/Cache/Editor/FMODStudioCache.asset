@@ -1,5 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9115966359030126953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Ruined Town
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Ruined Town
+  Guid:
+    Data1: 589555784
+    Data2: 1156057190
+    Data3: -610523204
+    Data4: -1339356842
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4430135220416061403}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4874
 --- !u!114 &-9053434685325526122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,6 +106,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8519097070774189896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bridges/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
+--- !u!114 &-8510776750753581274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Pavilion
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Pavilion
+  Guid:
+    Data1: 1963467597
+    Data2: 1089030474
+    Data3: 452747442
+    Data4: -44807300
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 492729400596246435}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-8342444282186782605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +242,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &-7791537961244817809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Spaceship
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Spaceship
+  Guid:
+    Data1: 1627226505
+    Data2: 1302141752
+    Data3: -99670614
+    Data4: -1284312375
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9178196236682232184}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4156
 --- !u!114 &-6650511937713207390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,32 +432,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5937
---- !u!114 &-5966074584019498729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Sand/VocalGender
-  m_EditorClassIdentifier: 
-  Name: VocalGender
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2225674422
-    data2: 2898188452
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Female
-  - Male
-  Exists: 1
 --- !u!114 &-5877016501217499621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,6 +592,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2229
+--- !u!114 &-5034233038094052019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Industrial Area/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
 --- !u!114 &-4871921336849933862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,7 +636,7 @@ MonoBehaviour:
   lastModified: 637877845780000000
   FileSizes:
   - Name: Desktop
-    Value: 3974
+    Value: 4240
   Exists: 1
 --- !u!114 &-4425608694887193696
 MonoBehaviour:
@@ -846,7 +956,7 @@ MonoBehaviour:
   lastModified: 637877777740000000
   FileSizes:
   - Name: Desktop
-    Value: 1492096
+    Value: 2195936
   Exists: 1
 --- !u!114 &-2257226140620551358
 MonoBehaviour:
@@ -954,6 +1064,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 332
+--- !u!114 &-36110910393301462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bunker/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
 --- !u!114 &-8709978464049726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,7 +1142,6 @@ MonoBehaviour:
   - {fileID: 3142760563832675405}
   - {fileID: 7291658458865152949}
   - {fileID: 7533918784795032477}
-  - {fileID: -6156959578528071003}
   - {fileID: -8141798851964674144}
   - {fileID: -6554208453280494822}
   - {fileID: -6148432324553633702}
@@ -1035,8 +1170,15 @@ MonoBehaviour:
   - {fileID: 5329345829862471798}
   - {fileID: 7746116543168836246}
   - {fileID: 5927740274518143365}
-  - {fileID: -6280960252618714448}
-  - {fileID: 1877209833814202124}
+  - {fileID: 877900733703405597}
+  - {fileID: -5517866626700116045}
+  - {fileID: -9115966359030126953}
+  - {fileID: -8510776750753581274}
+  - {fileID: 5558678906902981142}
+  - {fileID: -7791537961244817809}
+  - {fileID: 6541970403094877274}
+  - {fileID: 853895174589098176}
+  - {fileID: 5124373258876093846}
   EditorParameters:
   - {fileID: -3999597569755329601}
   - {fileID: 6502873068356450829}
@@ -1049,8 +1191,34 @@ MonoBehaviour:
   - {fileID: 7975479682711571341}
   StringsBanks:
   - {fileID: -4871921336849933862}
-  cacheTime: 637877845780000000
+  cacheTime: 637877910630000000
   cacheVersion: 10
+--- !u!114 &492729400596246435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pavilion/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
 --- !u!114 &639447656280483186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,6 +1320,34 @@ MonoBehaviour:
   - Female
   - Male
   Exists: 1
+--- !u!114 &853895174589098176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Bunker
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Bunker
+  Guid:
+    Data1: 990022101
+    Data2: 1274905397
+    Data3: -1514490220
+    Data4: -230667223
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -36110910393301462}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2658
 --- !u!114 &877900733703405597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1194,7 +1390,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637877845780000000
+  lastModified: 637877910630000000
   FileSizes:
   - Name: Desktop
     Value: 6418176
@@ -1242,7 +1438,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637877777740000000
+  lastModified: 637877910630000000
   FileSizes:
   - Name: Desktop
     Value: 6276288
@@ -1289,10 +1485,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637877845780000000
+  lastModified: 637877910630000000
   FileSizes:
   - Name: Desktop
-    Value: 24503776
+    Value: 25390720
   Exists: 1
 --- !u!114 &2700909350670205544
 MonoBehaviour:
@@ -1543,6 +1739,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
+--- !u!114 &4430135220416061403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ruined Town/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
 --- !u!114 &5074581765003242951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,6 +1789,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5124373258876093846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Sandstorm
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Sandstorm
+  Guid:
+    Data1: 866122459
+    Data2: 1137538847
+    Data3: -578702949
+    Data4: 772148714
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6871488695033136834}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3963
 --- !u!114 &5317965215014676576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1622,6 +1872,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2500
+--- !u!114 &5558678906902981142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Industrial Area
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Industrial Area
+  Guid:
+    Data1: -124641709
+    Data2: 1188922268
+    Data3: -10921310
+    Data4: 1301770729
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5034233038094052019}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &5604049007847790324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1753,6 +2031,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &6541970403094877274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Bridges
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Bridges
+  Guid:
+    Data1: 1674524861
+    Data2: 1164292799
+    Data3: 1614374529
+    Data4: 1490012999
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8519097070774189896}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &6724887188818956079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1776,6 +2082,32 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &6871488695033136834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandstorm/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
   Exists: 1
 --- !u!114 &6888293056096462543
 MonoBehaviour:
@@ -1981,7 +2313,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637877845780000000
+  lastModified: 637877910630000000
   FileSizes:
   - Name: Desktop
     Value: 5722
@@ -2112,8 +2444,34 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637877777740000000
+  lastModified: 637877910630000000
   FileSizes:
   - Name: Desktop
     Value: 6815744
+  Exists: 1
+--- !u!114 &9178196236682232184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Spaceship/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
   Exists: 1
