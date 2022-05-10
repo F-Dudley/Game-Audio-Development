@@ -24,6 +24,7 @@
 		<relationship name="effects">
 			<destination>{23509f1d-c2f3-4124-82e8-ac52f7a90076}</destination>
 			<destination>{39bbaac2-b02f-41eb-9374-a3b0950e5bfb}</destination>
+			<destination>{0e800603-d17a-4c78-b9f9-4db6dbec6cbd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{61e1178a-d8d2-4e5b-98ab-b9207e358cf2}" />
@@ -38,6 +39,14 @@
 		<relationship name="mixerReturn">
 			<destination>{a21bf97d-7a57-4fcd-88dc-98c74e6b21a4}</destination>
 		</relationship>
+	</object>
+	<object class="LimiterEffect" id="{0e800603-d17a-4c78-b9f9-4db6dbec6cbd}">
+		<property name="boost">
+			<value>6</value>
+		</property>
+		<property name="ceiling">
+			<value>-0.100000001</value>
+		</property>
 	</object>
 	<object class="Automator" id="{26fc3969-cfe8-44d1-9b6c-7dd3e4c9d1ed}">
 		<property name="nameOfPropertyBeingAutomated">
