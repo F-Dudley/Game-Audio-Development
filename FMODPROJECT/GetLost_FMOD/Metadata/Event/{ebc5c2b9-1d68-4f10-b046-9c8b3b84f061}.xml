@@ -253,8 +253,11 @@
 			<value>0.25</value>
 		</property>
 		<property name="length">
-			<value>0.74999999999999978</value>
+			<value>0.75</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{fce4ac43-8a2b-4a3f-a17f-fac55946b4a5}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{830d7c31-088d-4305-8a5c-fa9860c9aa65}</destination>
 		</relationship>
@@ -385,6 +388,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cdb8fc27-9cd3-4c4d-85ca-3f8eaf2129c8}" />
+	<object class="ADSRModulator" id="{fce4ac43-8a2b-4a3f-a17f-fac55946b4a5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="Automator" id="{ed119f87-318a-42e9-8187-88c8d4ca43ac}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -504,7 +518,7 @@
 	</object>
 	<object class="AutomationPoint" id="{362f498b-f0b0-4029-adb8-ac37f606cabc}">
 		<property name="position">
-			<value>0.5</value>
+			<value>0.28000000000000003</value>
 		</property>
 		<property name="value">
 			<value>0</value>

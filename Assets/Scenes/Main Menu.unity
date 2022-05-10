@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000019073486, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.0000038146973, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &10042972
@@ -5265,15 +5265,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5af82ee24487450ea7e355f48a2ffa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterVCARoute: 
+  masterVCARoute: vca:/Master VCA
   masterVolumeSlider: {fileID: 1153296798}
-  musicVCARoute: 
+  musicVCARoute: vca:/Music VCA
   musicVolumeSlider: {fileID: 1153296798}
-  sfxVCARoute: 
+  sfxVCARoute: vca:/SFX VCA
   sfxVolumeSlider: {fileID: 1699468702}
-  dialogueVCARoute: 
+  dialogueVCARoute: vca:/Vox VCA
   dialogueVolumeSlider: {fileID: 1061289011}
-  uiVCARoute: 
+  uiVCARoute: vca:/UI VCA
   uiVolumeSlider: {fileID: 1779232693}
 --- !u!1 &1674779744
 GameObject:
