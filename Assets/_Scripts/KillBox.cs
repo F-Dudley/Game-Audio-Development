@@ -7,21 +7,18 @@ using FMODUnity;
 
 public class KillBox : MonoBehaviour
 {
-    [FMODUnity.EventRef]
     public string PlayDeathAudio;
- 
     public FMODUnity.EventReference DeathVO;
+    [SerializeField] private bool deathRunning = false;
 
-    private Vector3 SpawnPoint = new Vector3(865.0f,100.0f,885.0f);
-    //Moves this GameObject 2 units a second in the forward direction
-    
     private WaitForSeconds waitTime = new WaitForSeconds(2f);
 
     //Upon collision with another GameObject, this GameObject will reverse direction
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player") && !deathRunning)
         {
+            deathRunning = true;
             FMODUnity.RuntimeManager.PlayOneShotAttached(PlayDeathAudio,gameObject);
             StartCoroutine(DeathTime());
             // Trigger Sounds Here
@@ -30,9 +27,13 @@ public class KillBox : MonoBehaviour
     
     private IEnumerator DeathTime()
     {
+        GameMenuManager.instance.PerformInOutFade();
+
         yield return waitTime;
+
         FMODUnity.RuntimeManager.PlayOneShot(DeathVO);
         TeleportManager.instance.TeleportToClosestLocation();
 
+        deathRunning = false;
     }
 }

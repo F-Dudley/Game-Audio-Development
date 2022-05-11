@@ -6,8 +6,7 @@ public class Occlusion : MonoBehaviour
 {
     [Header("FMOD Event")]
     [SerializeField]
-    [EventRef]
-    private string SelectAudio;
+    private EventReference SelectAudio;
     private EventInstance Audio;
     private EventDescription AudioDes;
     private StudioListener Listener;
@@ -91,7 +90,7 @@ public class Occlusion : MonoBehaviour
             colour = Color.green;
         }
 
-        SetParameter();
+        Audio.setParameterByName("Occlusion", lineCastHitCount / 11);
     }
 
     private Vector3 CalculatePoint(Vector3 a, Vector3 b, float m, bool posOrneg)
@@ -127,8 +126,8 @@ public class Occlusion : MonoBehaviour
             Debug.DrawLine(Start, End, colour);
     }
 
-    private void SetParameter()
+    public void SetParameter(string paramName, int value)
     {
-        Audio.setParameterByName("Occlusion", lineCastHitCount / 11);
+        Audio.setParameterByName(paramName, value);
     }
 }

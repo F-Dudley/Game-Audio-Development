@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 namespace SunTemple
 {
-   
-
     public class Door : MonoBehaviour
     {
 		public bool IsLocked = false;
@@ -25,15 +24,15 @@ namespace SunTemple
         float CurrentLerpTime = 0;
         bool Rotating;
 
+        [SerializeField] private StudioEventEmitter doorSoundOpen;
+        [SerializeField] private StudioEventEmitter doorSoundClose;
 
 		private bool scriptIsEnabled = true;
 
         void Start(){
-            StartRotation = transform.localEulerAngles ;
-			DoorCollider = GetComponent<BoxCollider> ();	
+            StartRotation = transform.localEulerAngles;
+			DoorCollider = GetComponent<BoxCollider>();
         }
-
-
 
 		void Update()
 		{
@@ -45,11 +44,17 @@ namespace SunTemple
 		} 
 
         public void Activate()
-        {
+        {        
             if (DoorClosed)
+            {
                 Open();
+                doorSoundOpen.Play();                
+            }
             else
+            {
                 Close();
+                doorSoundClose.Play();                
+            }
         }
 
         void Rotate()

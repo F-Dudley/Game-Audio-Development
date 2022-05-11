@@ -1,5 +1,63 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9115966359030126953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Ruined Town
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Ruined Town
+  Guid:
+    Data1: 589555784
+    Data2: 1156057190
+    Data3: -610523204
+    Data4: -1339356842
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4430135220416061403}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4874
+--- !u!114 &-9053434685325526122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Land/Land
+  m_EditorClassIdentifier: 
+  Name: Land
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1509769770
+    data2: 3398859104
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  - Metal
+  - Earth
+  - Gravel
+  - Water
+  Exists: 1
 --- !u!114 &-8971128835735650040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48,7 +106,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-8438940768893205000
+--- !u!114 &-8519097070774189896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,20 +116,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Bridge
+  m_Name: parameter:/Bridges/VocalGender
   m_EditorClassIdentifier: 
-  Name: Bridge
+  Name: VocalGender
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 1380337017
-    data2: 649930943
-  Type: 0
-  IsGlobal: 0
-  Labels: []
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
   Exists: 1
+--- !u!114 &-8510776750753581274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Pavilion
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Pavilion
+  Guid:
+    Data1: 1963467597
+    Data2: 1089030474
+    Data3: 452747442
+    Data4: -44807300
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 492729400596246435}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-8342444282186782605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +208,7 @@ MonoBehaviour:
     Data4: 1197657463
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -154,7 +242,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
---- !u!114 &-7516080890462104842
+--- !u!114 &-7791537961244817809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,24 +252,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Door/Door
+  m_Name: event:/Vox/VO/Spaceship
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Door/Door
+  Path: event:/Vox/VO/Spaceship
   Guid:
-    Data1: 1940863628
-    Data2: 1299614176
-    Data3: 1409314444
-    Data4: -294912499
+    Data1: 1627226505
+    Data2: 1302141752
+    Data3: -99670614
+    Data4: -1284312375
   Banks:
-  - {fileID: 2699000965112239691}
+  - {fileID: -2264877805605137425}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -255579668394544577}
+  - {fileID: 9178196236682232184}
   MinDistance: 1
   MaxDistance: 20
-  Length: 3050
+  Length: 4156
 --- !u!114 &-6650511937713207390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +317,7 @@ MonoBehaviour:
     Data4: -210843423
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -262,34 +350,6 @@ MonoBehaviour:
   - Female
   - Male
   Exists: 1
---- !u!114 &-6156959578528071003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Vox/VO/Sand
-  m_EditorClassIdentifier: 
-  Path: event:/Vox/VO/Sand
-  Guid:
-    Data1: 866122459
-    Data2: 1137538847
-    Data3: -578702949
-    Data4: 772148714
-  Banks:
-  - {fileID: -2264877805605137425}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -5966074584019498729}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3963
 --- !u!114 &-6148432324553633702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,14 +370,14 @@ MonoBehaviour:
     Data4: 943859192
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 5937
---- !u!114 &-5966074584019498729
+--- !u!114 &-5877016501217499621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,21 +387,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Sand/VocalGender
+  m_Name: parameter:/VerbSelect
   m_EditorClassIdentifier: 
-  Name: VocalGender
-  StudioPath: 
+  Name: VerbSelect
+  StudioPath: parameter:/VerbSelect
   Min: 0
-  Max: 1
-  Default: 0
+  Max: 2
+  Default: 2
   ID:
-    data1: 2225674422
-    data2: 2898188452
+    data1: 2907044627
+    data2: 1266470756
   Type: 2
   IsGlobal: 1
   Labels:
-  - Female
-  - Male
+  - Church
+  - Bunker
+  - Container
+  Exists: 1
+--- !u!114 &-5815900212154636395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Landscape 2
+  m_EditorClassIdentifier: 
+  Name: Landscape 2
+  StudioPath: 
+  Min: 0
+  Max: 1.2
+  Default: 0
+  ID:
+    data1: 3760902578
+    data2: 2973386787
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-5547366173644193121
 MonoBehaviour:
@@ -370,7 +455,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 240
---- !u!114 &-5323351002131111478
+--- !u!114 &-5517866626700116045
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -380,26 +465,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/Ambience/DessertAmbience
+  m_Name: event:/Environment/Door/DoorClose
   m_EditorClassIdentifier: 
-  Path: event:/Ambience/Ambience/DessertAmbience
+  Path: event:/Environment/Door/DoorClose
   Guid:
-    Data1: -148404056
-    Data2: 1145256763
-    Data3: -1700978045
-    Data4: -459361028
+    Data1: -1582894658
+    Data2: 1274766348
+    Data3: -1013508480
+    Data4: -22970057
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters:
-  - {fileID: 3585562416649370733}
-  - {fileID: -8438940768893205000}
-  - {fileID: 6818157263845616593}
+  - {fileID: -3986534380071135730}
   MinDistance: 1
   MaxDistance: 20
-  Length: 10000
+  Length: 2075
 --- !u!114 &-5148433902141481852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,14 +503,14 @@ MonoBehaviour:
     Data4: -261445847
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &-5138991914029471496
+--- !u!114 &-5034233038094052019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -436,24 +519,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Character Foley/Teleportation
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Industrial Area/VocalGender
   m_EditorClassIdentifier: 
-  Path: event:/Character Foley/Teleportation
-  Guid:
-    Data1: 1722088102
-    Data2: 1281695511
-    Data3: 1368936111
-    Data4: -122577229
-  Banks:
-  - {fileID: 9045486300461717314}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2229
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
 --- !u!114 &-4871921336849933862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,10 +551,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637874403200000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 3066
+    Value: 4272
   Exists: 1
 --- !u!114 &-4425608694887193696
 MonoBehaviour:
@@ -520,7 +602,7 @@ MonoBehaviour:
     Data4: -1073653876
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -547,7 +629,7 @@ MonoBehaviour:
     Data4: -561768819
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -604,6 +686,57 @@ MonoBehaviour:
   - Female
   - Male
   Exists: 1
+--- !u!114 &-3986534380071135730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoorClose/OPEN_CLOSED
+  m_EditorClassIdentifier: 
+  Name: OPEN_CLOSED
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2501744125
+    data2: 2345937384
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3853108131336876354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character Foley/Scream
+  m_EditorClassIdentifier: 
+  Path: event:/Character Foley/Scream
+  Guid:
+    Data1: -581781147
+    Data2: 1084348036
+    Data3: -675527266
+    Data4: -1682320427
+  Banks:
+  - {fileID: 7975479682711571341}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 792
 --- !u!114 &-3581625495956381827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,6 +757,30 @@ MonoBehaviour:
   ID:
     data1: 332518697
     data2: 113483339
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3383346717408270049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_7/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2040790311
+    data2: 2841901036
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -696,7 +853,7 @@ MonoBehaviour:
     Data4: -367085641
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -718,7 +875,7 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637874403210000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
     Value: 126176
@@ -743,7 +900,7 @@ MonoBehaviour:
     Data4: -885606002
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
@@ -765,10 +922,34 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 637874403180000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 1492096
+    Value: 2423520
+  Exists: 1
+--- !u!114 &-2257226140620551358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/VerbAmount
+  m_EditorClassIdentifier: 
+  Name: VerbAmount
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 394828491
+    data2: 14677387
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-2074570275134867525
 MonoBehaviour:
@@ -852,7 +1033,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 332
---- !u!114 &-255579668394544577
+--- !u!114 &-36110910393301462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -862,18 +1043,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Door/OPEN_CLOSED
+  m_Name: parameter:/Bunker/VocalGender
   m_EditorClassIdentifier: 
-  Name: OPEN_CLOSED
+  Name: VocalGender
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 2501744125
-    data2: 2345937384
-  Type: 1
-  IsGlobal: 0
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
+--- !u!114 &-8709978464049726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienceCover
+  m_EditorClassIdentifier: 
+  Name: AmbienceCover
+  StudioPath: parameter:/AmbienceCover
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1319152878
+    data2: 3585535190
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &11400000
@@ -898,21 +1105,17 @@ MonoBehaviour:
   - {fileID: 2173815721319739732}
   - {fileID: -2769344533622997343}
   EditorEvents:
-  - {fileID: -5138991914029471496}
   - {fileID: 5317965215014676576}
   - {fileID: -985981924848569904}
   - {fileID: 3142760563832675405}
   - {fileID: 7291658458865152949}
   - {fileID: 7533918784795032477}
-  - {fileID: -6156959578528071003}
   - {fileID: -8141798851964674144}
   - {fileID: -6554208453280494822}
   - {fileID: -6148432324553633702}
   - {fileID: -5148433902141481852}
-  - {fileID: -7516080890462104842}
   - {fileID: -4326220256608322585}
   - {fileID: 3832941480128487461}
-  - {fileID: -5323351002131111478}
   - {fileID: 8201572117804500863}
   - {fileID: 2991800701920526935}
   - {fileID: -8293867020123723435}
@@ -931,14 +1134,84 @@ MonoBehaviour:
   - {fileID: 5604049007847790324}
   - {fileID: -8342444282186782605}
   - {fileID: -2074570275134867525}
+  - {fileID: 4217655395299136655}
+  - {fileID: 5329345829862471798}
+  - {fileID: 7746116543168836246}
+  - {fileID: 5927740274518143365}
+  - {fileID: 877900733703405597}
+  - {fileID: -5517866626700116045}
+  - {fileID: -9115966359030126953}
+  - {fileID: -8510776750753581274}
+  - {fileID: 5558678906902981142}
+  - {fileID: -7791537961244817809}
+  - {fileID: 6541970403094877274}
+  - {fileID: 853895174589098176}
+  - {fileID: 5124373258876093846}
+  - {fileID: -3853108131336876354}
   EditorParameters:
   - {fileID: -3999597569755329601}
+  - {fileID: 6502873068356450829}
+  - {fileID: -5877016501217499621}
+  - {fileID: 5929511384658132098}
+  - {fileID: 5074581765003242951}
+  - {fileID: 8191761737162694941}
+  - {fileID: -8709978464049726}
   MasterBanks:
   - {fileID: 7975479682711571341}
   StringsBanks:
   - {fileID: -4871921336849933862}
-  cacheTime: 637874403210000000
+  cacheTime: 637878075800000000
   cacheVersion: 10
+--- !u!114 &492729400596246435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pavilion/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
+--- !u!114 &639447656280483186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/AmbienceCover
+  m_EditorClassIdentifier: 
+  Name: AmbienceCover
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1319152878
+    data2: 3585535190
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &668048400435543456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +1239,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13012
+--- !u!114 &733587908360812599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &841803451183846869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -992,6 +1289,61 @@ MonoBehaviour:
   - Female
   - Male
   Exists: 1
+--- !u!114 &853895174589098176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Bunker
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Bunker
+  Guid:
+    Data1: 990022101
+    Data2: 1274905397
+    Data3: -1514490220
+    Data4: -230667223
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -36110910393301462}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2658
+--- !u!114 &877900733703405597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Door/DoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Door/DoorOpen
+  Guid:
+    Data1: 1030415026
+    Data2: 1127933283
+    Data3: -139018098
+    Data4: -462277936
+  Banks:
+  - {fileID: 2699000965112239691}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2100
 --- !u!114 &909199941181482613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1007,10 +1359,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637874403200000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 6417536
+    Value: 6418176
   Exists: 1
 --- !u!114 &2173815721319739732
 MonoBehaviour:
@@ -1027,10 +1379,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637874403200000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 6276384
+    Value: 6276288
   Exists: 1
 --- !u!114 &2542206055794499544
 MonoBehaviour:
@@ -1074,10 +1426,10 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Environment.bank
   Name: Environment
   StudioPath: bank:/Environment
-  lastModified: 637874403190000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 24259360
+    Value: 25391488
   Exists: 1
 --- !u!114 &2700909350670205544
 MonoBehaviour:
@@ -1152,7 +1504,7 @@ MonoBehaviour:
     Data4: 2060783239
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
@@ -1189,7 +1541,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4275
---- !u!114 &3585562416649370733
+--- !u!114 &3431771014063183029
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1199,19 +1551,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Landscape 2
+  m_Name: parameter:/Jump/Jump
   m_EditorClassIdentifier: 
-  Name: Landscape 2
+  Name: Jump
   StudioPath: 
   Min: 0
-  Max: 1.2
+  Max: 5
   Default: 0
   ID:
-    data1: 3760902578
-    data2: 2973386787
-  Type: 0
+    data1: 1984530928
+    data2: 1321233223
+  Type: 2
   IsGlobal: 0
-  Labels: []
+  Labels:
+  - Stone
+  - Wood
+  - Metal
+  - Earth
+  - Gravel
+  - Water
   Exists: 1
 --- !u!114 &3755089985555332234
 MonoBehaviour:
@@ -1259,7 +1617,7 @@ MonoBehaviour:
     Data4: -1946314025
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
@@ -1267,6 +1625,115 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &4217655395299136655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience/DesertAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience/DesertAmbience
+  Guid:
+    Data1: -1529404076
+    Data2: 1097918346
+    Data3: 1073261222
+    Data4: 1141636035
+  Banks:
+  - {fileID: 2699000965112239691}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 733587908360812599}
+  - {fileID: 7201168621480808977}
+  - {fileID: -5815900212154636395}
+  - {fileID: 639447656280483186}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &4430135220416061403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ruined Town/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
+  Exists: 1
+--- !u!114 &5074581765003242951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandstorm
+  m_EditorClassIdentifier: 
+  Name: Sandstorm
+  StudioPath: parameter:/Sandstorm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2701587378
+    data2: 2068469596
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5124373258876093846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Sandstorm
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Sandstorm
+  Guid:
+    Data1: 866122459
+    Data2: 1137538847
+    Data3: -578702949
+    Data4: 772148714
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6871488695033136834}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3963
 --- !u!114 &5317965215014676576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1295,6 +1762,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6039
+--- !u!114 &5329345829862471798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Steam/Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Steam/Steam
+  Guid:
+    Data1: 1584844757
+    Data2: 1334617995
+    Data3: 67538362
+    Data4: -894134581
+  Banks:
+  - {fileID: 2699000965112239691}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
+--- !u!114 &5558678906902981142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Industrial Area
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Industrial Area
+  Guid:
+    Data1: -124641709
+    Data2: 1188922268
+    Data3: -10921310
+    Data4: 1301770729
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5034233038094052019}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &5604049007847790324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,7 +1844,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
---- !u!114 &6818157263845616593
+--- !u!114 &5654323778765842991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1332,19 +1854,177 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DessertAmbience/Sandstorm
+  m_Name: parameter:/Footsteps/VerbSelect
   m_EditorClassIdentifier: 
-  Name: Sandstorm
+  Name: VerbSelect
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 2
+  ID:
+    data1: 2907044627
+    data2: 1266470756
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Church
+  - Bunker
+  - Container
+  Exists: 1
+--- !u!114 &5927740274518143365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character Foley/Jump/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Character Foley/Jump/Jump
+  Guid:
+    Data1: -339361095
+    Data2: 1326456168
+    Data3: -1952692560
+    Data4: 1643152443
+  Banks:
+  - {fileID: 9045486300461717314}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6724887188818956079}
+  - {fileID: 3431771014063183029}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 476
+--- !u!114 &5929511384658132098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landscape 2
+  m_EditorClassIdentifier: 
+  Name: Landscape 2
+  StudioPath: parameter:/Landscape 2
+  Min: 0
+  Max: 1.2
+  Default: 0
+  ID:
+    data1: 3760902578
+    data2: 2973386787
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6502873068356450829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VerbAmount
+  m_EditorClassIdentifier: 
+  Name: VerbAmount
+  StudioPath: parameter:/VerbAmount
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 394828491
+    data2: 14677387
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6541970403094877274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vox/VO/Bridges
+  m_EditorClassIdentifier: 
+  Path: event:/Vox/VO/Bridges
+  Guid:
+    Data1: 1674524861
+    Data2: 1164292799
+    Data3: 1614374529
+    Data4: 1490012999
+  Banks:
+  - {fileID: -2264877805605137425}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8519097070774189896}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &6724887188818956079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Falling
+  m_EditorClassIdentifier: 
+  Name: Falling
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 2701587378
-    data2: 2068469596
+    data1: 1495569180
+    data2: 819736697
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &6871488695033136834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandstorm/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
   Exists: 1
 --- !u!114 &6888293056096462543
 MonoBehaviour:
@@ -1390,7 +2070,7 @@ MonoBehaviour:
     Data4: 254751112
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters: []
@@ -1419,12 +2099,38 @@ MonoBehaviour:
   - {fileID: 909199941181482613}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: 8247108273251614932}
+  - {fileID: -2257226140620551358}
+  - {fileID: 5654323778765842991}
   MinDistance: 1
   MaxDistance: 20
   Length: 1180
+--- !u!114 &7201168621480808977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DesertAmbience/Bridge
+  m_EditorClassIdentifier: 
+  Name: Bridge
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7291658458865152949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,6 +2187,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6118
+--- !u!114 &7746116543168836246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character Foley/Jump/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Character Foley/Jump/Land
+  Guid:
+    Data1: -1884176269
+    Data2: 1099067218
+    Data3: 1677408696
+    Data4: -1635885665
+  Banks:
+  - {fileID: 9045486300461717314}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9053434685325526122}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 237
 --- !u!114 &7975479682711571341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,10 +2230,34 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637874403200000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 1242
+    Value: 15744
+  Exists: 1
+--- !u!114 &8191761737162694941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bridge
+  m_EditorClassIdentifier: 
+  Name: Bridge
+  StudioPath: parameter:/Bridge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1380337017
+    data2: 649930943
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &8201572117804500863
 MonoBehaviour:
@@ -1521,12 +2279,13 @@ MonoBehaviour:
     Data4: 1196092491
   Banks:
   - {fileID: 2699000965112239691}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -3047186659115204975}
   - {fileID: -4101180869252727537}
+  - {fileID: -3383346717408270049}
   MinDistance: 1
   MaxDistance: 20
   Length: 130500
@@ -1580,7 +2339,7 @@ MonoBehaviour:
     Data4: 692424012
   Banks:
   - {fileID: 2173815721319739732}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
@@ -1603,8 +2362,34 @@ MonoBehaviour:
   Path: FMODPROJECT/GetLost_FMOD/Build/Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 637874403180000000
+  lastModified: 637878075800000000
   FileSizes:
   - Name: Desktop
-    Value: 49024
+    Value: 6767424
+  Exists: 1
+--- !u!114 &9178196236682232184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Spaceship/VocalGender
+  m_EditorClassIdentifier: 
+  Name: VocalGender
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2225674422
+    data2: 2898188452
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Female
+  - Male
   Exists: 1

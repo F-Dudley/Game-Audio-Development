@@ -5,7 +5,7 @@
 			<value>Steam</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{39b28c73-8314-4f8a-a1e1-e23bda76f572}</destination>
@@ -33,6 +33,9 @@
 		<relationship name="timeline">
 			<destination>{b453a35e-bf90-4ba4-b4a9-d798cc1d79cf}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{bb85a808-f0e9-43d1-8944-66c0242d7b69}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{4d8f8345-7884-406b-a467-724d97b4afe8}">
 		<relationship name="masterBus">
@@ -52,7 +55,7 @@
 			<destination>{62580e99-e4bb-4a83-b16b-1796d60544ba}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{afa2ba63-e05c-4d0d-a07f-c131d8b8d9f9}</destination>
+			<destination>{db187640-621b-4f84-a24b-6261eba2141a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{bdd22e8a-e222-4ed7-8abe-1ad344b3df04}" />
@@ -194,6 +197,7 @@
 	<object class="MixerBusEffectChain" id="{254326b1-fe31-47e7-af2c-683da4de08d2}">
 		<relationship name="effects">
 			<destination>{9fbb90e5-17d3-42fa-bb0f-f29f319ef751}</destination>
+			<destination>{eac4a5a2-92c9-4c46-9d20-34f3aa4f0cac}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cbe04545-6d1d-4fef-9cf3-33034a694b42}" />
@@ -217,6 +221,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{cf780ffa-fa94-4b1a-a89a-50d93b7c2926}" />
 	<object class="MixerBusFader" id="{9fbb90e5-17d3-42fa-bb0f-f29f319ef751}" />
+	<object class="SpatialiserEffect" id="{eac4a5a2-92c9-4c46-9d20-34f3aa4f0cac}" />
 	<object class="MixerBusFader" id="{f0ef26ba-106f-4b74-ade6-64bde7d9579f}" />
 	<object class="MixerBusFader" id="{680ac2b8-0673-4fe8-85f2-896eed69c8a7}" />
 	<object class="MixerBusFader" id="{a381ff78-b7f7-401d-bff5-08ec7c96c80b}" />

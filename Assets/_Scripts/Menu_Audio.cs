@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Menu_Audio : MonoBehaviour
 {
-    [FMODUnity.EventRef]
     public string PlayButtonEvent;
     public string SelectButtonEvent;
     public string BackButtonEvent;

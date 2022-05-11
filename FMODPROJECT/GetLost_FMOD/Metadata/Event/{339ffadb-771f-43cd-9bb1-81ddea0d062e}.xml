@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{339ffadb-771f-43cd-9bb1-81ddea0d062e}">
 		<property name="name">
-			<value>Sand</value>
+			<value>Sandstorm</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -58,7 +58,7 @@
 			<destination>{aca54ac4-d81a-4d11-96ad-bd658ec62fc0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{afa2ba63-e05c-4d0d-a07f-c131d8b8d9f9}</destination>
+			<destination>{94544d30-9460-4a96-b747-7f636508a4bc}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1121ca45-b3c4-465f-970c-f6f9c2311bb4}" />

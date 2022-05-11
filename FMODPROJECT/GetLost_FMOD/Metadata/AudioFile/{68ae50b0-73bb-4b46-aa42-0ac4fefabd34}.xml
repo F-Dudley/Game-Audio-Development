@@ -4,9 +4,6 @@
 		<property name="assetPath">
 			<value>101334__timbre__remix-of-101127-cgeffex-bug-zapper-long-moth-electrocution-remix.wav</value>
 		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>

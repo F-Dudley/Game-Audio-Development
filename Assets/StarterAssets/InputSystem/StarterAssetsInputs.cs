@@ -1,7 +1,5 @@
 using UnityEngine;
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
-#endif
 
 namespace StarterAssets
 {
@@ -37,6 +35,16 @@ namespace StarterAssets
 	private void Awake()
 	{
 		playerInput = GetComponent<PlayerInput>();
+	}
+
+	private void OnEnable()
+	{
+		GameManager.instance.allJukeboxesCollected += ChangeToMenuInput;
+	}
+
+	private void OnDisable()
+	{
+		GameManager.instance.allJukeboxesCollected -= ChangeToMenuInput;
 	}
 #endif
 
@@ -83,6 +91,16 @@ namespace StarterAssets
 		{
 			InteractInput(value.isPressed);
 		}
+
+		public void OnAddTime(InputValue value)
+		{
+			GameManager.instance?.AddClockTime();
+		}
+
+		public void OnRemoveTime(InputValue value)
+		{
+			GameManager.instance?.RemoveClockTime();
+		}
 #else
 	// old input sys if we do decide to have it (most likely wont)...
 #endif
@@ -110,6 +128,11 @@ namespace StarterAssets
 		public void InteractInput(bool newInteractState)
 		{
 			interact = newInteractState;
+		}
+
+		private void ChangeToMenuInput()
+		{
+			playerInput.SwitchCurrentActionMap("Menu");
 		}
 
 #if !UNITY_IOS || !UNITY_ANDROID

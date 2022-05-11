@@ -23,7 +23,7 @@ namespace PlayerTeleportation
 
         [Header("Scene Referenes")]
         [SerializeField] private Transform player;
-        [SerializeField] private Transform camera;
+        [SerializeField] private Transform cam;
         [SerializeField] private CharacterController playerController;
         [SerializeField] private Transform buttonContainer;
 
@@ -74,11 +74,12 @@ namespace PlayerTeleportation
         #region Teleport Functionality
         public void TeleportPlayer(Transform teleportLocation)
         {
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VerbAmount", 0);
             playerController.enabled = false;
             player.SetPositionAndRotation(teleportLocation.position, teleportLocation.rotation);
 
-            camera.position = teleportLocation.position;
-            // camera.LookAt(teleportLocation.position + Vector3.up);
+            cam.position = teleportLocation.position;
+            // cam.LookAt(teleportLocation.position + Vector3.up);
             playerController.enabled = true;
         }
         
