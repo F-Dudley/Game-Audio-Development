@@ -39,6 +39,7 @@ namespace GameSettings
             [SerializeField] private Slider uiVolumeSlider;
             private FMOD.Studio.VCA uiVCA;
 
+            private string GenderString;
             #region Unity Functions
             private void Start()
             {
@@ -135,9 +136,15 @@ namespace GameSettings
  
             public void SetVocalGender(Int32 newGender)
             {
-                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("VocalGender", newGender);
-                UnityEngine.Debug.Log("New Vocal Gender " + newGender);
-            }
+                if (newGender == 0){
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("VocalGender", "Male" );
+                    UnityEngine.Debug.Log("Male");
+                }
+                if (newGender == 1){
+                    FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("VocalGender", "Female" );
+                    UnityEngine.Debug.Log("Female");
+                }
+            }   
             #endregion
     }
 }
