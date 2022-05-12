@@ -23,7 +23,7 @@ public class Occlusion : MonoBehaviour
     private LayerMask OcclusionLayer;
 
     private bool AudioIsVirtual;
-    public float MaxDistance = 100000;
+    private float MaxDistance = 20f;
     private float ListenerDistance;
     private float lineCastHitCount = 0f;
     private Color colour;
