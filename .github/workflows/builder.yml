@@ -106,7 +106,9 @@ jobs:
 
       # Checkout
       - name: Checkout
-        uses: actions/checkout@v2 
+        uses: actions/checkout@v2
+        with:
+            lfs: true
 
       # Download WebGL Artifact
       - name: Download WebGL Artifact
