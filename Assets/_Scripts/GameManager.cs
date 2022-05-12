@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
 
     private void AllJukeboxesCollected()
     {
-        // Win Screen trigger
+        Cursor.lockState = CursorLockMode.Confined;
     }
     #endregion
 
