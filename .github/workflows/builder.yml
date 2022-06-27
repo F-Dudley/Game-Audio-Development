@@ -51,7 +51,17 @@ jobs:
       with:
         name: build-WebGL
         path: build/${{ matrix.targetPlatform }}
-
+    
+    # Deploy WebGL
+    - name: Deploy to GitHub Pages
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v3
+      with:
+        target_branch: github-pages
+        build_dir: build/${{ matrix.targetPlatform }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
   buildForMacOS:
     name: Build for ${{ matrix.targetPlatform }}
     runs-on: macos-latest
@@ -95,30 +105,3 @@ jobs:
       with:
         name: build-MacOS
         path: build
-
-
-# Stage 2: Game Deployment
-  deployWebGLToGhPages:
-    needs: [ buildForWebGL ]
-    name: Deploy to Github-Pages
-    runs-on: ubuntu-latest
-    steps:
-
-      # Checkout
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-            lfs: true
-
-      # Download WebGL Artifact
-      - name: Download WebGL Artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: build-WebGL
-
-      # Deploy WebGL Artifact
-      - name: Deploy WebGL Artifact
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          branch: github-pages
-          folder: WebGL
